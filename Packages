@@ -1177,6 +1177,23 @@ Description: Deepin Tool Kit Gui Utilities
  This package contains the utilities of DtkGui
 
 Package: com.deepin.gomoku
+Architecture: arm64
+Version: 1.0.11
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 14875
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.14.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 11)
+Filename: ./c/com.deepin.gomoku/com.deepin.gomoku_1.0.11_arm64.deb
+Size: 6511028
+MD5sum: 5080514f0bb99a311b722ab5628a6fa0
+SHA1: 00d12e7d9ef907254efc0c6fe4b303110eca1cdc
+SHA256: 9629cffcb63905d9eeed350965f10d3fab1f8bc1abd50353c09db981b540025f
+SHA512: 19eba2dc9bf30d325dfab4248b3f3a5554eaed954f37983b93efc8193a068cceb4ddba4f960bf011ad43078fcd197a5566cb20b1ee4ca9b07f28ed87783e8057
+Description: Gomoku is a small chess game for two players.
+ Gomoku is an easy and funny chess game that is suitable for all ages.
+
+Package: com.deepin.gomoku
 Architecture: amd64
 Version: 1.0.11
 Priority: optional
@@ -1228,6 +1245,24 @@ Description: Allows you to seamlessly transit from Wingdings to Deepin OpenSymbo
  It is a substitution for Wingdings, which can perfectly solve the issue of displaying symbols in WPS.
  .
  It allows you to seamlessly transit from Wingdings to Deepin OpenSymbol.
+
+Package: seetaface-boxes
+Architecture: arm64
+Version: 1.0.0.1-1+dde
+Priority: optional
+Section: devel
+Maintainer: bd <bd@seetatech.com>
+Installed-Size: 307
+Depends: libc6 (>= 2.33), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
+Filename: ./s/seetaface-boxes/seetaface-boxes_1.0.0.1-1+dde_arm64.deb
+Size: 67140
+MD5sum: ff392fbd32a5abc8c590c64eac3dfa88
+SHA1: 8669c66b8f27527c6191ab1a1378af7dda82e2f2
+SHA256: 575edbae0ef0cb54bf016294797ead2e9acb2c8ebf3d48ba02226b35d4d6a131
+SHA512: 0c638a30faa8fd24a14cea0aaa10cfefb3d4d9929a7beba40d07a0ed09cc2cba094f9d7ef8bf08d044fc62cba8d57f654b95d0e09eb27c0aed0d5a68dc4bb41d
+Homepage: https://github.com/TenniS-Open/TenniS.git
+Description: Faceboxes module of seetaface
+ The faceboxes module of seetaface
 
 Package: seetaface-boxes
 Architecture: amd64
@@ -1359,6 +1394,42 @@ Homepage: https://github.com/SeetaFace6Open/Landmarker.git
 Description: landmarker for seetaface
  landmarker module for seetaface.
 
+Package: seetaface-landmarker
+Architecture: arm64
+Version: 1.0.0.1-1+dde
+Priority: optional
+Section: devel
+Maintainer: bd <bd@seetatech.com>
+Installed-Size: 347
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
+Filename: ./s/seetaface-landmarker/seetaface-landmarker_1.0.0.1-1+dde_arm64.deb
+Size: 90008
+MD5sum: 98a5c9d773654014870333af111b48c9
+SHA1: edddb17495452dce3ca6625dffa2e31706a055da
+SHA256: 1d06094f7a8339bec0e541e55fa9ef198cd213d120282a2cc0ce8d71df553fae
+SHA512: 041d6d5b90f3820f25e372e49f1492dec82dc7b4165dd5886a4dde7bec35a5052c3ed0098f70ff778927cdcc9f786a6c0722cedf1dc5acb9daf388e4e532c52a
+Homepage: https://github.com/SeetaFace6Open/Landmarker.git
+Description: landmarker for seetaface
+ landmarker module for seetaface.
+
+Package: seetaface-anti-spoofing-x
+Architecture: arm64
+Version: 1.0.0.2-1+dde
+Priority: optional
+Section: devel
+Maintainer: likier <likier@sina.cn>
+Installed-Size: 726
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
+Filename: ./s/seetaface-anti-spoofing-x/seetaface-anti-spoofing-x_1.0.0.2-1+dde_arm64.deb
+Size: 139652
+MD5sum: 3c03ab3bbf86237589a58cb8942abcb1
+SHA1: ab06a62f8bacc63b5895409374f20a186e735dd9
+SHA256: 2b0cb6d9df8f281a90c0600e98bedb46c41bf5d7c7d78ea60ab4a22595d53064
+SHA512: ae2e4cfe396fade6dd4707ea456162b6884ae4f5adbd21bc39219716126acfb836ce5adf495262714dccf5358a1505b203597c658ba5d44d9507a859c876ab5e
+Homepage: https://github.com/SeetaFace6Open/FaceAntiSpoofingX6.git
+Description: anti-spoofing module of seetaface
+ The anti-spofing library of seetaface.
+
 Package: seetaface-anti-spoofing-x
 Architecture: amd64
 Version: 1.0.0.2-1+dde
@@ -1376,6 +1447,23 @@ SHA512: 094441cd977a79c602e6a86d7aedd3bea1b36443308344e37c27cefe717906aa508e84fb
 Homepage: https://github.com/SeetaFace6Open/FaceAntiSpoofingX6.git
 Description: anti-spoofing module of seetaface
  The anti-spofing library of seetaface.
+
+Package: seetaface-models
+Architecture: arm64
+Version: 1.0.0-1
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 73277
+Filename: ./s/seetaface-models/seetaface-models_1.0.0-1_arm64.deb
+Size: 70854288
+MD5sum: 551069741dc51c1f984eb764a574671f
+SHA1: a95ed929ae2de0e499a3e8d2714ab4c6e12e92a9
+SHA256: 57c13898a412609cf6dc8b5221cb880ac7af285ad1d8de2d80783a9491d8e044
+SHA512: ea34ef67069e3c50d22c29600f4bc81a0219b79b0a2d74f6b754ca67d775c54e26bc2e12f0302ef3c9c7d9ca6d59b37612c73be3dbdef9e37201f88aa934bab9
+Homepage: http://www.deepin.org
+Description: seetaface models for deepin
+ seetaface data models for deepin.
 
 Package: seetaface-models
 Architecture: amd64
@@ -1467,6 +1555,42 @@ SHA512: 5b00d8cef8722dd5689f9b9b427fe992ef11b56a38b7705eeb8709aafadd3c51ee71c0ae
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
+
+Package: seetaface-open-role-zoo
+Architecture: arm64
+Version: 1.0.0.2-1+dde
+Priority: optional
+Section: devel
+Maintainer: likier <likier@sina.cn>
+Installed-Size: 2075
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
+Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_arm64.deb
+Size: 291900
+MD5sum: cafef626c17000abeb3a0bd8f188779f
+SHA1: 380f29202c7382b1df0357b5b7a88d2485e6d319
+SHA256: 6f89d3219eca25adc972d968d031153153640ce70063058e9db72f2226881fd0
+SHA512: 062e6c86c4b986327d4da3fefde162077a215d9a0fbeba7719d04ef7484b3c814e0375afa2e70b2431be5832f18a30baf835c13edfbb66a97d3c3f3104614b17
+Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
+Description: OpenRoleZoo for seetaface
+ OpenRoleZoo is a static library used by seetaface
+
+Package: seetaface-authorize
+Architecture: arm64
+Version: 1.0.0.1-1+dde
+Priority: optional
+Section: devel
+Maintainer: likier <likier@sina.cn>
+Installed-Size: 488
+Depends: libc6 (>= 2.33), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
+Filename: ./s/seetaface-authorize/seetaface-authorize_1.0.0.1-1+dde_arm64.deb
+Size: 94128
+MD5sum: df70294e0f616cd6842eb829a7cd5538
+SHA1: 2b437626fa8adc856bd95e7c0d3cc03424f212eb
+SHA256: 6e5ea18fb812e965b89398f5caa216a6a81a465ef7ae0f11ecee4a01bd0fb64a
+SHA512: 788b5b9e352849e8c292eff002662c512875977cf53296b299a38889f9748dd25d3cad2fd0011d6654c5869193b118cef861ef4fd2b2851ce1a7cc84753aa85f
+Homepage: https://github.com/SeetaFace6Open/SeetaAuthorize
+Description: seetaface authorize module
+ The authorize module of seetaface.
 
 Package: seetaface-authorize
 Architecture: amd64
@@ -2317,6 +2441,24 @@ MD5sum: a1ff3bd5f933a17cdff94b5df9ebf710
 SHA1: 29d30183874297f8a0fb7ac728e49d659e13fcc0
 SHA256: 173c0510497cd8e4fcee1f04912b8d5d6fc574ea6624d5d0460e1b493bf723a1
 SHA512: 2ee7dfa33a506a797938814f2e3e21263271693b4f79d24adaad1edb35dcc4cfbf68a2aa5dc254295c32ae2b3347048caf8de0f7cfe7defc0f11aeb2a6fc3d3a
+Homepage: https://github.com/linuxdeepin/desktop-entry-editor
+Description: Create and edit desktop files.
+ A simple GUI tool to create and edit desktop files.
+
+Package: desktop-entry-editor
+Architecture: arm64
+Version: 1.0-1
+Priority: optional
+Section: utils
+Maintainer: zhangshuang <zhangshuang@deepin.com>
+Installed-Size: 84
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.2.0~alpha1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libqt5xdg3 (>= 3.10.0~), libstdc++6 (>= 5)
+Filename: ./d/desktop-entry-editor/desktop-entry-editor_1.0-1_arm64.deb
+Size: 12532
+MD5sum: e05013b7bc3200f07b35d4083035a7ed
+SHA1: 0b9c4bc9e0701c659a56aba86f430648aec5914b
+SHA256: 76c234816cbe09608024ae11e21ee2f83e43a603dab6c90c15c50e5e4fbac489
+SHA512: 29459c5eb70a48fd7505fe64daf1b98330b7bf328370344875c1fb9c3c74a3b82dd3d4f4302ba85255d834810e1fb7c034bb5e4a22caaf7b26720e0e1295c72b
 Homepage: https://github.com/linuxdeepin/desktop-entry-editor
 Description: Create and edit desktop files.
  A simple GUI tool to create and edit desktop files.
