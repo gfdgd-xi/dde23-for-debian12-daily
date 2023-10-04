@@ -1,0 +1,20 @@
+Package: libdtkmultimediawidgets
+Architecture: amd64
+Version: 1.0.6
+Priority: optional
+Section: libdevel
+Source: dtkmultimedia
+Maintainer: Packages Builder <packages@deepin.com>
+Installed-Size: 8
+Depends: libdtkmultimedia (= 1.0.6)
+Filename: ./l/libdtkmultimediawidgets/libdtkmultimediawidgets_1.0.6_amd64.deb
+Size: 1964
+MD5sum: f69e6b845f906cfe1eb2ae29eadd859b
+SHA1: 63c86e16c49ab6a72de9475cae61af23792bd62e
+SHA256: 697ce00a57825c58cbcd14685d38cb1c54e605d3a2c2d537dbdb9d291048aeb2
+SHA512: 4b4aa542691aea8fc2bc3c8cf7176001adbb713638fb646af027b16d405d04efb54aba6119204ac9f91b68434cb2ce9b9d53df170aca98b75f8fe228fbd61634
+Description: Development Tool Kit multimediawidgets library
+ libdtkmultimediawidgets is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+

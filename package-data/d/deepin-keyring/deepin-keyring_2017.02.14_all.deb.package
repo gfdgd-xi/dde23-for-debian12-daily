@@ -1,0 +1,20 @@
+Package: deepin-keyring
+Architecture: all
+Version: 2017.02.14
+Multi-Arch: foreign
+Priority: important
+Section: misc
+Maintainer: lilongyu <leaeasy@linuxdeepin.com>
+Installed-Size: 21
+Depends: gnupg
+Recommends: gpgv
+Filename: ./d/deepin-keyring/deepin-keyring_2017.02.14_all.deb
+Size: 4692
+MD5sum: d0daa920e556443105af7882bcad6ab3
+SHA1: 883ead64e57b2bee6a9e304b9b3c85e07194e89b
+SHA256: d5abae9a5490fb2b94338e56050733f3b7ef8b71b36ead36a05d30115c765bb0
+SHA512: 9b9703ad43ed480f453e70f353084ccb2234f226413014d4da84d7bde4fbac2a730da3d02281464e2e04736836235f9592b26a2a7636f82bb1765a9089a16167
+Description: GnuPG keys of the Deepin archive
+ The Deepin project digitally signs its Release files. This package
+ contains the archive keys used for that.
+
