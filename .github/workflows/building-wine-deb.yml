@@ -26,7 +26,11 @@ jobs:
           bottle="/home/runner/dde23-for-debian12-daily/run.sh"
           chmod 777 $bottle
           $bottle apt update
-          $bottle
+          $bottle apt install sudo gpg wget -y
+          # 加源
+          $bottle wget http://deb.debiandde.gfdgdxi.top/sources/github.sh
+          $bottle bash github.sh
+          $bottle rm github.sh
           exit
           # 推源
           git clone https://github.com/gfdgd-xi/wine-deb.git
