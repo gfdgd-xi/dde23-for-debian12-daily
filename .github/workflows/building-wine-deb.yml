@@ -44,7 +44,7 @@ jobs:
           git config --global user.name "$GUSER"
           cd /home/runner/dde23-for-debian12-daily
           git pull
-          /home/runner/dde23-for-debian12-daily/addmore.py /home/runner/debian12-chroot/*.deb
+          ./addmore.py /home/runner/debian12-chroot/*.deb
           
           git add .
           git commit -m 自动推送
