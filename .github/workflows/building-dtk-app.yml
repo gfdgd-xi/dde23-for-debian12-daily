@@ -1,5 +1,5 @@
-name: Building DDE
-run-name: ${{ github.actor }} is Building DDE 🚀
+name: Building DTK APP
+run-name: ${{ github.actor }} is Building DTK APP 🚀
 on:
   schedule:
     - cron: '0 2 * * *'
