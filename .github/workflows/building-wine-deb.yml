@@ -33,14 +33,19 @@ jobs:
           $bottle wget http://deb.debiandde.gfdgdxi.top/sources/github.sh
           $bottle bash github.sh
           $bottle rm github.sh
+          $bottle wget http://daily.deb.debiandde.gfdgdxi.top/sources/github.sh
+          $bottle bash github.sh
+          $bottle rm github.sh
           sudo cp /home/runner/dde23-for-debian12-daily/build-deb.py /home/runner/debian12-chroot
           sudo cp /home/runner/dde23-for-debian12-daily/build.json /home/runner/debian12-chroot
           $bottle python3 build-deb.py
           sudo rm -rfv /home/runner/debian12-chroot/*-dbgsym_*.deb
           git config --global user.email "3025613752@qq.com"
           git config --global user.name "$GUSER"
-          /home/runner/dde23-for-debian12-daily/addmore.py /home/runner/debian12-chroot/*.deb
           cd /home/runner/dde23-for-debian12-daily
+          git pull
+          /home/runner/dde23-for-debian12-daily/addmore.py /home/runner/debian12-chroot/*.deb
+          
           git add .
           git commit -m 自动推送
           git push
