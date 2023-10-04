@@ -1,0 +1,37 @@
+name: Building DTKCOMMON
+run-name: ${{ github.actor }} is Building DTKCOMMON 🚀
+on:
+  workflow_dispatch:
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Building Wine
+        env: 
+          GUSER: ${{ secrets.GUSER }}
+          PASSWORD: ${{ secrets.PASSWORD }}
+          UPLOADURL: ${{ secrets.UPLOADURL }}
+          KEY: ${{ secrets.KEY }}
+          KEYPASSWORD: ${{ secrets.KEYPASSWORD }}
+        run: |
+          # 配置编译容器
+          sudo apt update
+          sudo apt install lm-sensors aria2 gpg debootstrap python3 neofetch -y
+          neofetch
+          aria2c $KEY
+          gpg --import  --pinentry-mode loopback --batch --passphrase "$KEYPASSWORD"  private-file.key
+          # 编译
+          cd ~
+          git clone https://github.com/gfdgd-xi/dde23-for-debian12-daily --depth=1
+          bottle="./dde23-for-debian12-daily/run.sh"
+          $bottle apt update
+          exit
+          # 推源
+          git clone https://github.com/gfdgd-xi/wine-deb.git
+          cd wine-deb
+          git remote set-url origin https://$GUSER:$PASSWORD@github.com/gfdgd-xi/wine-deb.git
+          git config --global user.email "3025613752@qq.com"
+          git config --global user.name "$GUSER"
+          python3 ./addmore.py --github ~/debian10-amd64/wine/*.deb ~/debian10-i386/wine/*.deb
+          #git add . ; git commit -m add\ wine ; git push origin main
+      
