@@ -461,6 +461,33 @@ Description: Qt DBus interface library for Deepin software (development files)
  .
  This package provides development header files for libdframeworkdbus.
 
+Package: libdframeworkdbus-dev
+Architecture: arm64
+Version: 6.0.0
+Priority: optional
+Section: libdevel
+Source: dde-qt-dbus-factory
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 803
+Depends: libdframeworkdbus2 (= 6.0.0)
+Conflicts: libdframeworkdbus
+Filename: ./l/libdframeworkdbus-dev/libdframeworkdbus-dev_6.0.0_arm64.deb
+Size: 63280
+MD5sum: 765079164fcfdcdc042c9632384a6396
+SHA1: 19d3a41ac63f0a1b4d30f5b25fbef20b6f4a26e0
+SHA256: 652018861f24e8bed2d2cf9203db153f1a5a559b6e81effef6667b2016350051
+SHA512: dba059ccd57e94547478ced663c3eb80cd9f59aad43960feb8c696f7a391a17529eb612e1b4ad40bc14901cfacf4e078dcc17cf0fa1835950dcd1d87aa6476c4
+Homepage: https://github.com/linuxdeepin/dde-qt-dbus-factory
+Description: Qt DBus interface library for Deepin software (development files)
+ Libdframeworkdbus provides Qt DBus interface for various Deepin software.
+ It centralizes DBus-related code into single library for Deepin software
+ written in Qt and get itself generated from handwritten XML DBus interface
+ descriptions.
+ .
+ This package is part of DDE (Deepin Desktop Environment).
+ .
+ This package provides development header files for libdframeworkdbus.
+
 Package: linglong-loader
 Architecture: amd64
 Version: 1.3.3.10-1
@@ -981,6 +1008,31 @@ MD5sum: 305ebc6f862ad1a9b96e664cbcca4fcc
 SHA1: 0e25f89a1c0905bdba51e0ec815b893c24500f3e
 SHA256: 1ba70d713711a68b68591d796db10aa904822c6b321fcaa0a22b7f48bfa1dcd4
 SHA512: d02f0282fd810af9ca6b5c1a755e7885d70a761a5723ceb5931440cc6aa738599f49363606cafdfa8bc8bfd974f5b6a264c893b27f04f0202662fc662c3aa092
+Homepage: https://github.com/linuxdeepin/dde-qt-dbus-factory
+Description: Qt DBus interface library for Deepin software (shared library)
+ Libdframeworkdbus provides Qt DBus interface for various Deepin software.
+ It centralizes DBus-related code into single library for Deepin software
+ written in Qt and get itself generated from handwritten XML DBus interface
+ descriptions.
+ .
+ This package is part of DDE (Deepin Desktop Environment).
+
+Package: libdframeworkdbus2
+Architecture: arm64
+Version: 6.0.0
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: dde-qt-dbus-factory
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3735
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.14.1), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Filename: ./l/libdframeworkdbus2/libdframeworkdbus2_6.0.0_arm64.deb
+Size: 648284
+MD5sum: da25ae6b8a124963c6f6394bc4a224d5
+SHA1: 988deb8dc1c813aec7d50f59cf651a525f7265a9
+SHA256: 2901918b70be8ca828b56b8584adcc96967c02732259e40a2102cdda16ceca9f
+SHA512: 2d630d2e88a352b0a3f890439a2104ef575e6f61bdbd90d0d5e5981bdc281cc879b94a7ccb16960ba6701072112349f2e22a40e75452436eed717ae06b429347
 Homepage: https://github.com/linuxdeepin/dde-qt-dbus-factory
 Description: Qt DBus interface library for Deepin software (shared library)
  Libdframeworkdbus provides Qt DBus interface for various Deepin software.
@@ -1723,6 +1775,23 @@ SHA512: 4bd112ec9c9662b086e7a6062cdc7a171c81c3a04ae050b51d2f8cddcbbfafe8e06bcf24
 Homepage: http://github.com/dependon/fantascene-dynamic-wallpaper
 Description: video wallpaper for fantascene.
 
+Package: fantascene-dynamic-wallpaper
+Architecture: arm64
+Version: 1.5.9-1
+Priority: optional
+Section: utils
+Maintainer: liuminghang <liuminghang0821@gmail.com>
+Installed-Size: 7343
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.35.8), libmpv2 (>= 0.29), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 11), libx11-6, libxcb-ewmh2 (>= 0.4.1), libxcb1
+Filename: ./f/fantascene-dynamic-wallpaper/fantascene-dynamic-wallpaper_1.5.9-1_arm64.deb
+Size: 6624480
+MD5sum: f7d418eb678e8ca8f8a189adee4e54fb
+SHA1: c7c03b82012a36c48701c2ae6e942c79e9455e77
+SHA256: 25c227ab1608cc6efc3b302e7eef98129a6705eb104c2bbb92a23d137fe05890
+SHA512: 0f5798990ff5f62ada6f4a7617e5c0929a29be28a579364843650abbffcc1c81272da834652ab3a8e74708932013296ecb8f5846be4fe86e8a9c89747bfd9f2d
+Homepage: http://github.com/dependon/fantascene-dynamic-wallpaper
+Description: video wallpaper for fantascene.
+
 Package: org.deepin.downloader
 Architecture: amd64
 Version: 5.3.75
@@ -1795,6 +1864,25 @@ MD5sum: bf949ee0736351da178c7611a5f96ff5
 SHA1: ffb36daa4edd178535ac62d866d42cdcf672a1cd
 SHA256: 96fd9094b4a3236c2d2edd3a781f257be9627ff38fcb8307c6bb004a1d78e33f
 SHA512: 378f8b6500e6bc46ece58b6ddc0d72a23cbd5277f4c648e0d11c1ff387ecd3309fee4ba0144de451317ba0bae0ac32e9c98ba46ba52e2a5e031116e95cf15be2
+Homepage: https://gerrit.uniontech.com/admin/repos/deepin-deepinid-plugin
+Description: the plugin of deepinid for dde control center
+ deepin-deepinid-plugin module
+
+Package: dcc-deepinid-plugin
+Architecture: arm64
+Version: 2.0.2
+Priority: optional
+Section: lib
+Source: deepin-deepinid-plugin
+Maintainer: duanhongyu <duanhongyu@uniontech.com>
+Installed-Size: 23525
+Depends: libc6 (>= 2.32), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.14.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5webchannel5 (>= 5.6.1), libqt5webenginewidgets5 (>= 5.7.1), libqt5widgets5 (>= 5.11.0~rc1), libssl3 (>= 3.0.0), libstdc++6 (>= 5.2)
+Filename: ./d/dcc-deepinid-plugin/dcc-deepinid-plugin_2.0.2_arm64.deb
+Size: 6061492
+MD5sum: 585134d712869baa24c8bf4d6f23f068
+SHA1: afc1656c210bcacef7337856919a6e4ea534fc8b
+SHA256: 91eae1a4aba64640b5e62ab97b7c395d1725769a5b0056a1c2428a06681a296b
+SHA512: 0a99e921705eb9c0cb1b57352a3bb6c1ebe539b537a82d9d62ae908de57722d2028ce46d0edb31eaf9a3bc10afe374681d3707eb066f5ea8109ca92cc70b78ab
 Homepage: https://gerrit.uniontech.com/admin/repos/deepin-deepinid-plugin
 Description: the plugin of deepinid for dde control center
  deepin-deepinid-plugin module
@@ -3865,6 +3953,24 @@ Homepage: https://www.deepin.org/
 Description: When users are ready to set their own desktop background,
  Deepin Wallpaper provides many beautiful background pictures for users to choose.
  It is part of Deepin software and DDE (Deepin Desktop Environment).
+
+Package: deepin-deepinid-client
+Architecture: arm64
+Version: 7.0.1
+Priority: optional
+Section: net
+Maintainer: Iceyer <me@iceyer.net>
+Installed-Size: 986
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.14.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5webchannel5 (>= 5.6.1), libqt5webenginecore5 (>= 5.7.1), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), libdframeworkdbus2, dcc-deepinid-plugin
+Filename: ./d/deepin-deepinid-client/deepin-deepinid-client_7.0.1_arm64.deb
+Size: 129172
+MD5sum: 354be52b030bff6956622fd60229fb4a
+SHA1: fc8c94a03073564acce826a6b45148746d72d275
+SHA256: 9268356a9a56f9f6c035f843f7d757115c61527a128828ffb9ed96749ddab7f9
+SHA512: 4cf661f30b7cce3e64c4890598cb3e385948f3eb6577a6503b73dd82433484a85b2999b857a8489a00ceac21e7be4854dee5e42925552beff01df3681a31559f
+Homepage: https://www.deepin.org
+Description: client to login deepin sync account
+ Deepin user can login with DeepinID oauth
 
 Package: deepin-deepinid-client
 Architecture: amd64
