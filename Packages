@@ -2777,6 +2777,27 @@ Description: Deepin Gtk Themes
  This package contains GTK+ themes for Deepin Desktop Environment.
 
 Package: deepin-editor
+Architecture: arm64
+Version: 6.0.13
+Priority: optional
+Section: editors
+Maintainer: Debian Deepin Packaging Team <pkg-deepin-devel@lists.alioth.debian.org>
+Installed-Size: 19494
+Depends: dde-qt5integration, libc6 (>= 2.34), libchardet1, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libicu72 (>= 72.1~rc-1~), libkf5codecs5 (>= 4.96.0), libkf5syntaxhighlighting5 (>= 5.90.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.6.0~beta), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libuchardet0 (>= 0.0.6), qtbase-abi-5-15-8
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-editor/deepin-editor_6.0.13_arm64.deb
+Size: 13982188
+MD5sum: efdca68f0dd5572f26cb2c9f905f6905
+SHA1: 092ed02628c6746fbef462e2d14794afa9eb980d
+SHA256: d480a9faa1e5c636128dc31c669a21ad625f8e127c1aae4fb672816eeca847f5
+SHA512: 504a9386b73c0aade1a0dc3504df0309af5c2cc751c1d88a51d92d3219645171fbd796197a031b8fa8a5816c89611168b7f267e727704845baed3d310aee7c88
+Homepage: https://github.com/linuxdeepin/deepin-editor
+Description: Text editor for DDE (Deepin Desktop Environment)
+ Advanced text editor based on dtk.
+ .
+ This package is part of DDE (Deepin Desktop Environment).
+
+Package: deepin-editor
 Architecture: amd64
 Version: 6.0.13
 Priority: optional
@@ -2916,6 +2937,23 @@ SHA512: 036f75dafc303b094bbbd7fd358235123c6b691ab8c9b469ce58d6c944ef8e3ff6ab693a
 Homepage: https://github.com/linuxdeepin/deepin-icon-theme
 Description: Deepin Icons
  This package is DeepinIconTheme
+
+Package: deepin-tweak
+Architecture: arm64
+Version: 1.2.2
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 1324
+Depends: libc6 (>= 2.34), libdtkdeclarative5 (>= 5.6.17), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.14.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5qml5 (>= 5.14.1), libstdc++6 (>= 5)
+Filename: ./d/deepin-tweak/deepin-tweak_1.2.2_arm64.deb
+Size: 865240
+MD5sum: aa5349969cf909618e4599baf3c23ba5
+SHA1: 54bc72d5770012be13aff54c72fc1d93ae2ee6ad
+SHA256: c0a533abf78c66f70e0916dce70d6f40582723b99400d80186c282fba36376b3
+SHA512: a0f4d49fe7b116d693a37b473bc9f04cd18d6039e0f12f5e28c2d050f427f17d0d7bf445e1eb2984fe16d1a9e62fe5c03ad18c85857c639d21da0e6503097549
+Description: deepin tweak tools
+ Advanced customization features for communities
 
 Package: deepin-tweak
 Architecture: amd64
@@ -3250,6 +3288,29 @@ Description: uos rollback the grub management tool
  uos system manage rollback grub in Linux.
 
 Package: deepin-terminal
+Architecture: arm64
+Version: 6.0.7
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 6935
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libsecret-1-0 (>= 0.7), libstdc++6 (>= 5.2), libxcb1, qtbase-abi-5-15-8, expect, zssh
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-terminal/deepin-terminal_6.0.7_arm64.deb
+Size: 3343700
+MD5sum: 6f305895975b22c186877d02b9758da6
+SHA1: b1b877fee3a1aa53f03709042b35db486d8bcfea
+SHA256: 8651c1144140cdfe3870bcff8b923b90905a26984482be676a317d975d4c6cf8
+SHA512: bcc28dce5f90b09380f2ad62c2b774d806aaeb3d28bb6b9f60e8abaf0a6fa7b8bb17302eef5d8aa2ca66c316c6d05bffe8e19589b02d08021c510cb86ba49ab6
+Homepage: https://www.deepin.com/
+Description: Terminal is an advanced terminal emulator with workspace, multiple
+ windows, remote management, quake mode and other features.
+ Terminal is a terminal emulator with simple interface, rich and powerful
+ functions such as multi-windows, workspace, remote management, Quake mode
+ and etc. You can instantly start and close Terminal smoothly like normal
+ file window, allowing you to input commands with facility and no distractions.
+
+Package: deepin-terminal
 Architecture: amd64
 Version: 6.0.7
 Priority: optional
@@ -3389,6 +3450,25 @@ MD5sum: 40a2c0000aada21b8c5be1390f4432f3
 SHA1: ce3ab11664cc72ccdd6f7a4cef9bb9c9b788fc2c
 SHA256: ae2b6b319cdac8a47049243752633b9feb2ac87fcdacda4d1ededbed3470bec0
 SHA512: acb3b60c24663503e5254275127241bde86a6e691ec1cbdb6b9825888a2fe64a674493a0a6dd7b8562de4798c4ed791035ccd5aea3103635c60a24b0a7af4714
+Description: Device Manager is a handy tool for viewing hardware information and managing the devices.
+ Device Manager helps users manage hardware devices installed on computers,
+ through which users can view parameters and export data of all hardware devices running in the system.
+
+Package: deepin-devicemanager
+Architecture: arm64
+Version: 6.0.12
+Priority: optional
+Section: devel
+Maintainer: Packages <packages@deepin.com>
+Installed-Size: 8548
+Depends: libc6 (>= 2.34), libcups2 (>= 1.7.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libkmod2 (>= 22~), libpolkit-qt5-1-1 (>= 0.112.0), libqapt3 (>= 3.0.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.11.0~rc1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libudev1 (>= 183), qtbase-abi-5-15-8, dmidecode, x11-xserver-utils, hwinfo, cups, upower, deepin-shortcut-viewer, lshw, libdeepin-service-framework, deepin-service-manager
+Recommends: uos-reporter, deepin-event-log, deepin-elf-sign-tool
+Filename: ./d/deepin-devicemanager/deepin-devicemanager_6.0.12_arm64.deb
+Size: 3797956
+MD5sum: afa37688c1919e6590031807301e0995
+SHA1: 80484b2ed2db79b41e9bb53f8ad400dc423d71fa
+SHA256: 6082da4f469f0bbfe51a08306885b07c31b35da2edd82eb3503e51433bcd2953
+SHA512: 2c5f934b9ec121c385c022c6ed60de8cfa1756efb15e2d096ee4c524be842e9bd2011dfd84deb0010761f496e5ea471e27c43f1e0d84ef434437a4a254d933c9
 Description: Device Manager is a handy tool for viewing hardware information and managing the devices.
  Device Manager helps users manage hardware devices installed on computers,
  through which users can view parameters and export data of all hardware devices running in the system.
@@ -4086,6 +4166,23 @@ SHA512: 6a2aa53df6fe4ed828549a00169a7a1d41513a117b5f6fc3b8b151c72870cdce631b5661
 Description: Disk Utility is a disk management tool for creating, reorganizing and formatting partitions.
  Disk Utility is a disk management tool for disk.
 
+Package: deepin-diskmanager
+Architecture: arm64
+Version: 1.3.29
+Priority: optional
+Section: tools
+Maintainer: deepin <packages@deepin.com>
+Installed-Size: 9018
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libparted-fs-resize0 (>= 3.1), libparted2 (>= 3.1), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 11), smartmontools, exfat-fuse
+Filename: ./d/deepin-diskmanager/deepin-diskmanager_1.3.29_arm64.deb
+Size: 4577320
+MD5sum: fd9582cc9cde87fe4252c1c43d551998
+SHA1: 1af4267a322effa6528e8c15a6a62acb1794a34f
+SHA256: 252090abf337c3f75ca026b8ff1c69e9bb3dec888fd4996f0b311a5d72608b03
+SHA512: e6ce1449800a2b5ec3549815d0d7a8ec0801313d4f21faf2461ba6f3d51b413b34b45b2cae92298ea6ee08d5fc15d0ee6b3f569530e4658b304ef5a2d1b061a4
+Description: Disk Utility is a disk management tool for creating, reorganizing and formatting partitions.
+ Disk Utility is a disk management tool for disk.
+
 Package: debian-dde
 Architecture: all
 Version: 2023.09.29
@@ -4279,6 +4376,25 @@ MD5sum: 117a211fe26968ebbed8f562c3df60a6
 SHA1: d72abe2f887dd3081f587435082ccc4b40974c1c
 SHA256: a71d7f88b214698f7c6bd6c722b87d2745da90d4df6bd473a0805c3ef7728b72
 SHA512: d80a3e09402c10ffd6f4a843e80314db0197059d116a700716eb631823389ceb83619d83e9c3ce5752541c44a6ba9fc6695b01445d4a8b66e53fd44c392ec653
+Homepage: http://www.deepin.org
+Description: Draw for UOS
+ Draw is a lightweight drawing tool for users to freely draw and simply edit images.
+
+Package: deepin-draw
+Architecture: arm64
+Version: 6.0.5
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 30426
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), qt5-image-formats-plugins, deepin-picker-cli
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-draw/deepin-draw_6.0.5_arm64.deb
+Size: 24577148
+MD5sum: 6a5142eb0055bc7145f928c0346a56ca
+SHA1: 964da4ef0661030dce97bf4abbe6f3a96f7015cc
+SHA256: d1a895eea5f8c0d25380e357175912496e0d42f4e4d36736707afceb341bf517
+SHA512: edac953095d437c653b85242736e6688b15b474c489e281aad1e40fe426f729f657b7a8997f26d3ff38f89acfbf66d37d553b3028800d24eb216a8742de0c172
 Homepage: http://www.deepin.org
 Description: Draw for UOS
  Draw is a lightweight drawing tool for users to freely draw and simply edit images.
