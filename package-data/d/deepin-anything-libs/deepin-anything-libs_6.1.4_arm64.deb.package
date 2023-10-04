@@ -1,0 +1,19 @@
+Package: deepin-anything-libs
+Architecture: arm64
+Version: 6.1.4
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 212
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.35.8)
+Filename: ./d/deepin-anything-libs/deepin-anything-libs_6.1.4_arm64.deb
+Size: 51528
+MD5sum: 94b06c6da44f3becd30e47e59c5aebc2
+SHA1: 84719436b9ab847934c8053de52a3be992816354
+SHA256: 94bc851b40a3a58e8cd12558bf29a501818dfb370fe3352040dcce9ce9ad3b7a
+SHA512: 077be52b50ea1ef12f12e36847867d80c50a1617102ec6ad50d07458f91847fa8edf23b961ecf28aaf41c4495254354a93193ebdb0fc831678cd807284b6b336
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything library
+ anything library package
+
