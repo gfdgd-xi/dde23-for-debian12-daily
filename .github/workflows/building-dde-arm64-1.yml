@@ -1,5 +1,5 @@
 name: Building DDE 1(ARM64)
-run-name: ${{ github.actor }} is Building DDE 0(ARM64) 🚀
+run-name: ${{ github.actor }} is Building DDE 1(ARM64) 🚀
 on:
   schedule:
     - cron: '0 6 * * *'
