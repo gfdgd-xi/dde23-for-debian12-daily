@@ -26,7 +26,7 @@ jobs:
           bottle="/home/runner/dde23-for-debian12-daily/run.sh"
           chmod 777 $bottle
           $bottle apt update
-          $bottle apt install sudo gpg wget git dpkg-dev -y
+          $bottle apt install sudo gpg wget git python3 dpkg-dev -y
           # 加源
           $bottle wget http://deb.debiandde.gfdgdxi.top/sources/github.sh
           $bottle bash github.sh
