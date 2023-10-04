@@ -1,0 +1,53 @@
+name: Building OTHER 4(ARM64)
+run-name: ${{ github.actor }} is Building OTHER 4(ARM64) 🚀
+on:
+  schedule:
+    - cron: '0 17 * * *'
+  workflow_dispatch:
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Building Wine
+        env: 
+          GUSER: ${{ secrets.GUSER }}
+          PASSWORD: ${{ secrets.PASSWORD }}
+          UPLOADURL: ${{ secrets.UPLOADURL }}
+          KEY: ${{ secrets.KEY }}
+          KEYPASSWORD: ${{ secrets.KEYPASSWORD }}
+        run: |
+          # 配置编译容器
+          touch /tmp/arm64
+          sudo apt update
+          sudo apt install lm-sensors aria2 gpg debootstrap python3 neofetch -y
+          neofetch
+          aria2c $KEY
+          gpg --import  --pinentry-mode loopback --batch --passphrase "$KEYPASSWORD"  private-file.key
+          # 编译
+          cd ~
+          git clone https://$GUSER:$PASSWORD@github.com/gfdgd-xi/dde23-for-debian12-daily --depth=1
+          bottle="/home/runner/dde23-for-debian12-daily/run.sh"
+          chmod 777 $bottle
+          $bottle apt update
+          $bottle apt install sudo gpg wget git python3 dpkg-dev -y
+          # 加源
+          $bottle wget http://deb.debiandde.gfdgdxi.top/sources/github.sh
+          $bottle bash github.sh
+          $bottle rm github.sh
+          $bottle wget http://daily.deb.debiandde.gfdgdxi.top/sources/github.sh
+          $bottle bash github.sh
+          $bottle rm github.sh
+          sudo cp /home/runner/dde23-for-debian12-daily/build-deb.py /home/runner/debian12-chroot
+          sudo cp /home/runner/dde23-for-debian12-daily/build-other-arm64-4.json /home/runner/debian12-chroot/build.json
+          $bottle python3 build-deb.py
+          sudo rm -rfv /home/runner/debian12-chroot/*-dbgsym_*.deb
+          git config --global user.email "3025613752@qq.com"
+          git config --global user.name "$GUSER"
+          cd /home/runner/dde23-for-debian12-daily
+          git pull
+          /home/runner/dde23-for-debian12-daily/addmore.py /home/runner/debian12-chroot/*.deb
+          
+          git add .
+          git commit -m 自动推送
+          git push
+      
