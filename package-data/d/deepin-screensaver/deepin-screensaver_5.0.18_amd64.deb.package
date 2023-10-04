@@ -1,0 +1,17 @@
+Package: deepin-screensaver
+Architecture: amd64
+Version: 5.0.18
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 224
+Depends: libc6 (>= 2.34), libdframeworkdbus2 (>= 6.0.0), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.4.0) | libqt5gui5-gles (>= 5.4.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libqt5widgets5 (>= 5.9.0~beta), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 4.1.1), libx11-6, libxcb1, libxss1, deepin-screensaver-xscreensaver-data
+Filename: ./d/deepin-screensaver/deepin-screensaver_5.0.18_amd64.deb
+Size: 65380
+MD5sum: 49ce537945faa561e2eda5591c08bffc
+SHA1: ddc7209ea132cad990740c826d37c0d935958a6b
+SHA256: fa057fe878734c572a73487e4352e9ffadce6d6f4404c819cd94b9b9e241c89b
+SHA512: 5c9a329c23b17d311791b65de6356dc439091253662b9f88dea9cc46cf0082a5e8b4cd27f9cd8a16fe175ecb28f5b30f26a655a295e480aa8caf11cc915ce7f6
+Description: Screensaver Tool
+ Deepin screensaver viewer and tools.
+

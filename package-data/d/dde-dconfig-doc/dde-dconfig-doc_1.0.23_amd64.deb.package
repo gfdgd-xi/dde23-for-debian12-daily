@@ -1,0 +1,17 @@
+Package: dde-dconfig-doc
+Architecture: amd64
+Version: 1.0.23
+Priority: optional
+Section: libdevel
+Source: dde-app-services
+Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
+Installed-Size: 171
+Filename: ./d/dde-dconfig-doc/dde-dconfig-doc_1.0.23_amd64.deb
+Size: 100568
+MD5sum: 083180b351bdcefc2f5cc527e69c90b6
+SHA1: 58a30f72d36cc6828b4fa3c35e2e533401523bd2
+SHA256: 08e57935e7fe293f5f7c1c1d02d5404979bbb8d511987ff5ae393973b4e735ca
+SHA512: 043385f750a82fdb00f20c0d972559c7b62ba139ceaebd62e9f458b27fdc2491eb0087c59f6e820b4571b13467f08615411a674c0a58b041e90847cc34f42f91
+Description: Deepin Tool Kit DConfig (document)
+ This package contains the doc files of DConfig
+

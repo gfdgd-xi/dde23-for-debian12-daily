@@ -1,0 +1,17 @@
+Package: deepin-sound-theme
+Architecture: all
+Version: 15.10.2-1
+Priority: optional
+Section: x11
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 4840
+Filename: ./d/deepin-sound-theme/deepin-sound-theme_15.10.2-1_all.deb
+Size: 3847252
+MD5sum: 3366aa2bad88b21fab5750bee8a23d2c
+SHA1: 8b7bf31b11b5829b3866fa56d215370f5542a399
+SHA256: bd8b24c50657f16486c08ce6e007f3167b3a8e45d61d4eafcbe601d35d6ff044
+SHA512: 46609e87c71bac15c3126b9ce0d98dcc5d2e5ffd84009639cf3d91f18114f2c174d210ba020ab7736f953624e0bd5b06176d4c93e6685b6d0d4071501338d73c
+Homepage: http://www.deepin.org/
+Description: Deepin sound
+ This package contains the deepin sound theme.
+
