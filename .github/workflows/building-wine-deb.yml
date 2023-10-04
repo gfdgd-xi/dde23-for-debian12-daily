@@ -22,15 +22,25 @@ jobs:
           gpg --import  --pinentry-mode loopback --batch --passphrase "$KEYPASSWORD"  private-file.key
           # 编译
           cd ~
-          git clone https://github.com/gfdgd-xi/dde23-for-debian12-daily --depth=1
+          git clone https://$GUSER:$PASSWORD@github.com/gfdgd-xi/dde23-for-debian12-daily --depth=1
           bottle="/home/runner/dde23-for-debian12-daily/run.sh"
           chmod 777 $bottle
           $bottle apt update
-          $bottle apt install sudo gpg wget -y
+          $bottle apt install sudo gpg wget git dpkg-dev -y
           # 加源
           $bottle wget http://deb.debiandde.gfdgdxi.top/sources/github.sh
           $bottle bash github.sh
           $bottle rm github.sh
+          cp /home/runner/dde23-for-debian12-daily/build.* /home/runner/debian12-chroot
+          $bottle python3 build.py
+          sudo rm -rfv /home/runner/debian12-chroot/*-dbgsym_*.deb
+          git config --global user.email "3025613752@qq.com"
+          git config --global user.name "$GUSER"
+          /home/runner/dde23-for-debian12-daily/addmore.py /home/runner/debian12-chroot/*.deb
+          cd /home/runner/dde23-for-debian12-daily
+          git add .
+          git commit -m 自动推送
+          git push
           exit
           # 推源
           git clone https://github.com/gfdgd-xi/wine-deb.git
