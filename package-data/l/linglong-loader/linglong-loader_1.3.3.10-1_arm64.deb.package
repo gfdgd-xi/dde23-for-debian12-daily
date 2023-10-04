@@ -1,0 +1,17 @@
+Package: linglong-loader
+Architecture: arm64
+Version: 1.3.3.10-1
+Priority: optional
+Section: admin
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 2520
+Filename: ./l/linglong-loader/linglong-loader_1.3.3.10-1_arm64.deb
+Size: 779572
+MD5sum: 432ee63665a7d8b54fa8de6b4454313e
+SHA1: b71169bfcc45809d999f089287d54e8ab4150419
+SHA256: d24390bd9691da06d8b63abcb2908ccc71423fa276acc899e6d9e7adfe0ac661
+SHA512: bfd218b263d7fc5b4552f57da8e81547f9ebe4f7678b80dc14578b5388e180a42bf445ebf9ef8843ca58d8c1241365396b7055a318af6ef5e253058497c0de46
+Homepage: https://www.deepin.org
+Description: Package loader for removable bundle.
+ Package loader...
+

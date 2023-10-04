@@ -1,0 +1,18 @@
+Package: deepin-upgrade-manager
+Architecture: arm64
+Version: 1.0.22
+Priority: optional
+Section: utils
+Maintainer: LinuxDeepin <linuxdeepin@deepin.org>
+Installed-Size: 7453
+Depends: libc6 (>= 2.34), ostree, deepin-boot-kit
+Filename: ./d/deepin-upgrade-manager/deepin-upgrade-manager_1.0.22_arm64.deb
+Size: 1554756
+MD5sum: 09cabf7f6ba100d71a415213387ae928
+SHA1: d9a9956eedee502e0ace23bffc8fee3974ee8b52
+SHA256: db62e7e979414b1319e6f3300082a27b942b18f87c421cb08a888f31b4150920
+SHA512: 6b12fa36dd287804b16ae3aea7e5eb52c135829233b3e061aac539e1dcbd47c45f6f7e768e077f494e0c4071b220cd817669da25927d6d22e264e89b03a47703
+Homepage: https://www.deepin.org
+Description: uos backup and restore tool
+ uos system backup and restore tool in Linux.
+

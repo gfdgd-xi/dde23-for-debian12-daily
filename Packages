@@ -169,11 +169,11 @@ Source: dwayland
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 770
 Filename: ./l/libdwayland-doc/libdwayland-doc_5.25.0-kwayland.5.24.3_all.deb
-Size: 516796
-MD5sum: 443e74c371cb3fd233ae5c2a09990714
-SHA1: 52452cb5aae09a42df624eea6700d8b61894fae1
-SHA256: 0e69b8a6028e953850d68b34eacd5a81704dbe90a4e1a42080242e8749a3ec67
-SHA512: 53fb52a4bdd5ff832144d95b6bbcdcf19d7ecfeee8de030cac178dba903b9c82157abe9340b75e28fcf399e564b950241ae4d56a06f6648ec89c6bde583dd6dc
+Size: 516840
+MD5sum: e34c2af31a5aae11f8480cc3486b34ab
+SHA1: ca2fafc044ed9664acbf6cfd2729ced394f5fcff
+SHA256: 311ac66910bbf964895988d03069a8d481781561220d69168eae4fb9e4612beb
+SHA512: 991b8f8997a67b8c418d36d96ff69a98315393623db26da9798d8dcea12b0d509b33025e7de2ab50039ca34fba7ee9de481b39f2213bab93b05ca2b3adbb6e9e
 Homepage: https://invent.kde.org/plasma/kwayland-server
 Description: Qt library wrapper for Wayland libraries (documentation)
  DWayland provides a Qt-style Client and Server library wrapper for
@@ -505,6 +505,23 @@ Homepage: https://www.deepin.org
 Description: Package loader for removable bundle.
  Package loader...
 
+Package: linglong-loader
+Architecture: arm64
+Version: 1.3.3.10-1
+Priority: optional
+Section: admin
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 2520
+Filename: ./l/linglong-loader/linglong-loader_1.3.3.10-1_arm64.deb
+Size: 779572
+MD5sum: 432ee63665a7d8b54fa8de6b4454313e
+SHA1: b71169bfcc45809d999f089287d54e8ab4150419
+SHA256: d24390bd9691da06d8b63abcb2908ccc71423fa276acc899e6d9e7adfe0ac661
+SHA512: bfd218b263d7fc5b4552f57da8e81547f9ebe4f7678b80dc14578b5388e180a42bf445ebf9ef8843ca58d8c1241365396b7055a318af6ef5e253058497c0de46
+Homepage: https://www.deepin.org
+Description: Package loader for removable bundle.
+ Package loader...
+
 Package: libdtkwidget5-bin
 Architecture: amd64
 Version: 5.6.17
@@ -550,6 +567,53 @@ Description: development files for dwayland
  the Wayland libraries.
  .
  Contains development files for dwayland.
+
+Package: libdwayland-dev
+Architecture: arm64
+Version: 5.25.0-kwayland.5.24.3
+Priority: optional
+Section: libdevel
+Source: dwayland
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 905
+Depends: libdwaylandclient5 (= 5.25.0-kwayland.5.24.3), libdwaylandserver5 (= 5.25.0-kwayland.5.24.3), libwayland-dev (>= 1.13~), qtbase5-dev (>= 5.15.0~), extra-cmake-modules (>= 5.90.0~)
+Recommends: libdwayland-doc (= 5.25.0-kwayland.5.24.3)
+Breaks: dwayland-dev (<< 4:5.23.0-2~)
+Replaces: dwayland-dev (<< 4:5.23.0-2~)
+Filename: ./l/libdwayland-dev/libdwayland-dev_5.25.0-kwayland.5.24.3_arm64.deb
+Size: 106176
+MD5sum: d6dd8208b20b9ae3f0fb02472c4e6cdd
+SHA1: 39c9212e52dc820959c1eb29b0aa123697759b6f
+SHA256: 4f3f6d21ded1f3ef1898908495283082d17316bfb7ee8fdcf99995f6ee8024ca
+SHA512: 7ad23d1968ec982f0eaddc7b9f73d8391f1aced7c9082c220087d491ba0a0ca7f064b988a912573f784e8c0ab51b790b7287499f4f03119d3a890ae6a5736316
+Homepage: https://invent.kde.org/plasma/kwayland-server
+Description: development files for dwayland
+ DWayland provides a Qt-style Client and Server library wrapper for
+ the Wayland libraries.
+ .
+ Contains development files for dwayland.
+
+Package: libdwaylandclient5
+Architecture: arm64
+Version: 5.25.0-kwayland.5.24.3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: dwayland
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1450
+Depends: dwayland-data (= 5.25.0-kwayland.5.24.3), libc6 (>= 2.17), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~), libstdc++6 (>= 5.2), libwayland-client0 (>= 1.20.0)
+Breaks: libkf5plasmaquick5 (<< 5.54)
+Filename: ./l/libdwaylandclient5/libdwaylandclient5_5.25.0-kwayland.5.24.3_arm64.deb
+Size: 225644
+MD5sum: de66fa196e13a0b7b7be07ee4ee9dfe4
+SHA1: af882bbb31c05428e9b449bae3dd39dc53061f9d
+SHA256: 3659d8ca6ce81120ead6fa1d2683b6f8f903029b6a78abdf8678c4687796478a
+SHA512: 529fe63ee14cd76acf7be7a66890b980d72b38c83d9464ee1aba2bfa757e1312e59bed0d48cbf0813040a5ca9e161d67939e5960aec637ffe0ef715d595af68e
+Homepage: https://invent.kde.org/plasma/kwayland-server
+Description: Qt library wrapper for Wayland libraries
+ DWayland provides a Qt-style Client library wrapper for
+ the Wayland libraries.
 
 Package: libdwaylandclient5
 Architecture: amd64
@@ -638,6 +702,31 @@ Description: Qt library wrapper for Wayland libraries
  .
  This package contains the shared library.
 
+Package: libdwaylandserver5
+Architecture: arm64
+Version: 5.25.0-kwayland.5.24.3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: dwayland
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 2467
+Provides: libdwaylandserver5-5.25
+Depends: dwayland-data (= 5.25.0-kwayland.5.24.3), libc6 (>= 2.17), libegl1, libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~), libstdc++6 (>= 5.2), libwayland-server0 (>= 1.18~)
+Breaks: libkwin4-effect-builtins1
+Filename: ./l/libdwaylandserver5/libdwaylandserver5_5.25.0-kwayland.5.24.3_arm64.deb
+Size: 379820
+MD5sum: ddb902d05cb0b74aeabcad3f96bfb7d1
+SHA1: d3e35936d79b189de6571a3eab88cda91d2c8d50
+SHA256: a60dcfe4846dd88fff52cb94e40c9ca0773f6347de496bf692eb540e7afb9b36
+SHA512: 400351b4a6de4701cbb1f51b467608ecdcad149054067ff6aaf27767bdeed31d81ac4d3bbb845c3a72e0085a6814de236210b1d63e247246ac48ad672a20ce6b
+Homepage: https://invent.kde.org/plasma/kwayland-server
+Description: Qt library wrapper for Wayland libraries
+ DWaylandServier provides a Qt-style Server library wrapper for
+ the Wayland libraries.
+ .
+ This package contains the shared library.
+
 Package: libdde-network-core-dev
 Architecture: amd64
 Version: 2.0.15
@@ -694,6 +783,24 @@ Description: Deepin Tool Kit Core Utilities
  DtkCore is base devel library of Deepin Qt/C++ applications.
  .
  This package contains the utilities of DtkCore
+
+Package: linglong-dbus-proxy
+Architecture: arm64
+Version: 1.3.3.10-1
+Priority: optional
+Section: admin
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 148
+Depends: libc6 (>= 2.34), libdbus-1-3 (>= 1.9.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5network5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Filename: ./l/linglong-dbus-proxy/linglong-dbus-proxy_1.3.3.10-1_arm64.deb
+Size: 31248
+MD5sum: d1fce0bf622a51d60cc280d1d123b510
+SHA1: 7bb51fc0ac11c9cef0bce1a2f1ffbbf02944b09f
+SHA256: 4a96a6cad4e3423cf585de66dfd126c935b3ccacec041d6f7de4a2711b43a385
+SHA512: 5db2f9e87284fdce04b5a1d39b348d84bf32a5f9c3188eaccb9e5d6ad25d0de252829152cac2dd44f014419388ae5903eb0c1b9066815c1817afb385161e976d
+Homepage: https://www.deepin.org
+Description: dbus permission proxy for sandbox.
+ dbus permission proxy.
 
 Package: linglong-dbus-proxy
 Architecture: amd64
@@ -796,6 +903,24 @@ MD5sum: 4f11892b29738f6ac3df0c1ccc490fc3
 SHA1: 80b443651ead2f0503972ea2ca75f07694c62840
 SHA256: 8ac45202601926ba1b18147d32db4553634ab33e8d65c49585a6e9cc185ef849
 SHA512: 05e1ce600a009fdef9195cde99b6151bcdc59b3a19547d353ee76f87abd93bb38f509cedbf477d9bae01d010b234edd31ccc621418d2c2b2563a177e0e4e3936
+Homepage: https://www.deepin.org
+Description: Deepin sandbox with OCI standard.
+ Deepin sandbox...
+
+Package: linglong-box
+Architecture: arm64
+Version: 1.3.3.15-1
+Priority: optional
+Section: admin
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 2912
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libseccomp2 (>= 2.1.0), libstdc++6 (>= 11)
+Filename: ./l/linglong-box/linglong-box_1.3.3.15-1_arm64.deb
+Size: 793244
+MD5sum: 48df066ccc4dba0ce287e6ebd1bf8163
+SHA1: 0dc1c6619e0b89d0d448325d9d2b1c6d12c9cf20
+SHA256: 6bee690181c78604dade886c40016bd14bc61158847a01471fa253aca3aad3ee
+SHA512: 338ab2f148104be4045ed94c79d2b84c291176a61987f74d0b86d3785c77e75195c0be6874bac49adddf922343604cc14e3fc229f987292db23ed2cda5f0bb74
 Homepage: https://www.deepin.org
 Description: Deepin sandbox with OCI standard.
  Deepin sandbox...
@@ -1235,6 +1360,26 @@ Homepage: http://www.deepin.org
 Description: Linglong application building tools.
  ll-builder is a tool that makes it easy to build applications and dependencies.
 
+Package: linglong-builder
+Architecture: arm64
+Version: 1.4.0-1
+Priority: optional
+Section: admin
+Source: linglong
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 2075
+Depends: erofs-utils, linglong-bin, linglong-box, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.35.8), libostree-1-1 (>= 2016.4), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5network5 (>= 5.14.1), libqt5sql5 (>= 5.0.2), libstdc++6 (>= 5.2), libsystemd0, libyaml-cpp0.7 (>= 0.7.0)
+Recommends: linglong-loader
+Filename: ./l/linglong-builder/linglong-builder_1.4.0-1_arm64.deb
+Size: 425248
+MD5sum: 891a89d1ec1264b72a75a1156371d655
+SHA1: 3bf207e5e40ded4175bffd3bb071d789985e95d6
+SHA256: 52e7bc5a6c0ebdd09c14e18030de6dc61be46133ba7bfbe91ceff3bc2b22cc0d
+SHA512: 2671a9542d47ba04d44f806f30569debf3704307aeeea0e34732003b90f8920b426327925d1b50b89f492bb3663bd3ee62cb4ca657aec69bb2bbaf241c25cf26
+Homepage: http://www.deepin.org
+Description: Linglong application building tools.
+ ll-builder is a tool that makes it easy to build applications and dependencies.
+
 Package: linglong-bin
 Architecture: amd64
 Version: 1.4.0-1
@@ -1251,6 +1396,26 @@ MD5sum: 584a22ccf78b1164e76efab392d3f89c
 SHA1: 1dfee8fb5415f6a713b2cfb209e34ae52ad013a3
 SHA256: 91e18a67e52e1bf96c6f1c9e6b98a668955a5ef21785b10f5fe98e0c27d1a18d
 SHA512: 818b5052f0c6a509d756844368a96a8a2645417e684b0498dd2c8b0d4e46b948a8496a78d213bf16da22d77f73814fe6c15a1344f82df988e576b50205dbb653
+Homepage: http://www.deepin.org
+Description: Linglong package manager.
+ Linglong package management command line tool.
+
+Package: linglong-bin
+Architecture: arm64
+Version: 1.4.0-1
+Priority: optional
+Section: admin
+Source: linglong
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 5471
+Depends: desktop-file-utils, fuse-overlayfs, libglib2.0-bin, libqt5sql5-sqlite (>= 5.11.3), linglong-box, ostree, shared-mime-info, init-system-helpers (>= 1.52), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.35.8), libostree-1-1 (>= 2016.4), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5network5 (>= 5.8.0), libqt5sql5 (>= 5.0.2), libstdc++6 (>= 5.2), libsystemd0, libyaml-cpp0.7 (>= 0.7.0)
+Recommends: linglong-dbus-proxy
+Filename: ./l/linglong-bin/linglong-bin_1.4.0-1_arm64.deb
+Size: 826080
+MD5sum: fbc066c57c66221f7b2764ff6283b8dd
+SHA1: 46952e067d0107bc6255e12df7778a175002678e
+SHA256: 7219771924d93455dc8db61d8e650bb9393b59bf026381a3a79e01c938d8b894
+SHA512: 8db13cfe859e30a9fd46cd9c3d669704afdc9eaa70733b29997bea81ce4d2427775e4e02fad71efadd41198d3c09ec219b4917cd9696eb7ba154cdd8dfc2c084
 Homepage: http://www.deepin.org
 Description: Linglong package manager.
  Linglong package management command line tool.
@@ -2180,6 +2345,24 @@ Description: deepin desktop-environment - launcher module development files
  Launcher module development files of deepin desktop-environment
 
 Package: deepin-upgrade-manager
+Architecture: arm64
+Version: 1.0.22
+Priority: optional
+Section: utils
+Maintainer: LinuxDeepin <linuxdeepin@deepin.org>
+Installed-Size: 7453
+Depends: libc6 (>= 2.34), ostree, deepin-boot-kit
+Filename: ./d/deepin-upgrade-manager/deepin-upgrade-manager_1.0.22_arm64.deb
+Size: 1554756
+MD5sum: 09cabf7f6ba100d71a415213387ae928
+SHA1: d9a9956eedee502e0ace23bffc8fee3974ee8b52
+SHA256: db62e7e979414b1319e6f3300082a27b942b18f87c421cb08a888f31b4150920
+SHA512: 6b12fa36dd287804b16ae3aea7e5eb52c135829233b3e061aac539e1dcbd47c45f6f7e768e077f494e0c4071b220cd817669da25927d6d22e264e89b03a47703
+Homepage: https://www.deepin.org
+Description: uos backup and restore tool
+ uos system backup and restore tool in Linux.
+
+Package: deepin-upgrade-manager
 Architecture: amd64
 Version: 1.0.22
 Priority: optional
@@ -2846,6 +3029,25 @@ Description: KDE window manager, X11 version
  This package is part of the KDE base workspace module.
 
 Package: deepin-boot-kit
+Architecture: arm64
+Version: 1.0.22
+Priority: optional
+Section: utils
+Source: deepin-upgrade-manager
+Maintainer: LinuxDeepin <linuxdeepin@deepin.org>
+Installed-Size: 3083
+Depends: libc6 (>= 2.34)
+Filename: ./d/deepin-boot-kit/deepin-boot-kit_1.0.22_arm64.deb
+Size: 889528
+MD5sum: ceee7a35ab91005f1695de0b8b936296
+SHA1: dd05da6cb9d7e06da705648fbaf72d2d76244723
+SHA256: 85e61ba89b85434fa0d79bda914ed4c5659be41360290b7971c0095f4d0b8748
+SHA512: 8a0bb2211bb69a5429479ace7d9ea02eb189c6529e538f0cd3ee69051565b7c19f776d67026f5b0d97add8cca74271e8e4f5ce32efe36f062aa137224a34cfd4
+Homepage: https://www.deepin.org
+Description: uos rollback the grub management tool
+ uos system manage rollback grub in Linux.
+
+Package: deepin-boot-kit
 Architecture: amd64
 Version: 1.0.22
 Priority: optional
@@ -3499,6 +3701,26 @@ Description: the plugin of network for dde-lock
  dss-network-plugin module
 
 Package: dwayland-data
+Architecture: arm64
+Version: 5.25.0-kwayland.5.24.3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: dwayland
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 19
+Filename: ./d/dwayland-data/dwayland-data_5.25.0-kwayland.5.24.3_arm64.deb
+Size: 4676
+MD5sum: 36a7828b53219c20256e04ec01dbd633
+SHA1: 993c50355233d7bf77e855f89ece58d460091a42
+SHA256: 1e903de21db33d2c2d3a6e47225f4aeb85dccbba9456c5c6188a63c7dacfd8c8
+SHA512: d24a5e4b01bb588edb0d559049b6f1423405b0cdef8116834f0540fd5db802ebd9a770d2826c00205b08e98e5f33b8fe1d06371e540aaec9857cf75a04242275
+Homepage: https://invent.kde.org/plasma/kwayland-server
+Description: Qt library wrapper for Wayland libraries - data files
+ DWayland provides a Qt-style Server library wrapper for
+ the Wayland libraries.
+
+Package: dwayland-data
 Architecture: amd64
 Version: 5.25.0-kwayland.5.24.3
 Multi-Arch: same
@@ -3830,6 +4052,24 @@ MD5sum: 862d4c4fc53ffe21a008c7ee9ea45ded
 SHA1: 6416207c2d978ec140f16603291c7ef86b54a9a3
 SHA256: 9ed77f39e93ca6db34e5696f81f8a5c32130945ef591fa93a147ab19d205d9c9
 SHA512: f7a8ceb2da12941533b96a31356d4ad29a8c0544d33b1741c7c9a5c463bfc94773bb050d3858560149c8b6a5d772d64054c40e9da020179000e71524e0d4a2dc
+Homepage: https://www.deepin.org
+Description: dde application manager module
+ Application manager for DDE.
+
+Package: dde-application-manager
+Architecture: arm64
+Version: 1.0.19
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1577
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.26.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 11), libx11-6, libxcb-ewmh2 (>= 0.4.1), libxcb-icccm4 (>= 0.4.1), libxcb1, libxres1 (>= 2:1.2.1)
+Filename: ./d/dde-application-manager/dde-application-manager_1.0.19_arm64.deb
+Size: 396940
+MD5sum: 1a74bcca39a9170b4de803d4d256bca6
+SHA1: 129e2f492236ff2b1ba4fc62c7b905afd428107a
+SHA256: bc24b9dd90a81d454f549a9bd5e76f6826c1eb9b44dee46dbbb0c6697bc53eed
+SHA512: 44892eabdc3e1607c65474cf8bd9f44c4b301607fac84faaf9090f15643f32c67545341feb3289bfb635532219b58cfc671a289f52137e4f9f2c0017d0fa64d0
 Homepage: https://www.deepin.org
 Description: dde application manager module
  Application manager for DDE.

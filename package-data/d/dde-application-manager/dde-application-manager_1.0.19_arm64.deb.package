@@ -1,0 +1,18 @@
+Package: dde-application-manager
+Architecture: arm64
+Version: 1.0.19
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1577
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.26.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 11), libx11-6, libxcb-ewmh2 (>= 0.4.1), libxcb-icccm4 (>= 0.4.1), libxcb1, libxres1 (>= 2:1.2.1)
+Filename: ./d/dde-application-manager/dde-application-manager_1.0.19_arm64.deb
+Size: 396940
+MD5sum: 1a74bcca39a9170b4de803d4d256bca6
+SHA1: 129e2f492236ff2b1ba4fc62c7b905afd428107a
+SHA256: bc24b9dd90a81d454f549a9bd5e76f6826c1eb9b44dee46dbbb0c6697bc53eed
+SHA512: 44892eabdc3e1607c65474cf8bd9f44c4b301607fac84faaf9090f15643f32c67545341feb3289bfb635532219b58cfc671a289f52137e4f9f2c0017d0fa64d0
+Homepage: https://www.deepin.org
+Description: dde application manager module
+ Application manager for DDE.
+
