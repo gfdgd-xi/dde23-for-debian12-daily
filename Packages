@@ -264,6 +264,25 @@ Description: Deepin Tool Kit Core Utilities
  This package contains the utilities of DtkCore
 
 Package: libdeepin-ocr-plugin-manager-dev
+Architecture: arm64
+Version: 1.0.0
+Priority: optional
+Section: devel
+Source: deepin-ocr-plugin-manager
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 33
+Depends: libdeepin-ocr-plugin-manager
+Filename: ./l/libdeepin-ocr-plugin-manager-dev/libdeepin-ocr-plugin-manager-dev_1.0.0_arm64.deb
+Size: 6460
+MD5sum: c7aec2bd8ed00b1c8ba2f2a440dfa7d9
+SHA1: 0d338b49802c079043fb94e2d440c05cad72dc2f
+SHA256: 99c9abd71701a13b095fa8ee5d49f5cae74f022129bb429cca11d17605343f10
+SHA512: 02664097c6c14f2858d3160526aa3886d547574eb9fb3de8f27bb9e2abfa757dd53261a1691990b8e6f5becac0f80e0d4caf9b4c1612f5c7530a603f75891158
+Homepage: http://www.deepin.org/
+Description: OCR plugin manager for UOS
+ OCR develop library and useful plugin management tool.
+
+Package: libdeepin-ocr-plugin-manager-dev
 Architecture: amd64
 Version: 1.0.0
 Priority: optional
@@ -342,6 +361,24 @@ Description: Deepin Tool Kit Gui Devel library
  This package contains the header files and shared libraries of DtkDeclarative
 
 Package: libopencv-mobile-dev
+Architecture: arm64
+Version: 14
+Priority: optional
+Section: utils
+Source: opencv-mobile
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 4073
+Depends: libopencv-mobile
+Filename: ./l/libopencv-mobile-dev/libopencv-mobile-dev_14_arm64.deb
+Size: 543452
+MD5sum: f559dc8793956a434c406ab6d7d3a55f
+SHA1: 307fd38fce32c0a1a08c7798d47d345bcaec7765
+SHA256: 5839b01937b4c7b4e35030192c1e26981c7fc3bbbc1997b3028b2b59c32758c5
+SHA512: 295b87f333428122d3992e3e129d2714014bb920b84a33697245e8d36e0150a06eaab651aa524a12d0567f3ec3c65f74f72a717d334805aa64949a54a48ba8ed
+Homepage: http://www.deepin.org
+Description: The minimal build of opencv library for the Android, IOS, and ARM Linux platforms.
+
+Package: libopencv-mobile-dev
 Architecture: amd64
 Version: 14
 Priority: optional
@@ -358,6 +395,25 @@ SHA256: a28d01fbd70726cebf9b55eecc650080dd2107ad66d1050f9415df22127cdb31
 SHA512: c6137733d3fca8f22aaf7ad69787195e0786f3ff3cab69c96a3edf9cc610fff7bc7339c41f864603ffd4caea9fcdc1cd511fec1be5bac94854212e531d2e3410
 Homepage: http://www.deepin.org
 Description: The minimal build of opencv library for the Android, IOS, and ARM Linux platforms.
+
+Package: libdeepin-ocr-plugin-manager
+Architecture: arm64
+Version: 1.0.0
+Priority: optional
+Section: devel
+Source: deepin-ocr-plugin-manager
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 17200
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libgomp1 (>= 4.9), libncnn, libopencv-mobile, libstdc++6 (>= 11)
+Filename: ./l/libdeepin-ocr-plugin-manager/libdeepin-ocr-plugin-manager_1.0.0_arm64.deb
+Size: 15839172
+MD5sum: 9da9b76efa5aef6165d41b3be8388d1c
+SHA1: 95dd8c70a0e522b1b434ed6666b0a2ffd820ea7b
+SHA256: e458d8bc3dbc63c1f2978ef1bdfe12ae9655c55a60604240868757e15ac88905
+SHA512: cad3dc8d3cd3807172755ffb3d50bb17ddf08a5a7541bd1296da1458d745030d609f21d543204cbdce3fc4818848967c8967d4ddef609b77d8ef1f1a609f75a3
+Homepage: http://www.deepin.org/
+Description: OCR plugin manager for UOS
+ OCR develop library and useful plugin management tool.
 
 Package: libdeepin-ocr-plugin-manager
 Architecture: amd64
@@ -872,6 +928,24 @@ Description: Development Tool Kit multimedia library
  libdtkmultimedia is base library of Deepin Qt/C++ applications.
  .
  This package contains the shared libraries.
+
+Package: libopencv-mobile
+Architecture: arm64
+Version: 14
+Priority: optional
+Section: utils
+Source: opencv-mobile
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 6845
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libgomp1 (>= 6), libstdc++6 (>= 12)
+Filename: ./l/libopencv-mobile/libopencv-mobile_14_arm64.deb
+Size: 2279460
+MD5sum: 5a6bc8548ab0054c0d9a13a5e403220e
+SHA1: 49788779962b5738381023102363c8005086add2
+SHA256: e6a960c707377edeee2519160b186524c380d0798747aadb0192763ff9621b41
+SHA512: 939f84165450628a6f989c9d5b598a6396556396e02d39e0e04f02a49be092aa38ad46d842e077372327ca960c522bebd77a39a6b0e3faaf9ec6193aa71e325a
+Homepage: http://www.deepin.org
+Description: The minimal build of opencv library for the Android, IOS, and ARM Linux platforms.
 
 Package: libopencv-mobile
 Architecture: amd64
