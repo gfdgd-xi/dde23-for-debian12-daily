@@ -1,0 +1,25 @@
+Package: dde-control-center
+Architecture: arm64
+Version: 6.0.29
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 17043
+Filename: ./d/dde-control-center/dde-control-center_6.0.29_arm64.deb
+Size: 4087180
+MD5sum: 044936cfd4297be526ec5e17fc149936
+SHA1: b7b79bb4d2e410b0cf10c6810b8d779e7570e844
+SHA256: 63c0e3b45fafab9a2880a89fb3c3f3c5d82237282a1b774948e2d6d51c939274
+SHA512: 54ac733f339773c80f61e177990199331e1cadecc8a80b667dca94539a18900468f761914e7bef2c4e3f393ddba10dafe45444bd23b07d300e7d7655d1ea71a9
+Homepage: https://github.com/linuxdeepin/dde-control-center
+Description: New control center for Deepin Desktop Environment,
+ Integrated control center with rich functions,Besides providing rich
+ system setting items, the function level is simple, the logic is clear,
+ the user can easily set the system, and the learning cost is low,
+ Provide users with automatic update system and developer mode to meet
+ the various needs of users for the operating system.
+ abrecovery -restore system, Determine whether the system is restored
+ reboot-reminder-dialog -Update restart, Confirm whether to restart the system
+ after the completion of the update.
+ DDE Control Center is the control panel of Deepin Desktop Environment.
+
