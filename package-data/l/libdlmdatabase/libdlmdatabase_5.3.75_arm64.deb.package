@@ -1,0 +1,21 @@
+Package: libdlmdatabase
+Architecture: arm64
+Version: 5.3.75
+Priority: optional
+Section: utils
+Source: deepin-downloader
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 147
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.5.0), libqt5sql5 (>= 5.0.2), libstdc++6 (>= 4.1.1), sqlite3
+Conflicts: org.deepin.downloader (<= 5.3.15)
+Replaces: org.deepin.downloader (<= 5.3.15)
+Filename: ./l/libdlmdatabase/libdlmdatabase_5.3.75_arm64.deb
+Size: 29716
+MD5sum: f53bdc0f6a40064467146ea04c3c4954
+SHA1: 43b3db74a39052ade74a57936faddb6eb0843d4a
+SHA256: ba03eb997fdded6fbbfdb819b48ad5477cf413324a2655d0b9dcb744be872376
+SHA512: 80a1871bab867ea8e45fef91c0c9d11943853c665af14c38b6af1fcfaefb865faedd69bf292c88fa3980e2029d9474240babdfb298d5d30bb3ea07055d31ba85
+Homepage: https://www.deepin.org/
+Description: download manager dlmdatabase lib.
+ downloader for deepin desktop environment.
+

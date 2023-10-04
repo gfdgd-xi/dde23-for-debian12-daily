@@ -1,0 +1,20 @@
+Package: dde-introduction
+Architecture: arm64
+Version: 6.0.6
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 34639
+Depends: libc6 (>= 2.34), libdframeworkdbus2 (>= 6.0.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.14.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 4.1.1)
+Filename: ./d/dde-introduction/dde-introduction_6.0.6_arm64.deb
+Size: 26472632
+MD5sum: b94e6652b10a9fd22e8f9bd76a6db55b
+SHA1: 2195ae803b85d5adefb1434b6e631ac9020342c5
+SHA256: e1f62998e8acb9b84b238448e1d777ef653662b41a8d72e7d3705b44a114cbf3
+SHA512: ef3d82a5cfed8c2ef8b60955f6dce957e7e48d780a65723bfb39d4079305dc28b87fbdae4196f90cdc10e51a319e8c2ddff9d3d368905407bb324187ff3cb2e8
+Homepage: http://www.deepin.org
+Description: Introduction for UOS
+ When you log into the system for the first time, a welcome program will automatically start.
+ Watch the introduction video to get new features, customize your desktop, enable the window
+ effect and know more about UnionTech OS.
+
