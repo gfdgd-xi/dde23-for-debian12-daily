@@ -1,0 +1,18 @@
+Package: deepin-picker
+Architecture: amd64
+Version: 6.0.0
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 14
+Depends: deepin-picker-cli (= 6.0.0)
+Filename: ./d/deepin-picker/deepin-picker_6.0.0_amd64.deb
+Size: 3160
+MD5sum: 27e32ad4c4d916407723f7fe4f510611
+SHA1: 06fe1d51a89b85c12ef2e154a607d9c1c9b3b42d
+SHA256: b6560d0079345c972bdd9668cc1b6f468a832090595bb0d0be137708dbbd3e3e
+SHA512: ee97db1f32e07f6b57123670d9710dddf388eb840c8ed1a5c01e5e784fd9003fc7183ba541e6460af64f11ee34553bb42e45477de652b576b162ca11e1d27cd7
+Homepage: http://www.deepin.org
+Description: Color picker tool for deepin
+ A color picker tool for deepin.
+

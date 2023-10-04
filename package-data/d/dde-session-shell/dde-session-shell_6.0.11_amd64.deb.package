@@ -12,11 +12,11 @@ Conflicts: dde-preload, dde-session-ui (<< 5.0.0), dde-workspace, deepin-notific
 Breaks: dde-workspace
 Replaces: deepin-notifications
 Filename: ./d/dde-session-shell/dde-session-shell_6.0.11_amd64.deb
-Size: 1062316
-MD5sum: 383e713ea04391aefcf6c7e788b3f04f
-SHA1: 02df98193a7afd79757bbfe2294ce392e3746e9e
-SHA256: 31b162b8514181f97522cfc367a489623114fb0f6a98ac6511992a21d8e7d5c8
-SHA512: 999b33d28ec146ae51ffb864618e34d3c53f490d0a58c8083d0f1db0c1326652235e876066b7b3a63f95b65e8272d4ac9ddc92f1d830a1179b8a14c1090a14a7
+Size: 1068312
+MD5sum: 80cd2c88262de0a674d8e81c4d292a7e
+SHA1: 9b2184d2e5ec844fcc33579288c8477336bafa43
+SHA256: d9b23706b4c3eb8c396c6a3e34accca04b88a20f4a93453f61f6906b47debfa6
+SHA512: 92a4e69f33951b4cd5cc2c1f0fb2fa50ce950d082a4fcc473921ef3334d84cb794cae97e68a6e9045bde9f503e7d766f790e8b11781565f538fc8e5b1486c926
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dde-session-shell module
  Deepin desktop environment 2015 - dde-session-shell module.

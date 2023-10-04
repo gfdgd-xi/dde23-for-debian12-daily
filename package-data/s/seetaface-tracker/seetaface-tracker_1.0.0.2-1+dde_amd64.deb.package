@@ -1,0 +1,18 @@
+Package: seetaface-tracker
+Architecture: amd64
+Version: 1.0.0.2-1+dde
+Priority: optional
+Section: devel
+Maintainer: bd <bd@seetatech.com>
+Installed-Size: 69
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
+Filename: ./s/seetaface-tracker/seetaface-tracker_1.0.0.2-1+dde_amd64.deb
+Size: 18728
+MD5sum: af1307f15bb44b51d62854d8c9171a24
+SHA1: e4634472384378a4d38673f39d4a325a3365937f
+SHA256: 70f0d2dc7ae7042ce8c99ad2d92dfec1f061c5df074744624f0c65a1478e961e
+SHA512: a6188d248dcab916540c8b2270243b17cec885327b0ac79364f371cd7035f973dc27527ec65abd25b631590f870f5a0c1ecdee16effe4c3b32f30ff43cd8ac34
+Homepage: https://github.com/SeetaFace6Open/FaceTracker6.git
+Description: tracker for seetaface
+ tracker module for seetaface.
+

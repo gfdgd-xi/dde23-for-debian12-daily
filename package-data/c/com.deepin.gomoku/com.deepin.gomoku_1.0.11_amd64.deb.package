@@ -1,0 +1,17 @@
+Package: com.deepin.gomoku
+Architecture: amd64
+Version: 1.0.11
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 14839
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.14.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 11)
+Filename: ./c/com.deepin.gomoku/com.deepin.gomoku_1.0.11_amd64.deb
+Size: 6513172
+MD5sum: 6c40f8466c5d0719712a31b9183c3f82
+SHA1: fa7b23b6b68e1990063524dbe53f0072fe288c00
+SHA256: d4991bbc031203c12eb5746ff35c11ac91daf60029c5ee719d0bcca930da3d0e
+SHA512: 60afaf2adb447aa0bb997bc31a17e949eb4353af58ad96b123be821bb6d927e08c3728c5da5f3d539660ddd40453983788f29687763de710063416b21f8be299
+Description: Gomoku is a small chess game for two players.
+ Gomoku is an easy and funny chess game that is suitable for all ages.
+
