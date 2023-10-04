@@ -31,7 +31,7 @@ jobs:
           $bottle wget http://deb.debiandde.gfdgdxi.top/sources/github.sh
           $bottle bash github.sh
           $bottle rm github.sh
-          cp /home/runner/dde23-for-debian12-daily/build.* /home/runner/debian12-chroot
+          sudo cp /home/runner/dde23-for-debian12-daily/build.* /home/runner/debian12-chroot
           $bottle python3 build.py
           sudo rm -rfv /home/runner/debian12-chroot/*-dbgsym_*.deb
           git config --global user.email "3025613752@qq.com"
