@@ -1,0 +1,18 @@
+Package: deepin-face
+Architecture: arm64
+Version: 2.0.4
+Priority: optional
+Section: devel
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 223
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.7.0), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5multimedia5 (>= 5.6.0~beta), libstdc++6 (>= 5.2), seetaface-boxes, seetaface-landmarker, seetaface-anti-spoofing-x, seetaface-tracker, seetaface-recognizer, seetaface-quality-assessor, seetaface-pose-estimation, seetaface-authorize, seetaface-tennis, seetaface-models, libqt5multimedia5-plugins, gstreamer1.0-plugins-bad
+Filename: ./d/deepin-face/deepin-face_2.0.4_arm64.deb
+Size: 52900
+MD5sum: e7cebbe07fb7c9aa11235b4b4cc842dc
+SHA1: 5db138a69139b4132ee04771bbb3c1fbefd46cb0
+SHA256: 1af9eb14f3601e97bb88a2b6bb252f9861fd89ea8458d9520e5e6c6b7fc4acf9
+SHA512: 479d0160261d17941b6f86accd69502f0b3922aab887e45272d8ecce193687bd6d3fc8f762a4f49f38d4023ffb7eaa669376f13fa095d0267dbffc9ce7dfc1fa
+Homepage: https://github.com/linuxdeepin/deepin-face
+Description: Face recognition service
+ deepin-face is a face recognition service implemented by the open source face recognition engine seetaface
+

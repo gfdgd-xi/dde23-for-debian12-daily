@@ -1,0 +1,18 @@
+Package: dde-wloutput
+Architecture: arm64
+Version: 2.0.2.1
+Priority: optional
+Section: devel
+Maintainer: liuyong <liuyong@deepin.com>
+Installed-Size: 76
+Depends: libc6 (>= 2.34), libdwaylandclient5 (>= 5.25.0-kwayland.5.24.3), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libstdc++6 (>= 5.2)
+Filename: ./d/dde-wloutput/dde-wloutput_2.0.2.1_arm64.deb
+Size: 20472
+MD5sum: 34f869be213c0b116459aee9bee041c9
+SHA1: 26e530f32f0eb84090d1723fb0fa19058e650e16
+SHA256: cc9b038f2c99bfa56c0e062b3020abb4d1402dc3664978b58ccc6c098c6cb0b8
+SHA512: b1f8cf62ce11123d2d969561698975701fc425d258e7770000bbc912af8c39661eb47ea311b6d14c8b68c9c879b1ef6b63d40fd880abc53cf2bb4a958c53619f
+Homepage: https://github.com/linuxdeepin/dde-wloutput
+Description: this is dde-wloutput
+ for wayland
+

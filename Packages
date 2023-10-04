@@ -1702,6 +1702,24 @@ Homepage: https://github.com/linuxdeepin/deepin-face
 Description: Face recognition service
  deepin-face is a face recognition service implemented by the open source face recognition engine seetaface
 
+Package: deepin-face
+Architecture: arm64
+Version: 2.0.4
+Priority: optional
+Section: devel
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 223
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.7.0), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5multimedia5 (>= 5.6.0~beta), libstdc++6 (>= 5.2), seetaface-boxes, seetaface-landmarker, seetaface-anti-spoofing-x, seetaface-tracker, seetaface-recognizer, seetaface-quality-assessor, seetaface-pose-estimation, seetaface-authorize, seetaface-tennis, seetaface-models, libqt5multimedia5-plugins, gstreamer1.0-plugins-bad
+Filename: ./d/deepin-face/deepin-face_2.0.4_arm64.deb
+Size: 52900
+MD5sum: e7cebbe07fb7c9aa11235b4b4cc842dc
+SHA1: 5db138a69139b4132ee04771bbb3c1fbefd46cb0
+SHA256: 1af9eb14f3601e97bb88a2b6bb252f9861fd89ea8458d9520e5e6c6b7fc4acf9
+SHA512: 479d0160261d17941b6f86accd69502f0b3922aab887e45272d8ecce193687bd6d3fc8f762a4f49f38d4023ffb7eaa669376f13fa095d0267dbffc9ce7dfc1fa
+Homepage: https://github.com/linuxdeepin/deepin-face
+Description: Face recognition service
+ deepin-face is a face recognition service implemented by the open source face recognition engine seetaface
+
 Package: deepin-desktop-base
 Architecture: amd64
 Version: 2023.09.05-deepin
@@ -1956,6 +1974,24 @@ Homepage: http://www.deepin.org
 Description: service for global or app proxy
  deepin-proxy is used for proxy
 
+Package: deepin-proxy
+Architecture: arm64
+Version: 2.0.2
+Priority: optional
+Section: misc
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 8742
+Depends: adduser, libc6 (>= 2.34), libglib2.0-0 (>= 2.70.0), libgtk-3-0 (>= 3.0.0)
+Filename: ./d/deepin-proxy/deepin-proxy_2.0.2_arm64.deb
+Size: 2365728
+MD5sum: a70e236f0186072537069ab55a545426
+SHA1: ae28eb2f4f7b0db5cf34ac175d123e2bf2da8c47
+SHA256: 06cd9cab846ff5c44115852d785fc31e2d393a1c645a242411469f0934e98a54
+SHA512: 22da06f1c4aa0d29b03b98428786dd6cbb2d606f92a30a3403c86739993ee69f62a09bbfb24e7dab54786a9158b296f926541069f2a958e5afa495a3b14fe83c
+Homepage: http://www.deepin.org
+Description: service for global or app proxy
+ deepin-proxy is used for proxy
+
 Package: deepin-picker-cli
 Architecture: amd64
 Version: 6.0.0
@@ -2091,6 +2127,25 @@ MD5sum: 2e017d2f0d5c01c04e6193335535620f
 SHA1: 20ad0cb913fc2be64be35d59267da991b64fd08a
 SHA256: c0485556fb8bb65c622b11a1f87e070cc75f4d9298f396c7acef5489e629b420
 SHA512: 1d2f2289f8f14ea5a8a4b683b032294e72bcb9701a947667094c814cab073109b650d97aeb4ba2abb2705c28e194290f921b3cf5b8b1d5adf539ef5b1c672d66
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - search module
+ Search module of deepin desktop-environment
+
+Package: dde-grand-search
+Architecture: arm64
+Version: 5.4.4
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3152
+Depends: libavformat59 (>= 7:5.0), libc6 (>= 2.34), libdeepin-pdfium, libdframeworkdbus2 (>= 6.0.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libffmpegthumbnailer4v5 (>= 2.2.2+git20220218+dfsg), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.39.4), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libpcre3, libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2), libtag1v5 (>= 1.9.1-2.2~), dconf-gsettings-backend | gsettings-backend
+Recommends: deepin-desktop-schemas (>= 5.8.0.34), dde-daemon (>= 5.12.0.31), startdde (>= 5.6.0.34)
+Filename: ./d/dde-grand-search/dde-grand-search_5.4.4_arm64.deb
+Size: 598284
+MD5sum: 88b84945b6eb37be29cc693de0ff8108
+SHA1: ad1d4a06e2167d2d66efda3e9134d6d924944799
+SHA256: 12b176e790223917237b1af316e2335ac2ece6dd92e07e255c743ebb599c951c
+SHA512: 693e29e084643fc97264d44413930be9ef89401d24481cce9b501e43988c56ee5af057701d5c371ba573eac9708f4819c1765de1595dd2a923edc4eb1f0713f9
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - search module
  Search module of deepin desktop-environment
@@ -2286,6 +2341,24 @@ MD5sum: 5fa454a5262507fa642cfe3b64d33b9c
 SHA1: 4fdc8a7aded7172daed8fadd8015b876b2cacfd8
 SHA256: 527238b650f7d43c43c34db9e0462ebd201d0385f3f5c0a96ed49b3e0990290b
 SHA512: 6be4505fd188b512ced5d3750a76bc8ad87054a8d8cc2b1f5a9fa3d1dddeee23750ee85e8d9b1ffaaa403b62434129ed80e4b95747c62f28a7b9b221d8822a77
+Homepage: https://github.com/linuxdeepin/dde-wloutput
+Description: this is dde-wloutput
+ for wayland
+
+Package: dde-wloutput
+Architecture: arm64
+Version: 2.0.2.1
+Priority: optional
+Section: devel
+Maintainer: liuyong <liuyong@deepin.com>
+Installed-Size: 76
+Depends: libc6 (>= 2.34), libdwaylandclient5 (>= 5.25.0-kwayland.5.24.3), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libstdc++6 (>= 5.2)
+Filename: ./d/dde-wloutput/dde-wloutput_2.0.2.1_arm64.deb
+Size: 20472
+MD5sum: 34f869be213c0b116459aee9bee041c9
+SHA1: 26e530f32f0eb84090d1723fb0fa19058e650e16
+SHA256: cc9b038f2c99bfa56c0e062b3020abb4d1402dc3664978b58ccc6c098c6cb0b8
+SHA512: b1f8cf62ce11123d2d969561698975701fc425d258e7770000bbc912af8c39661eb47ea311b6d14c8b68c9c879b1ef6b63d40fd880abc53cf2bb4a958c53619f
 Homepage: https://github.com/linuxdeepin/dde-wloutput
 Description: this is dde-wloutput
  for wayland
