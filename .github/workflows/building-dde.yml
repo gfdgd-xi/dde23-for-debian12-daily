@@ -1,8 +1,8 @@
-name: Building DTK
-run-name: ${{ github.actor }} is Building DTK 🚀
+name: Building DDE
+run-name: ${{ github.actor }} is Building DDE 🚀
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 1 * * *'
   workflow_dispatch:
 jobs:
   Explore-GitHub-Actions:
@@ -37,7 +37,7 @@ jobs:
           $bottle bash github.sh
           $bottle rm github.sh
           sudo cp /home/runner/dde23-for-debian12-daily/build-deb.py /home/runner/debian12-chroot
-          sudo cp /home/runner/dde23-for-debian12-daily/build.json /home/runner/debian12-chroot
+          sudo cp /home/runner/dde23-for-debian12-daily/build-dde-base.json /home/runner/debian12-chroot
           $bottle python3 build-deb.py
           sudo rm -rfv /home/runner/debian12-chroot/*-dbgsym_*.deb
           git config --global user.email "3025613752@qq.com"
