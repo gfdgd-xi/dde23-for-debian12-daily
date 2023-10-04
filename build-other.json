@@ -5,6 +5,9 @@
     "https://github.com/linuxdeepin/dde-device-formatter",
     "https://github.com/linuxdeepin/dde-session",
     "https://github.com/linuxdeepin/linglong",
+    "https://github.com/linuxdeepin/linglong-box",
+    "https://github.com/linuxdeepin/linglong-dbus-proxy",
+    "https://github.com/linuxdeepin/linglong-loader",
     "https://github.com/linuxdeepin/dde-application-manager",
     "https://github.com/linuxdeepin/deepin-upgrade-manager",
     "https://github.com/linuxdeepin/dwayland",
@@ -13,9 +16,16 @@
     "https://github.com/linuxdeepin/qt5platform-plugins",
     "https://github.com/linuxdeepin/deepin-anything",
     "https://github.com/linuxdeepin/deepin-system-upgrade",
-    "https://github.com/linuxdeepin/dtkmultimedia",
     "https://github.com/linuxdeepin/dde-api",
     "https://github.com/linuxdeepin/deepin-deepinid-plugin",
     "https://github.com/linuxdeepin/deepin-deepinid-client",
-    "https://github.com/dependon/fantascene-dynamic-wallpaper"
+    "https://github.com/dependon/fantascene-dynamic-wallpaper",
+    "https://github.com/linuxdeepin/deepin-fcitx5configtool-plugin",
+    "https://github.com/linuxdeepin/dde-qt-dbus-factory",
+    "https://github.com/linuxdeepin/deepin-ocr-plugin-manager",
+    "https://github.com/linuxdeepin/deepin-fcitxconfigtool-plugin",
+    "https://github.com/linuxdeepin/dtknetworkmanager",
+    "https://github.com/linuxdeepin/opencv-mobile",
+    "https://github.com/linuxdeepin/dde-kwin",
+    "https://github.com/linuxdeepin/ttf-deepin-opensymbol"
 ]
