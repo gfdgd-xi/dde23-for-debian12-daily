@@ -49,10 +49,11 @@ def Write(path: str):
         <h3>更新时间：{datetime.datetime.now().strftime("%Y年%m月%d日 %H:%M:%S")}</h3>
         <hr/>
         <h2>添加 apt 源</h2>
-        <pre><code>wget http://deb.debiandde.gfdgdxi.top/sources/github.sh ; bash github.sh ; rm github.sh</code></pre>
+        <p><b>注意：需要先添加 Stable 源再添加该 daily 源</b></p>
+        <pre><code>wget http://daily.deb.debiandde.gfdgdxi.top/sources/github.sh ; bash github.sh ; rm github.sh</code></pre>
         <p>项目地址：<a href="https://github.com/gfdgd-xi/debian-dde/">https://github.com/gfdgd-xi/debian-dde/</a></p>
         <hr/>
-        <h1 id="copyright">©2020~2023 gfdgd xi</h1>
+        <h1 id="copyright">©2023~2023 gfdgd xi</h1>
 </body>
     </body>
 </html>

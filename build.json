@@ -3,5 +3,13 @@
     "https://github.com/linuxdeepin/dtkcore",
     "https://github.com/linuxdeepin/dtkgui",
     "https://github.com/linuxdeepin/dtkwidget",
-    "https://github.com/linuxdeepin/dtkdeclarative"
+    "https://github.com/linuxdeepin/dtkdeclarative",
+    "https://github.com/linuxdeepin/dtk6core",
+    "https://github.com/linuxdeepin/dtk6gui",
+    "https://github.com/linuxdeepin/dtk6widget",
+    "https://github.com/linuxdeepin/dde-widgets",
+    "https://github.com/linuxdeepin/dtk6declarative",
+    "https://github.com/linuxdeepin/qt6platform-plugins",
+    "https://github.com/linuxdeepin/deepin-manual",
+    "https://github.com/linuxdeepin/deepin-boot-maker"
 ]
