@@ -23,8 +23,10 @@ jobs:
           # 编译
           cd ~
           git clone https://github.com/gfdgd-xi/dde23-for-debian12-daily --depth=1
-          bottle="./dde23-for-debian12-daily/run.sh"
+          bottle="/home/runner/dde23-for-debian12-daily/run.sh"
+          chmod 777 $bottle
           $bottle apt update
+          $bottle
           exit
           # 推源
           git clone https://github.com/gfdgd-xi/wine-deb.git
