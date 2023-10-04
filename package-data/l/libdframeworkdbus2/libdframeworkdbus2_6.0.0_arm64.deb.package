@@ -9,11 +9,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3735
 Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.14.1), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
 Filename: ./l/libdframeworkdbus2/libdframeworkdbus2_6.0.0_arm64.deb
-Size: 648284
-MD5sum: da25ae6b8a124963c6f6394bc4a224d5
-SHA1: 988deb8dc1c813aec7d50f59cf651a525f7265a9
-SHA256: 2901918b70be8ca828b56b8584adcc96967c02732259e40a2102cdda16ceca9f
-SHA512: 2d630d2e88a352b0a3f890439a2104ef575e6f61bdbd90d0d5e5981bdc281cc879b94a7ccb16960ba6701072112349f2e22a40e75452436eed717ae06b429347
+Size: 648216
+MD5sum: 7224867127b8eb41204d3e01980ee636
+SHA1: 3bccd121ec0b96a41076f71f093994d91525d7a2
+SHA256: e5d585fd2763e6af73e9a1877a35a50818e749032c633f0fd058c2de82f2071e
+SHA512: 932e82bc5c734af79854e7891c8b1f9f51cd3651f8fe88e64f4e771381506e52dd1436462e3ddd22c78ce00a8b1098b3abb30a76d23978a0387bf74204a54e6a
 Homepage: https://github.com/linuxdeepin/dde-qt-dbus-factory
 Description: Qt DBus interface library for Deepin software (shared library)
  Libdframeworkdbus provides Qt DBus interface for various Deepin software.
