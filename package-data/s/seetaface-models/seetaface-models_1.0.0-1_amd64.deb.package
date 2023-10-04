@@ -1,0 +1,17 @@
+Package: seetaface-models
+Architecture: amd64
+Version: 1.0.0-1
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 73277
+Filename: ./s/seetaface-models/seetaface-models_1.0.0-1_amd64.deb
+Size: 70854288
+MD5sum: 74184fcedbc257fa50f2a6dd62c0da9d
+SHA1: 04a890e0037bde4f1acbeb3abc76fb15c4c24a65
+SHA256: 1011a3fed1f25a5f9caed467e3a30eee0912a3a25eeb2f2a2fd3a605d145f68f
+SHA512: b963e938a5d23c60149d82782976481a7bd121697d6b056d251dd73f01f0feb4831be88b5c8e97677389b68bf2329be9f677f95f081007876e1582fe3b9f5bef
+Homepage: http://www.deepin.org
+Description: seetaface models for deepin
+ seetaface data models for deepin.
+
