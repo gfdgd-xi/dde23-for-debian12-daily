@@ -1,0 +1,21 @@
+Package: libdtk6gui
+Architecture: amd64
+Version: 6.0.0
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtk6gui
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 1211
+Depends: libc6 (>= 2.29), libdtk6core (>= 6.0), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libgomp1 (>= 4.9), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libstdc++6 (>= 5), qt6-base-abi (= 6.4.2), libdtkdata, qt6-image-formats-plugins, qt6-base-private-dev
+Filename: ./l/libdtk6gui/libdtk6gui_6.0.0_amd64.deb
+Size: 339616
+MD5sum: 1d4ee7269469533701e61559b7eb841e
+SHA1: 49ccabad86364cd509ebfaa9890ddf0187dcffb9
+SHA256: bfc7f51aa2ee95a6cb705d4fd8f0e9927f004104226fe1ba9dbc3e3130ec30cc
+SHA512: 6e291a31ab97ef311a397b31fde1bee7294fb2a16a78bc096e4ad3652a484366265f445f551c8faa5460ad2bc5ea1c5ba02aa602cf40a6527dffdb716af77946
+Description: Deepin Tool Kit Gui library
+ DtkGui is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+

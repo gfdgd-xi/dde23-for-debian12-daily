@@ -1,0 +1,20 @@
+Package: libdtkbluetooth
+Architecture: amd64
+Version: 1.0.1
+Priority: optional
+Section: libdevel
+Source: dtkbluetooth
+Maintainer: Packages Builder <packages@deepin.com>
+Installed-Size: 435
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5bluetooth5 (>= 5.14.2), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 5)
+Filename: ./l/libdtkbluetooth/libdtkbluetooth_1.0.1_amd64.deb
+Size: 103248
+MD5sum: e02f499fbb724641a87f94acc3887687
+SHA1: c0fdc28d4b15881d53b36592f341bd1968a7c4a6
+SHA256: bbbf597b256efe6ba41d1a9e141fca2c2a9d0594def05a0be9b1832b58eafa23
+SHA512: a483809db4c1c66fad945f2d7f8c8ba9148e46c9168eb377395fe28fa28745c0aa8c720e867ea956a84ed37c841a6375e829ec0d52836d0bbcc284e6d5d0bb73
+Description: Deepin Tool Kit: bluetooth library
+ libdtkbluetooth is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+
