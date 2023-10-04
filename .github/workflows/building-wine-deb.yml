@@ -1,6 +1,8 @@
 name: Building DTKCOMMON
 run-name: ${{ github.actor }} is Building DTKCOMMON 🚀
 on:
+  schedule:
+    - cron: '0 0 * * *'
   workflow_dispatch:
 jobs:
   Explore-GitHub-Actions:
@@ -42,13 +44,4 @@ jobs:
           git add .
           git commit -m 自动推送
           git push
-          exit
-          # 推源
-          git clone https://github.com/gfdgd-xi/wine-deb.git
-          cd wine-deb
-          git remote set-url origin https://$GUSER:$PASSWORD@github.com/gfdgd-xi/wine-deb.git
-          git config --global user.email "3025613752@qq.com"
-          git config --global user.name "$GUSER"
-          python3 ./addmore.py --github ~/debian10-amd64/wine/*.deb ~/debian10-i386/wine/*.deb
-          #git add . ; git commit -m add\ wine ; git push origin main
       

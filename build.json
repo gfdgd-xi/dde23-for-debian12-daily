@@ -1,3 +1,6 @@
 [
-    "https://github.com/linuxdeepin/dtkcommon"
+    "https://github.com/linuxdeepin/dtkcommon",
+    "https://github.com/linuxdeepin/dtkcore",
+    "https://github.com/linuxdeepin/dtkgui",
+    "https://github.com/linuxdeepin/dtkwidget"
 ]
