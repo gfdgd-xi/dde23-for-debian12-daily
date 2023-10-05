@@ -896,6 +896,47 @@ Description: development files for dwayland
  .
  Contains development files for dwayland.
 
+Package: libdtk6widget
+Architecture: amd64
+Version: 6.0.0
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtk6widget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 4167
+Depends: libc6 (>= 2.34), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libqt6printsupport6 (>= 6.1.2), libqt6widgets6 (>= 6.3.0), libstartup-notification0 (>= 0.10), libstdc++6 (>= 11), libx11-6 (>= 2:1.2.99.901), libxcb-util1 (>= 0.4.0), libxcb1, libxext6, libxi6 (>= 2:1.2.99.4), qt6-base-abi (= 6.4.2), libdtkdata
+Filename: ./l/libdtk6widget/libdtk6widget_6.0.0_amd64.deb
+Size: 935676
+MD5sum: 275352e0a37c3631f591199038607855
+SHA1: 85162c5840bf0854b549d0af04a5f9b2ff930452
+SHA256: d3e42e624fe3a93357c03399a65322b62688ff1ae0858e3a01e9aaf2a2f4ec42
+SHA512: 53c22be78e7750b2a36e729ba8a1cac638fc943021f96699af94e8f48fc394724389c18bca4bd80a42f84ca3abe4fbbccd184daa638fb14253b392bf74f2b854
+Description: deepin graphical user interface library
+  DtkWidget is deepin graphical user interface for deepin desktop development.
+  .
+  This package contains the shared libraries.
+
+Package: libdtk6widget-doc
+Architecture: amd64
+Version: 6.0.0
+Priority: optional
+Section: libdevel
+Source: dtk6widget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 17032
+Filename: ./l/libdtk6widget-doc/libdtk6widget-doc_6.0.0_amd64.deb
+Size: 13707768
+MD5sum: 35936f482897c7c184ffe16246cc6d37
+SHA1: accfb8db6a82ff024ed1ed4ed308ff30e14f6dae
+SHA256: 01e93e8c078a31de4b5aa03f4972f1ab22d6953156cbbc6e5f334dfb24207484
+SHA512: 86d92cab4009a5f0c01639840f9a87757100db53662d1c89714cd5162e64a9d67937a086db855e25a272b5b558f5289cbf8bbaad2137676e9af67cbe507b04c8
+Description: deepin graphical user interface library (Document)
+  DtkWidget is deepin graphical user interface for deepin desktop development.
+  .
+  This package contains example application which are
+  needed for developing deepin applications.
+
 Package: libdwaylandclient5
 Architecture: arm64
 Version: 5.25.0-kwayland.5.24.3
@@ -1493,6 +1534,27 @@ Description: Deepin Tool Kit Core (document)
  .
  This package contains the doc files of DtkCore
 
+Package: libdtk6widget-bin
+Architecture: amd64
+Version: 6.0.0
+Priority: optional
+Section: libdevel
+Source: dtk6widget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 42
+Depends: libc6 (>= 2.34), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6svg6 (>= 6.2.0), libstdc++6 (>= 4.1.1), libdtk6widget (= 6.0.0)
+Filename: ./l/libdtk6widget-bin/libdtk6widget-bin_6.0.0_amd64.deb
+Size: 11736
+MD5sum: ecfbbed8be2ba9b77eac6bfdc61bc088
+SHA1: e16b0082b28f7be29c9ddb8f34ef69dc1e173ff3
+SHA256: bfe3f357c9dae0eb2f37ca75826495276a31201c03d65024e22311c4f9f27a39
+SHA512: e2cfb73ddfb934030dbce3d4da5a3f3b9221de925186c4bb4a3db9667df3724dcb7a590a4684cb7667b467eb90d8e23711540ca40a42b63ede207b6281588c13
+Description: deepin graphical user interface library utilities
+  DtkWidget is deepin graphical user interface for deepin desktop development.
+  .
+  This package contains the utilities which are
+  needed for developing deepin applications.
+
 Package: libdtkgui-dev
 Architecture: amd64
 Version: 5.6.17
@@ -1676,6 +1738,27 @@ Description: Qt DBus interface library for Deepin software (shared library)
  descriptions.
  .
  This package is part of DDE (Deepin Desktop Environment).
+
+Package: libdtk6widget-dev
+Architecture: amd64
+Version: 6.0.0
+Priority: optional
+Section: libdevel
+Source: dtk6widget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 498
+Depends: libdtk6widget (= 6.0.0), libdtk6core-dev, libdtk6gui-dev
+Filename: ./l/libdtk6widget-dev/libdtk6widget-dev_6.0.0_amd64.deb
+Size: 59364
+MD5sum: eed9f5df5923b7b839c75220d9176d36
+SHA1: 89c0d232d0f05405053920d18c503e528172e018
+SHA256: ee5949a0c74ceeb2e2f09f08836129a6038bdaa779dbcb82f5f265289dd61630
+SHA512: e047652b4522968acf9b6cb8947fbcdce5ed9ff8124c7ec01c37597b10a8dbe909d207856e422e1bf1ce9a596618ae28c2927b2e0088debedf7e4aa1abd2618a
+Description: deepin graphical user interface library
+  DtkWidget is deepin graphical user interface for deepin desktop development.
+  .
+  This package contains the header files and static libraries which are
+  needed for developing deepin applications.
 
 Package: libdtkdeclarative5
 Architecture: amd64
@@ -4818,6 +4901,27 @@ SHA512: ee97db1f32e07f6b57123670d9710dddf388eb840c8ed1a5c01e5e784fd9003fc7183ba5
 Homepage: http://www.deepin.org
 Description: Color picker tool for deepin
  A color picker tool for deepin.
+
+Package: dtk6widget-examples
+Architecture: amd64
+Version: 6.0.0
+Priority: optional
+Section: libdevel
+Source: dtk6widget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 18480
+Depends: libc6 (>= 2.34), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libdtk6widget (= 6.0.0), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6printsupport6 (>= 6.1.2), libqt6widgets6 (>= 6.3.0), libstdc++6 (>= 5), libdtkdata
+Filename: ./d/dtk6widget-examples/dtk6widget-examples_6.0.0_amd64.deb
+Size: 14768124
+MD5sum: f19126553cb5725da2a1026b5bb98039
+SHA1: 66394248df439307f8531cf2e86a5532ee374fae
+SHA256: 9f048c4f623c00c2668edd1ff2020f5ed817d62c67f0d2a244bb2ce00f0f14e0
+SHA512: 686e530a918174787740d6f02546c8c74c8fec06b312a20f87754f93b05e409fced0bfb6965da80d50514e62b2d8350f7ea5060a39b4149bca37a3adc001de50
+Description: dtkwidget-examples is generated by dtkwidget.
+  DtkWidget is deepin graphical user interface for deepin desktop development.
+  .
+  This package contains example application which are
+  needed for developing deepin applications.
 
 Package: deepin-gettext-tools
 Architecture: all
