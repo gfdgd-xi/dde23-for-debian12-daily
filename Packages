@@ -120,6 +120,25 @@ Homepage: https://www.deepin.org/
 Description: download manager dlmaria2 lib.
  downloader for deepin desktop environment.
 
+Package: libdmr-dev
+Architecture: arm64
+Version: 6.0.5
+Priority: extra
+Section: libdevel
+Source: deepin-movie-reborn
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 49
+Depends: libdmr (= 6.0.5), libgsettings-qt-dev
+Filename: ./l/libdmr-dev/libdmr-dev_6.0.5_arm64.deb
+Size: 11068
+MD5sum: 39d25d0348e6fe1b1401dbb475aa1515
+SHA1: 2eb508abd2144dbb51193a3ba3f0d0793b0663e7
+SHA256: fd5da1dc9da810da7b4e592776af65460f8d16f2a85d69c3f146891048c0f6b7
+SHA512: 60b2baebca972aecc75668acf83fcf14d43f108b1c0e89bb2a65c4ac38336101f6c435ad02d4223dffe7d372cedab6c25e180dbaa12b3e38311fadcc94379281
+Homepage: https://www.deepin.org/
+Description: movie player widget library development headers
+ deepin movie player widget library development headers
+
 Package: libdtkgui5
 Architecture: amd64
 Version: 5.6.17
@@ -1555,6 +1574,26 @@ Description: deepin graphical user interface library utilities
   This package contains the utilities which are
   needed for developing deepin applications.
 
+Package: libdmr
+Architecture: arm64
+Version: 6.0.5
+Multi-Arch: same
+Priority: extra
+Section: libdevel
+Source: deepin-movie-reborn
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 793
+Depends: libc6 (>= 2.17), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.14.1), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.5.0), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libavcodec58 (>= 7:4.0), libavformat58 (>= 7:4.1), libavutil56 (>= 7:4.0), libffmpegthumbnailer4v5, libmpv1 (>= 0.29), libpulse0 (>= 0.99.1), libqt5concurrent5, libmpris-qt5-1
+Filename: ./l/libdmr/libdmr_6.0.5_arm64.deb
+Size: 210160
+MD5sum: 3588e58ab05abbf768e79d648815993c
+SHA1: 6666654b97c76aeefcc6ff5e35cc7de8372e8e5e
+SHA256: 2e592565be73b1657be5c2e009fedd1219dc0ab1a9adb1b9c90c6dea4088074c
+SHA512: 206deb816f9c7450837a223805ffc383d2ee8b895d953791a349288855fa0c613d66349751fd0a17dfc3051c3d13cbaef86d0d5b6bae638c19585579b11b96e0
+Homepage: https://www.deepin.org/
+Description: movie player widget library
+ deepin movie player widget library
+
 Package: libdtkgui-dev
 Architecture: amd64
 Version: 5.6.17
@@ -2427,6 +2466,24 @@ Description: start deepin desktop environment
  starter of deepin desktop environment.
 
 Package: seetaface-quality-assessor
+Architecture: arm64
+Version: 1.0.0.2-1+dde
+Priority: optional
+Section: devel
+Maintainer: bd <bd@seetatech.com>
+Installed-Size: 380
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
+Filename: ./s/seetaface-quality-assessor/seetaface-quality-assessor_1.0.0.2-1+dde_arm64.deb
+Size: 101128
+MD5sum: 4316e355065ac3812bc2f57f89413a2d
+SHA1: f7907d3a0dafb6c7eb9bb67d48e5e2e97336ef0b
+SHA256: a581f201592bf5383c2b6a776a2da5e6d5e0a9e6dec05549514cfddfc8e44bd1
+SHA512: b510e5847d894125df96f6b4c72ce9e8f588f02e7bc3a67b38971b35353f7bf3cd60dc36a2e23cb5341d16cea8dcb73f93f8b9a79091f1fca25bdc601c32fc25
+Homepage: https://github.com/TenniS-Open/TenniS.git
+Description: Qualityassessor3 for deepin
+ Qualityassessor3 for deepin to using.
+
+Package: seetaface-quality-assessor
 Architecture: amd64
 Version: 1.0.0.2-1+dde
 Priority: optional
@@ -2443,6 +2500,24 @@ SHA512: 58920205caef1fd27f5e1bf62b5347886182d6eac140a4fac45c7f6d9cfe5888837b8956
 Homepage: https://github.com/TenniS-Open/TenniS.git
 Description: Qualityassessor3 for deepin
  Qualityassessor3 for deepin to using.
+
+Package: spark-store
+Architecture: arm64
+Version: 4.2.7.3
+Priority: optional
+Section: utils
+Maintainer: shenmo <shenmo@spark-app.store>
+Installed-Size: 1226
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.5.0), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2), libqt5gui5, libqt5concurrent5, qtwayland5, curl, openssl, dde-qt5integration, aria2, gnupg, zenity, policykit-1, libnotify-bin, desktop-file-utils
+Filename: ./s/spark-store/spark-store_4.2.7.3_arm64.deb
+Size: 679716
+MD5sum: ea73aad34d8dec558786565c62eda31e
+SHA1: 86cd4eb626f0c0e7f076cf7ab46cb714eaa6bb36
+SHA256: ea930c2b408ea0423dcfc3c14f0a5cd7c57ef0f9372dde0654876d7722f7de04
+SHA512: 6127f4c6fcf795127bf15c595278d44b6e9f120480713222ea4cc40d0e8c8d9bd72ba8340835d069bee020516462c2824a456a6180d44a1f1810800b79a4f01f
+Homepage: https://www.spark-app.store/
+Description: Spark Store
+ A community powered app store, based on DTK.
 
 Package: seetaface-recognizer
 Architecture: amd64
@@ -2462,6 +2537,42 @@ Homepage: https://github.com/SeetaFace6Open/FaceRecognizer6.git
 Description: facerecognizer6 for deepin
  facerecognizer6 for deepin to using.
 
+Package: seetaface-recognizer
+Architecture: arm64
+Version: 1.0.0.2-1+dde
+Priority: optional
+Section: devel
+Maintainer: bd <bd@seetatech.com>
+Installed-Size: 422
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
+Filename: ./s/seetaface-recognizer/seetaface-recognizer_1.0.0.2-1+dde_arm64.deb
+Size: 118156
+MD5sum: 52f5979673eb14f3267990cd4d2407fb
+SHA1: e858e6f838955750d804850ede7bdec278a4a2ef
+SHA256: 0a7dd90f901b4a7a2489853ab4520b41198de194fe936b482628872604c90d3f
+SHA512: 62114d34c5efc605afb1d6f210029c41126a026e8fd0608f8c83a5463f069647323f53c3aeb2f6b654ba79ff297c0bd68517c026ce16c7119dbc6bbbfefe55da
+Homepage: https://github.com/SeetaFace6Open/FaceRecognizer6.git
+Description: facerecognizer6 for deepin
+ facerecognizer6 for deepin to using.
+
+Package: seetaface-tennis
+Architecture: arm64
+Version: 1.0.0-1
+Priority: optional
+Section: devel
+Maintainer: likier <likier@sina.cn>
+Installed-Size: 5597
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libgomp1 (>= 4.9), libstdc++6 (>= 12)
+Filename: ./s/seetaface-tennis/seetaface-tennis_1.0.0-1_arm64.deb
+Size: 1460216
+MD5sum: 688fcc5f3bff2151c45fa990678250d4
+SHA1: e1a8df102be7fa0ca549215d8d30b82a51d1fe94
+SHA256: d37d36b1e14ca40683aa5597f2dbf6b2a5c9cc62821d4140a8d653fcdb9018d9
+SHA512: 34d15be1e243edf71e2025c51c39d755394aa59fd360a3040a1464d63d453e798ab3e590c6bf3bd5c13f4b871b638e00b8e93c4d8d7c6389951ec5e2beef4c18
+Homepage: https://github.com/TenniS-Open/TenniS.git
+Description: tennis for seetaface
+  TenniS: Tensor based Edge Neural Network Inference System
+
 Package: seetaface-tennis
 Architecture: amd64
 Version: 1.0.0-1
@@ -2479,6 +2590,24 @@ SHA512: c110755fa4d22431e7a5f20940d6a86ccdff93ad1c59f5e767bf9a77c49e4dcd872c1220
 Homepage: https://github.com/TenniS-Open/TenniS.git
 Description: tennis for seetaface
   TenniS: Tensor based Edge Neural Network Inference System
+
+Package: seetaface-pose-estimation
+Architecture: arm64
+Version: 1.0.0.1-1+dde
+Priority: optional
+Section: devel
+Maintainer: bd <bd@seetatech.com>
+Installed-Size: 346
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
+Filename: ./s/seetaface-pose-estimation/seetaface-pose-estimation_1.0.0.1-1+dde_arm64.deb
+Size: 83164
+MD5sum: 4b8123640fd96ce86e7ea645781eb532
+SHA1: 824e951798c66083e139ef724dc509e986708255
+SHA256: 583c4cb48d57462b3e42dc3feddf8ea54e83d81ad034e4d1eaea06d530b9715b
+SHA512: 4c891771b1dd62568ada3bb9f9bf98401dfe8c5fe2c814c4d04ca6ae4c2194e94ff5d87d2aa0b56f4d79dd07826a4e59dfcdc67e6c5e958615336814c36abbb0
+Homepage: https://github.com/TenniS-Open/TenniS.git
+Description: Poseestimator6 for deepin
+ Poseestimator6 for deepin to using.
 
 Package: seetaface-pose-estimation
 Architecture: amd64
@@ -2641,6 +2770,24 @@ SHA512: 908288628d8b5defb9b1478101578ac812a82d2faefd04cc96d4f45e3a09f31c0415dd4f
 Homepage: https://github.com/gfdgd-xi/debian-dde-icon-theme
 Description: Deepin Sea Icons
  This package is DeepinIconTheme Sea
+
+Package: seetaface-tracker
+Architecture: arm64
+Version: 1.0.0.2-1+dde
+Priority: optional
+Section: devel
+Maintainer: bd <bd@seetatech.com>
+Installed-Size: 92
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
+Filename: ./s/seetaface-tracker/seetaface-tracker_1.0.0.2-1+dde_arm64.deb
+Size: 17288
+MD5sum: 07354a9b884b7f157c78bada65f3e8b3
+SHA1: 2208124efd356d513ca6ee847972cfc8915d4d99
+SHA256: d27858ad529e8ac00073b1c6bbd7b3789dac5891188f65d6678584237adb180c
+SHA512: 7a21e5c8ab9a278304a2cc621891efb395090f436f3cb3cc40965353651794b4bf0e9c45d7528ae70d1aa0d8211112ac788f288c9293da53319382e68db260db
+Homepage: https://github.com/SeetaFace6Open/FaceTracker6.git
+Description: tracker for seetaface
+ tracker module for seetaface.
 
 Package: seetaface-tracker
 Architecture: amd64
@@ -3631,6 +3778,26 @@ SHA256: 03c4440848c879f8899bed2ad70a0f8a7a22d766ef521f2c2b7e957516ba26a9
 SHA512: bc153ed8198f5513508e849ee06658014b62465d4f220b9a4d5b674f0a3ce1dd28d9819a40ac1bf1df62b15c13814031cad929fad7fe476919709a0222fe1fff
 Description: Deepin Gtk Themes
  This package contains GTK+ themes for Deepin Desktop Environment.
+
+Package: deepin-movie
+Architecture: arm64
+Version: 6.0.5
+Priority: extra
+Section: libdevel
+Source: deepin-movie-reborn
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 21455
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libmpris-qt5-1 (>= 1.0.3), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.14.1), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libx11-6, libxcb-shape0, libxcb1, libxtst6, dconf-gsettings-backend | gsettings-backend, va-driver-all, libavcodec58 (>= 7:4.0), libavformat58 (>= 7:4.1), libavutil56 (>= 7:4.0), libffmpegthumbnailer4v5, libmpv1 (>= 0.29), libpulse0 (>= 0.99.1), libqt5concurrent5
+Recommends: libgpuinfo
+Filename: ./d/deepin-movie/deepin-movie_6.0.5_arm64.deb
+Size: 9448392
+MD5sum: b185f4185139cc3c21d39b97f7a97e3b
+SHA1: 9e511f21aab2bffe01111277d838d27ce6900413
+SHA256: d556a8005ce4c58dabf8e3de2b2898d74a9dd60ef95793971b41130e4c961421
+SHA512: 9a8c1bef98f597f873971624e7ee2715fb8272588362d399671bbc1ed1a44ef6e39fd941dc48b641807622bd589bace6525ea95e25cbab8449007fdc52c9f126
+Homepage: https://www.deepin.org/
+Description: movie player
+ Movie is a full-featured video player, supporting playing local and streaming media in multiple video formats.
 
 Package: deepin-editor
 Architecture: arm64

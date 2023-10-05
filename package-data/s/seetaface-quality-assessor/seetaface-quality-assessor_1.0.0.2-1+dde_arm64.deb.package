@@ -1,0 +1,18 @@
+Package: seetaface-quality-assessor
+Architecture: arm64
+Version: 1.0.0.2-1+dde
+Priority: optional
+Section: devel
+Maintainer: bd <bd@seetatech.com>
+Installed-Size: 380
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
+Filename: ./s/seetaface-quality-assessor/seetaface-quality-assessor_1.0.0.2-1+dde_arm64.deb
+Size: 101128
+MD5sum: 4316e355065ac3812bc2f57f89413a2d
+SHA1: f7907d3a0dafb6c7eb9bb67d48e5e2e97336ef0b
+SHA256: a581f201592bf5383c2b6a776a2da5e6d5e0a9e6dec05549514cfddfc8e44bd1
+SHA512: b510e5847d894125df96f6b4c72ce9e8f588f02e7bc3a67b38971b35353f7bf3cd60dc36a2e23cb5341d16cea8dcb73f93f8b9a79091f1fca25bdc601c32fc25
+Homepage: https://github.com/TenniS-Open/TenniS.git
+Description: Qualityassessor3 for deepin
+ Qualityassessor3 for deepin to using.
+

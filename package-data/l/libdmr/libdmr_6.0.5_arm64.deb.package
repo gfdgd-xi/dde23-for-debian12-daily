@@ -1,0 +1,20 @@
+Package: libdmr
+Architecture: arm64
+Version: 6.0.5
+Multi-Arch: same
+Priority: extra
+Section: libdevel
+Source: deepin-movie-reborn
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 793
+Depends: libc6 (>= 2.17), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.14.1), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.5.0), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libavcodec58 (>= 7:4.0), libavformat58 (>= 7:4.1), libavutil56 (>= 7:4.0), libffmpegthumbnailer4v5, libmpv1 (>= 0.29), libpulse0 (>= 0.99.1), libqt5concurrent5, libmpris-qt5-1
+Filename: ./l/libdmr/libdmr_6.0.5_arm64.deb
+Size: 210160
+MD5sum: 3588e58ab05abbf768e79d648815993c
+SHA1: 6666654b97c76aeefcc6ff5e35cc7de8372e8e5e
+SHA256: 2e592565be73b1657be5c2e009fedd1219dc0ab1a9adb1b9c90c6dea4088074c
+SHA512: 206deb816f9c7450837a223805ffc383d2ee8b895d953791a349288855fa0c613d66349751fd0a17dfc3051c3d13cbaef86d0d5b6bae638c19585579b11b96e0
+Homepage: https://www.deepin.org/
+Description: movie player widget library
+ deepin movie player widget library
+
