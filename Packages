@@ -450,11 +450,11 @@ Source: dwayland
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 770
 Filename: ./l/libdwayland-doc/libdwayland-doc_5.25.0-kwayland.5.24.3_all.deb
-Size: 519224
-MD5sum: e56188cab44744005d7eac4013398204
-SHA1: 024fe2e860dfef4cd0672aadb56ac732b97ae5f0
-SHA256: 963a51e074f2bed9c34e9c1b9aa246ab20c74092984ad2dfd137d556b645c61d
-SHA512: 4f90f0ec409b45ee59a6d8232cca7f825788beebaddaa15449c80f65eb0da846b5cb7427f7ba267df298acf31b6f3b761fbf442cc01de879af19fbf2a04b4ff3
+Size: 516840
+MD5sum: e34c2af31a5aae11f8480cc3486b34ab
+SHA1: ca2fafc044ed9664acbf6cfd2729ced394f5fcff
+SHA256: 311ac66910bbf964895988d03069a8d481781561220d69168eae4fb9e4612beb
+SHA512: 991b8f8997a67b8c418d36d96ff69a98315393623db26da9798d8dcea12b0d509b33025e7de2ab50039ca34fba7ee9de481b39f2213bab93b05ca2b3adbb6e9e
 Homepage: https://invent.kde.org/plasma/kwayland-server
 Description: Qt library wrapper for Wayland libraries (documentation)
  DWayland provides a Qt-style Client and Server library wrapper for
@@ -7953,11 +7953,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 1577
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.26.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 11), libx11-6, libxcb-ewmh2 (>= 0.4.1), libxcb-icccm4 (>= 0.4.1), libxcb1, libxres1 (>= 2:1.2.1)
 Filename: ./d/dde-application-manager/dde-application-manager_1.0.19_arm64.deb
-Size: 396940
-MD5sum: 1a74bcca39a9170b4de803d4d256bca6
-SHA1: 129e2f492236ff2b1ba4fc62c7b905afd428107a
-SHA256: bc24b9dd90a81d454f549a9bd5e76f6826c1eb9b44dee46dbbb0c6697bc53eed
-SHA512: 44892eabdc3e1607c65474cf8bd9f44c4b301607fac84faaf9090f15643f32c67545341feb3289bfb635532219b58cfc671a289f52137e4f9f2c0017d0fa64d0
+Size: 396884
+MD5sum: ec00594724a8fd8ef4180d3140ee49c8
+SHA1: 47b338d6cf001f0e587972d0d694146321058038
+SHA256: ca95ea97d172b033a07734f4fc807c5a34f249e7e434c5e99121516364ab1f0b
+SHA512: 4856639818c7746955023d84f0fccee8b1f8f03ed153f4e837056438d42c0d39c54d14a0f2ce4a201dde33e36cf10cc8f24a79cbda54c6fcf1cf49d13418dc7b
 Homepage: https://www.deepin.org
 Description: dde application manager module
  Application manager for DDE.
