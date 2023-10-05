@@ -1,0 +1,19 @@
+Package: deepin-boot-kit
+Architecture: riscv64
+Version: 1.0.22
+Priority: optional
+Section: utils
+Source: deepin-upgrade-manager
+Maintainer: LinuxDeepin <linuxdeepin@deepin.org>
+Installed-Size: 3211
+Depends: libc6 (>= 2.34)
+Filename: ./d/deepin-boot-kit/deepin-boot-kit_1.0.22_riscv64.deb
+Size: 956040
+MD5sum: 2766573a6e163a5feff9e205639c09f8
+SHA1: 23f4f630946d0237e238cf68cff5d076cb198e2e
+SHA256: f3a18565c494b8f4d7ed4a7261c830ae192c966f9bc50ff41dade757bf143c56
+SHA512: a1b4d9ad8f47124e17ecc73ef771a0a378d86343021f60543c29136032cfe4b29d7e612a2835b86350d6c54793b697360bc1c1c68c59dad5cfd0082ed0c3a187
+Homepage: https://www.deepin.org
+Description: uos rollback the grub management tool
+ uos system manage rollback grub in Linux.
+
