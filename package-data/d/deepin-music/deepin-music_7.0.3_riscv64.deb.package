@@ -1,0 +1,18 @@
+Package: deepin-music
+Architecture: riscv64
+Version: 7.0.3
+Priority: optional
+Section: admin
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 24060
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 4.0), libkf5codecs5 (>= 4.96.0), libmpris-qt5-1 (>= 1.0.3), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.6.1) | libqt5quick5-gles (>= 5.6.1), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), libtag1v5 (>= 1.9.1-2.2~), libudisks2-qt5-0 (>= 5.0.6), libvlc5, libdtkdeclarative5, qml-module-qt-labs-platform, gstreamer1.0-fluendo-mp3, gstreamer1.0-libav, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-pulseaudio, gvfs-bin, libqt5sql5-sqlite, libqt5multimedia5-plugins, vlc-plugin-base
+Filename: ./d/deepin-music/deepin-music_7.0.3_riscv64.deb
+Size: 19084504
+MD5sum: 01f197946b8addf037c6cd6c4ea38253
+SHA1: b999cf0156930e65f1567588036cab22062bd3f4
+SHA256: aa516c046a7c04ce0db77e84c27ec8067457077a4d8fe0e4daddb28ef742324f
+SHA512: 68f08ac1a5028df129cffc48fc90bdf9a1125fed2fc13e3f89cd0830724be538334a5f03f4ec0b4435e54d2d5a683c7b7683aee446653828d377fdf348b27750
+Homepage: http://www.deepin.org
+Description: Music software for UOS
+ Music is a local music player with beautiful design and simple functions.
+

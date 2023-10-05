@@ -1,0 +1,18 @@
+Package: deepin-calculator
+Architecture: riscv64
+Version: 6.0.0
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 3240
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.4), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 4.2.1)
+Filename: ./d/deepin-calculator/deepin-calculator_6.0.0_riscv64.deb
+Size: 1004900
+MD5sum: b83f13cad5a078b178a52736f5d54ab3
+SHA1: a23e092bc773f86f90f2b12fbf4fc2d016bba385
+SHA256: 34aca469a451f1e65e7650de0778cc386e72d1302071b009f48a542e542efb94
+SHA512: a673e911359727349c9db50cccb3a8c69eb4f9c45329fc5be1a1ff8e1bd15d5c384cf46f4c2bbe3c7f1ead79603572c03adbb9e4713cd318d87b1bd3838faa03
+Homepage: http://www.deepin.org
+Description: Calculator for UOS
+ Calculator is a simple and easy-to-use desktop calculator. It supports addition, subtraction, multiplication and division with keyboard input perfectly matched, as well as symbolic fault-tolerant computing and calculation result linkage.
+

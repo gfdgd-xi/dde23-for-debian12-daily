@@ -6242,6 +6242,24 @@ Description: Introduction for UOS
  effect and know more about UnionTech OS.
 
 Package: deepin-music
+Architecture: riscv64
+Version: 7.0.3
+Priority: optional
+Section: admin
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 24060
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 4.0), libkf5codecs5 (>= 4.96.0), libmpris-qt5-1 (>= 1.0.3), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.6.1) | libqt5quick5-gles (>= 5.6.1), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), libtag1v5 (>= 1.9.1-2.2~), libudisks2-qt5-0 (>= 5.0.6), libvlc5, libdtkdeclarative5, qml-module-qt-labs-platform, gstreamer1.0-fluendo-mp3, gstreamer1.0-libav, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-pulseaudio, gvfs-bin, libqt5sql5-sqlite, libqt5multimedia5-plugins, vlc-plugin-base
+Filename: ./d/deepin-music/deepin-music_7.0.3_riscv64.deb
+Size: 19084504
+MD5sum: 01f197946b8addf037c6cd6c4ea38253
+SHA1: b999cf0156930e65f1567588036cab22062bd3f4
+SHA256: aa516c046a7c04ce0db77e84c27ec8067457077a4d8fe0e4daddb28ef742324f
+SHA512: 68f08ac1a5028df129cffc48fc90bdf9a1125fed2fc13e3f89cd0830724be538334a5f03f4ec0b4435e54d2d5a683c7b7683aee446653828d377fdf348b27750
+Homepage: http://www.deepin.org
+Description: Music software for UOS
+ Music is a local music player with beautiful design and simple functions.
+
+Package: deepin-music
 Architecture: amd64
 Version: 7.0.3
 Priority: optional
@@ -6669,6 +6687,24 @@ MD5sum: 430d1530eae1137f8d3c9e67d740aa06
 SHA1: f34a0b584b106ad2d89c4b1161df265e36cbd903
 SHA256: 86b8dde85763cf1941ed48714a321ef7bfd4c6ae6274658866c7946b3bfedcc3
 SHA512: c8d2e0d30a9cda9e026c53c1250742c40769cbaaab394b46ec31a7ec2ab97d60d83458c9d20b5c6cb4844f5ad3b90f96d6d2b5fc800333deafa4ab33e24da0dd
+Homepage: http://www.deepin.org
+Description: Calculator for UOS
+ Calculator is a simple and easy-to-use desktop calculator. It supports addition, subtraction, multiplication and division with keyboard input perfectly matched, as well as symbolic fault-tolerant computing and calculation result linkage.
+
+Package: deepin-calculator
+Architecture: riscv64
+Version: 6.0.0
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 3240
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.4), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 4.2.1)
+Filename: ./d/deepin-calculator/deepin-calculator_6.0.0_riscv64.deb
+Size: 1004900
+MD5sum: b83f13cad5a078b178a52736f5d54ab3
+SHA1: a23e092bc773f86f90f2b12fbf4fc2d016bba385
+SHA256: 34aca469a451f1e65e7650de0778cc386e72d1302071b009f48a542e542efb94
+SHA512: a673e911359727349c9db50cccb3a8c69eb4f9c45329fc5be1a1ff8e1bd15d5c384cf46f4c2bbe3c7f1ead79603572c03adbb9e4713cd318d87b1bd3838faa03
 Homepage: http://www.deepin.org
 Description: Calculator for UOS
  Calculator is a simple and easy-to-use desktop calculator. It supports addition, subtraction, multiplication and division with keyboard input perfectly matched, as well as symbolic fault-tolerant computing and calculation result linkage.
