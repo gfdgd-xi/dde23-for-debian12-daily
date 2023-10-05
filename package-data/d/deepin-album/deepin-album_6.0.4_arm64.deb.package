@@ -1,0 +1,19 @@
+Package: deepin-album
+Architecture: arm64
+Version: 6.0.4
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 8411
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfreeimage3 (>= 3.18.0+ds2), libgcc-s1 (>= 3.0), libgio-qt0 (>= 0.0.11), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5printsupport5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.6.1) | libqt5quick5-gles (>= 5.6.1), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), libudisks2-qt5-0 (>= 5.0.6), qml-module-qt-labs-settings, qml-module-qt-labs-folderlistmodel
+Recommends: deepin-ocr
+Filename: ./d/deepin-album/deepin-album_6.0.4_arm64.deb
+Size: 5543464
+MD5sum: b1d9433a43a24596ef1865f9b437d43d
+SHA1: d1a4c98d43edbcf90b643f496e47a6e4a172d006
+SHA256: 0fd01f20b37959e28f33c0711a18e367d35f5434c4aef6ed48443ec4aac939af
+SHA512: 3e88c59a4dc7b36033325af4632cb594dd3d9cd32498105c1e9f74c485eac1fd998698c86661b09b6f8272beadaa7d867de30d95c082f983d308eb456d560710
+Homepage: http://www.deepin.org
+Description: Simple description
+ A detailed description.
+
