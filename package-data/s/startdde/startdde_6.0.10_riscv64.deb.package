@@ -1,0 +1,22 @@
+Package: startdde
+Architecture: riscv64
+Version: 6.0.10
+Priority: optional
+Section: x11
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 10679
+Provides: x-session-manager
+Depends: dde-api, dde-daemon (>> 3.24.1+), deepin-desktop-schemas (>> 5.2.0+), deepin-proxy, gnome-keyring, libpam-gnome-keyring, procps, xinput, dde-wloutput, dde-wloutput-daemon, dde-wldpms, redshift, dde-appearance, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libglib2.0-0 (>= 2.70.0), libgtk-3-0 (>= 3.0.0), libgudev-1.0-0 (>= 234), libx11-6, libxi6 (>= 2:1.2.99.4)
+Recommends: dde-qt5integration
+Conflicts: deepin-session, deepin-wm-switcher
+Breaks: deepin-desktop-schemas (<= 5.8.44)
+Filename: ./s/startdde/startdde_6.0.10_riscv64.deb
+Size: 2364424
+MD5sum: f789b8cc3a12104e01ba44dc3e4b82eb
+SHA1: c8ad36384a6bd7ff08782ad71c414c8f6115aa75
+SHA256: bebda819b9e37ce0ba2267904c990ffc82d8da2425b54dc3256dd6a3b3a6cd03
+SHA512: 110b0d94baa1490a3251409b1f96a5b59bfc12672d27354cd6bf8e6dc67485410f13ac493444eaa2516b3a23cc21af1674b1ca16ff9cabe4079e0a74f7ac71a0
+Homepage: http://github.com/linuxdeepin/startdde
+Description: start deepin desktop environment
+ starter of deepin desktop environment.
+

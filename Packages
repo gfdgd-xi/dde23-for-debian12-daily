@@ -2601,6 +2601,28 @@ Homepage: http://github.com/linuxdeepin/startdde
 Description: start deepin desktop environment
  starter of deepin desktop environment.
 
+Package: startdde
+Architecture: riscv64
+Version: 6.0.10
+Priority: optional
+Section: x11
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 10679
+Provides: x-session-manager
+Depends: dde-api, dde-daemon (>> 3.24.1+), deepin-desktop-schemas (>> 5.2.0+), deepin-proxy, gnome-keyring, libpam-gnome-keyring, procps, xinput, dde-wloutput, dde-wloutput-daemon, dde-wldpms, redshift, dde-appearance, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libglib2.0-0 (>= 2.70.0), libgtk-3-0 (>= 3.0.0), libgudev-1.0-0 (>= 234), libx11-6, libxi6 (>= 2:1.2.99.4)
+Recommends: dde-qt5integration
+Conflicts: deepin-session, deepin-wm-switcher
+Breaks: deepin-desktop-schemas (<= 5.8.44)
+Filename: ./s/startdde/startdde_6.0.10_riscv64.deb
+Size: 2364424
+MD5sum: f789b8cc3a12104e01ba44dc3e4b82eb
+SHA1: c8ad36384a6bd7ff08782ad71c414c8f6115aa75
+SHA256: bebda819b9e37ce0ba2267904c990ffc82d8da2425b54dc3256dd6a3b3a6cd03
+SHA512: 110b0d94baa1490a3251409b1f96a5b59bfc12672d27354cd6bf8e6dc67485410f13ac493444eaa2516b3a23cc21af1674b1ca16ff9cabe4079e0a74f7ac71a0
+Homepage: http://github.com/linuxdeepin/startdde
+Description: start deepin desktop environment
+ starter of deepin desktop environment.
+
 Package: seetaface-quality-assessor
 Architecture: arm64
 Version: 1.0.0.2-1+dde
@@ -3235,6 +3257,25 @@ SHA512: 479d0160261d17941b6f86accd69502f0b3922aab887e45272d8ecce193687bd6d3fc8f7
 Homepage: https://github.com/linuxdeepin/deepin-face
 Description: Face recognition service
  deepin-face is a face recognition service implemented by the open source face recognition engine seetaface
+
+Package: deepin-desktop-base
+Architecture: riscv64
+Version: 2023.09.05-deepin
+Priority: optional
+Section: misc
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 105
+Provides: deepin-appstore-config
+Depends: deepin-keyring, distro-info-data, eject, fonts-noto, fonts-symbola
+Conflicts: deepin-desktop-server
+Filename: ./d/deepin-desktop-base/deepin-desktop-base_2023.09.05-deepin_riscv64.deb
+Size: 23352
+MD5sum: 482e797434c7ee8542fcc52adbf739bb
+SHA1: 8f25d2204cb6fdd93e4fafb654e519695afa7aa3
+SHA256: 322636bef9cb94ff20b63a6d2f4f7cdbfa359ce3819ad4e7a7ee4795be95e1d1
+SHA512: 4adb79f5a09e24d8eaf64b8cd82ef84fec9f0afe402a1e31750608b4d2a7d1a7601e398d7d505279a07f2a94f1dbec73d2c63463a054847065bb6a1e7e029b4e
+Description: The basic file of Deepin Desktop,
+ provides system attribute description for DDE components
 
 Package: deepin-desktop-base
 Architecture: arm64
@@ -4521,6 +4562,25 @@ MD5sum: 94fdbde64458b2e38e1e89557128943b
 SHA1: 832b0ad8cc88ae150027af888075c7c03220ebaf
 SHA256: 9e88a48fe0458790f335ef378ca0ec156eace16960d77aa8ed55b6c6ebf3d8cf
 SHA512: 91a0391835385ec6505597f8032b1cd3895407181c63605f7e52d58faea7d2be82484ef03d3ca4c4a9ce446d2f8f3475be6bb2930674d4fe55905fc2b2fbbeee
+Homepage: http://www.deepin.org
+Description: deepin desktop-environment - dde-appearance module
+ dde appearance Provides application resource management and control services for the dde desktop environment.
+
+Package: dde-appearance
+Architecture: riscv64
+Version: 1.1.6
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 923
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.4), libglib2.0-0 (>= 2.16.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libgtk-3-0 (>= 3.0.0), libkf5configcore5 (>= 4.97.0), libkf5globalaccel-bin, libkf5globalaccel5 (>= 5.10.0), libkf5windowsystem5 (>= 4.100.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libssl3 (>= 3.0.0), libstdc++6 (>= 13.1), libx11-6, libxcb-randr0, libxcb1, libxcursor1 (>> 1.1.2), libxfixes3
+Conflicts: dde-kwin
+Filename: ./d/dde-appearance/dde-appearance_1.1.6_riscv64.deb
+Size: 300988
+MD5sum: bef2334e8732937daef955e59823d0e7
+SHA1: fbc346f559dbb5501afd0567e4537f9082205404
+SHA256: 6c4f140f9509ba588b658c962588b182c3dba9bbb6cbf2cf2a898371806b38d6
+SHA512: 836938f311aa31edf26a6f59ba6296842b2b3d2e906c22d34b41747ed921dc4b15ab576745a3bfb37cabc8f3cde39236ef94a94409b7ec3afdb40d5475884dff
 Homepage: http://www.deepin.org
 Description: deepin desktop-environment - dde-appearance module
  dde appearance Provides application resource management and control services for the dde desktop environment.
