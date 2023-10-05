@@ -8,11 +8,11 @@ Installed-Size: 8548
 Depends: libc6 (>= 2.34), libcups2 (>= 1.7.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libkmod2 (>= 22~), libpolkit-qt5-1-1 (>= 0.112.0), libqapt3 (>= 3.0.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.11.0~rc1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libudev1 (>= 183), qtbase-abi-5-15-8, dmidecode, x11-xserver-utils, hwinfo, cups, upower, deepin-shortcut-viewer, lshw, libdeepin-service-framework, deepin-service-manager
 Recommends: uos-reporter, deepin-event-log, deepin-elf-sign-tool
 Filename: ./d/deepin-devicemanager/deepin-devicemanager_6.0.12_arm64.deb
-Size: 3797956
-MD5sum: afa37688c1919e6590031807301e0995
-SHA1: 80484b2ed2db79b41e9bb53f8ad400dc423d71fa
-SHA256: 6082da4f469f0bbfe51a08306885b07c31b35da2edd82eb3503e51433bcd2953
-SHA512: 2c5f934b9ec121c385c022c6ed60de8cfa1756efb15e2d096ee4c524be842e9bd2011dfd84deb0010761f496e5ea471e27c43f1e0d84ef434437a4a254d933c9
+Size: 3798080
+MD5sum: ec4e2fc2cb8d8b753c5757d8ecc197a1
+SHA1: e1ac895776580e13d232e20b0ca7c6ad4ae3328a
+SHA256: 2c7e8cf081a9c36a5d6be10fadd51982e91341020d116317bb1dd65aea92e752
+SHA512: 32de1ea52dd1063c21c8b20d4ca9215212220c509fa966a3224e4bfae9ff80009873220540603d1baa405abe5a4664901b9c093f98e4300606350678e3035aa7
 Description: Device Manager is a handy tool for viewing hardware information and managing the devices.
  Device Manager helps users manage hardware devices installed on computers,
  through which users can view parameters and export data of all hardware devices running in the system.
