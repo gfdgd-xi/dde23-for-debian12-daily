@@ -983,6 +983,24 @@ Homepage: http://www.deepin.org
 Description: The minimal build of opencv library for the Android, IOS, and ARM Linux platforms.
 
 Package: libopencv-mobile-dev
+Architecture: riscv64
+Version: 14
+Priority: optional
+Section: utils
+Source: opencv-mobile
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 4073
+Depends: libopencv-mobile
+Filename: ./l/libopencv-mobile-dev/libopencv-mobile-dev_14_riscv64.deb
+Size: 543456
+MD5sum: 69a909fc475ce9e3976ff28f14e61beb
+SHA1: 2b92691d865e32097bcfbd72737c24261dbc0960
+SHA256: 767810668d2fc98fb273db1dfe7b49ba578e920057b2a34848adaf3b37366506
+SHA512: 2d97eae44fe15e98f665b1d4f072d0bcc5187b0d43cbe141468f3b300779b763c2da0aad2821612f63b148f1a4ae02fb61c56e78e8677797054488a169f384fc
+Homepage: http://www.deepin.org
+Description: The minimal build of opencv library for the Android, IOS, and ARM Linux platforms.
+
+Package: libopencv-mobile-dev
 Architecture: amd64
 Version: 14
 Priority: optional
@@ -2458,6 +2476,24 @@ MD5sum: 66ceb0eac85c64c4f7728c417949c1ef
 SHA1: 93fd738da7f52b0bb931d4906c4f2dc21a393ddd
 SHA256: d33c991daccb64131aff5eabd6d9ca53ca4761073918a3c50231c6ceb516cfed
 SHA512: c679eef99cf0ae05acc6f73ad2cbb4548f3301075eab64d6759173c7985742380b36707c2dff905ca3fe645f1b2cb6b31b0b11876f781916bd77b3af40837ab0
+Homepage: http://www.deepin.org
+Description: The minimal build of opencv library for the Android, IOS, and ARM Linux platforms.
+
+Package: libopencv-mobile
+Architecture: riscv64
+Version: 14
+Priority: optional
+Section: utils
+Source: opencv-mobile
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 5370
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.4), libgomp1 (>= 6), libstdc++6 (>= 12)
+Filename: ./l/libopencv-mobile/libopencv-mobile_14_riscv64.deb
+Size: 2091132
+MD5sum: caeca83b5b892406b2daa76c4c6963be
+SHA1: 6adb68945d4d9aa4061e9c50519199d9913630b1
+SHA256: b0230440869910d92b9a69db470c85a618c00a861481d9b5d3c54ae1555fac2d
+SHA512: 7048531a0d59e8ee30101561845e81bc9a400010351566160e09cbeee031c5f154b99f9b69930f63b49e09a94f8272cb74ed549e0c9fcb552c18f83b93a21ac7
 Homepage: http://www.deepin.org
 Description: The minimal build of opencv library for the Android, IOS, and ARM Linux platforms.
 
