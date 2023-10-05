@@ -1,0 +1,21 @@
+Package: libdlmdatabase
+Architecture: riscv64
+Version: 5.3.75
+Priority: optional
+Section: utils
+Source: deepin-downloader
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 76
+Depends: libc6 (>= 2.27), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.5.0), libqt5sql5 (>= 5.0.2), libstdc++6 (>= 4.1.1), sqlite3
+Conflicts: org.deepin.downloader (<= 5.3.15)
+Replaces: org.deepin.downloader (<= 5.3.15)
+Filename: ./l/libdlmdatabase/libdlmdatabase_5.3.75_riscv64.deb
+Size: 31848
+MD5sum: 028162a8fc394a384b5a1570796cfd22
+SHA1: 590947913a100089f57594ebd7929a3794d047d8
+SHA256: fa71cf0021ded2f93c2a81c5047d07001df5f96f05fbd10e526fa4f6719ae4f7
+SHA512: b707d4e9dc3bd0c6711f1d05572dd11f233b1d88f155920faf9bf27634d9d2d5d965fdce4d64b057159faf0239b8e9b9cf86200953df0cca536dbe531a953a6f
+Homepage: https://www.deepin.org/
+Description: download manager dlmdatabase lib.
+ downloader for deepin desktop environment.
+

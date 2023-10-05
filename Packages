@@ -160,6 +160,27 @@ Description: download manager dlmaria2 lib.
  downloader for deepin desktop environment.
 
 Package: libdlmaria2
+Architecture: riscv64
+Version: 5.3.75
+Priority: optional
+Section: utils
+Source: deepin-downloader
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 105
+Depends: libc6 (>= 2.27), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libstdc++6 (>= 4.1.1), aria2, curl
+Conflicts: org.deepin.downloader (<= 5.3.15)
+Replaces: org.deepin.downloader (<= 5.3.15)
+Filename: ./l/libdlmaria2/libdlmaria2_5.3.75_riscv64.deb
+Size: 42680
+MD5sum: 8b03fe602fa0bb2fde50c3b4f5c1ab5b
+SHA1: 80e50162469066541900d6985e889c606e51dcdd
+SHA256: 37cc9be321b514264d37bc8c2b899006d2ea13474f64d79f70d1bbf9c52dcc87
+SHA512: 3be0e170ed4fcd176b0a96e03a4f048a004bc94aa51268e0b182d3a13d741fbc58b4e6520999c5d9ba72e9233b62cd8e0d1392c9f7d12b48c4f9edef4e09630a
+Homepage: https://www.deepin.org/
+Description: download manager dlmaria2 lib.
+ downloader for deepin desktop environment.
+
+Package: libdlmaria2
 Architecture: amd64
 Version: 5.3.75
 Priority: optional
@@ -1840,6 +1861,27 @@ Description: Log Viewer Plugin library.
  Deepin Log Viewer Plugin library.
 
 Package: libdlmlog
+Architecture: riscv64
+Version: 5.3.75
+Priority: optional
+Section: utils
+Source: deepin-downloader
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 44
+Depends: libc6 (>= 2.27), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.14.1), libstdc++6 (>= 13.1)
+Conflicts: org.deepin.downloader (<= 5.3.15)
+Replaces: org.deepin.downloader (<= 5.3.15)
+Filename: ./l/libdlmlog/libdlmlog_5.3.75_riscv64.deb
+Size: 19316
+MD5sum: 3ca4e4eaf4fd1193690928c5c010cbde
+SHA1: de0ff7e2446d121e570b04bc4202cab83d16159f
+SHA256: 19bc5b681f50ba97b84d6b0693e2b0f88bff3ee8740ae1d9dc08e5b64246e77b
+SHA512: f1f0220fe6dc05f79edffe962f0ade944190850b97bde51920a5735780f2bbd022fc417622ab1ac8ddbba66d08ecf2bfd75e11889173bc483b1bbbb74e74201f
+Homepage: https://www.deepin.org/
+Description: download manager dlmlog lib.
+ downloader for deepin desktop environment.
+
+Package: libdlmlog
 Architecture: amd64
 Version: 5.3.75
 Priority: optional
@@ -2503,6 +2545,27 @@ Description: download manager dlmcontrolui lib.
  downloader for deepin desktop environment.
 
 Package: libdlmcontrolui
+Architecture: riscv64
+Version: 5.3.75
+Priority: optional
+Section: utils
+Source: deepin-downloader
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1434
+Depends: libc6 (>= 2.27), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 13.1), curl
+Conflicts: org.deepin.downloader (<= 5.3.15)
+Replaces: org.deepin.downloader (<= 5.3.15)
+Filename: ./l/libdlmcontrolui/libdlmcontrolui_5.3.75_riscv64.deb
+Size: 469460
+MD5sum: cfa06420f171152ad5ae0e86f5c8ca8e
+SHA1: 804732241c4e1b02f8f191783b368431c7af2d55
+SHA256: ad6f171ddcc08131d63774a5deff6485f78818bd846367e4a49e5bce7fe5b6d8
+SHA512: d1b36051a3049c6d297f92177809861f1064a213dcf89b4ac123f7b582a99b861a07caf5214b16e4c825dd268930db86fc62f54574011dcd9c2eae1ed9580fa3
+Homepage: https://www.deepin.org/
+Description: download manager dlmcontrolui lib.
+ downloader for deepin desktop environment.
+
+Package: libdlmcontrolui
 Architecture: arm64
 Version: 5.3.75
 Priority: optional
@@ -2602,6 +2665,27 @@ MD5sum: f53bdc0f6a40064467146ea04c3c4954
 SHA1: 43b3db74a39052ade74a57936faddb6eb0843d4a
 SHA256: ba03eb997fdded6fbbfdb819b48ad5477cf413324a2655d0b9dcb744be872376
 SHA512: 80a1871bab867ea8e45fef91c0c9d11943853c665af14c38b6af1fcfaefb865faedd69bf292c88fa3980e2029d9474240babdfb298d5d30bb3ea07055d31ba85
+Homepage: https://www.deepin.org/
+Description: download manager dlmdatabase lib.
+ downloader for deepin desktop environment.
+
+Package: libdlmdatabase
+Architecture: riscv64
+Version: 5.3.75
+Priority: optional
+Section: utils
+Source: deepin-downloader
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 76
+Depends: libc6 (>= 2.27), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.5.0), libqt5sql5 (>= 5.0.2), libstdc++6 (>= 4.1.1), sqlite3
+Conflicts: org.deepin.downloader (<= 5.3.15)
+Replaces: org.deepin.downloader (<= 5.3.15)
+Filename: ./l/libdlmdatabase/libdlmdatabase_5.3.75_riscv64.deb
+Size: 31848
+MD5sum: 028162a8fc394a384b5a1570796cfd22
+SHA1: 590947913a100089f57594ebd7929a3794d047d8
+SHA256: fa71cf0021ded2f93c2a81c5047d07001df5f96f05fbd10e526fa4f6719ae4f7
+SHA512: b707d4e9dc3bd0c6711f1d05572dd11f233b1d88f155920faf9bf27634d9d2d5d965fdce4d64b057159faf0239b8e9b9cf86200953df0cca536dbe531a953a6f
 Homepage: https://www.deepin.org/
 Description: download manager dlmdatabase lib.
  downloader for deepin desktop environment.
@@ -3607,6 +3691,25 @@ MD5sum: cf013b390b95fab34cd05178aac2d54b
 SHA1: a0036289e35c26f30e7da032bdc84cb75d7e6764
 SHA256: 6976920bdc7f41775b1805a059211164304bce6bc4d0fbbbf34412750ab0d3f7
 SHA512: bede64b7834e07eabb3e5e8bfc4b68230746338e5da77b07c6c6b94796ca525f81f024dbc6fecaf6ba6fd348f15f33b31552e93e9229bddd4991aa8bc261f260
+Homepage: https://www.deepin.org/
+Description: it's a user-friendly download manager, supporting URLs and torrent files.
+ downloader for deepin desktop environment.
+
+Package: org.deepin.downloader
+Architecture: riscv64
+Version: 5.3.75
+Priority: optional
+Section: utils
+Source: deepin-downloader
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3681
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.6.0~beta) | libqt5gui5-gles (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5webchannel5 (>= 5.6.1), libqt5websockets5 (>= 5.6.0), libqt5widgets5 (>= 5.1.0), libstdc++6 (>= 4.1.1), libdlmaria2, libdlmcontrolui, libdlmdatabase, libdlmlog
+Filename: ./o/org.deepin.downloader/org.deepin.downloader_5.3.75_riscv64.deb
+Size: 2941580
+MD5sum: f76e0c0a374545d3e0722d46dafe4254
+SHA1: 5db4eaada006951fcfbf42051b16c0b9283a7f0b
+SHA256: ad228f04b12811def759dbc7886c7197fe4b35b8c5795ec31a8107490aca4e83
+SHA512: 7535293cf7a63c958109995e5e92c2b6753b8d98ea0d6e86dcb86ef4dabd46cbab960714ef5f119dbf0edcf4380bc8e8fc567bc68a6637520255fd25b4cffeac
 Homepage: https://www.deepin.org/
 Description: it's a user-friendly download manager, supporting URLs and torrent files.
  downloader for deepin desktop environment.
@@ -4807,6 +4910,24 @@ MD5sum: d5f095227e1cc4744cdecf1bfddf3ba6
 SHA1: 4758a015a59005250178e434ebda72fcd91abbbc
 SHA256: a9125ceeb7ba750ffbb7e1e4cd2ea0ade779bb3b4e0f912ce0bdeea0997a3fcc
 SHA512: de7c34cdbf2c5ca4a9e2fa99b09b594e37100266226e1a92dee2a59c6ec6ffedcd4eceebf86253a782b511f0d76dc542dd355b2100d8c1d7ac9e12d1d4c49984
+Homepage: http://www.linuxdeepin.com/
+Description: Deepin Print Manager is a eazy tool to manage printers.
+ Deepin Print Manager is a printer management tool,which supports adding and removing printers,managing print jobs and so on.
+
+Package: dde-printer
+Architecture: riscv64
+Version: 0.9.20-1
+Priority: optional
+Section: misc
+Maintainer: Deepin Sysdev <sysdev@linuxdeepin.com>
+Installed-Size: 12104
+Depends: libc6 (>= 2.34), libcups2 (>= 1.7.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.4), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 11), libusb-1.0-0 (>= 2:1.0.16), libnss-winbind
+Filename: ./d/dde-printer/dde-printer_0.9.20-1_riscv64.deb
+Size: 3491004
+MD5sum: cca6c90f7dabdc84ea63eca579ffe678
+SHA1: 041ed4696ee7953549ac89731dc9fc5f810fdb48
+SHA256: 2bc497cb9c4e0ff7416ce32990dbab5af5908926687b8ac183ea3067afe865d2
+SHA512: cdc2053006a6d3a6d5d31567d129de8d8f2f45000227c1c1eafe35020b44cf30656ede91d54d92211db31b9aaa978cbdabc46827a2cd7964fe3fbfd622a0a5ef
 Homepage: http://www.linuxdeepin.com/
 Description: Deepin Print Manager is a eazy tool to manage printers.
  Deepin Print Manager is a printer management tool,which supports adding and removing printers,managing print jobs and so on.
@@ -6021,6 +6142,26 @@ Description: Introduction for UOS
  Watch the introduction video to get new features, customize your desktop, enable the window
  effect and know more about UnionTech OS.
 
+Package: dde-introduction
+Architecture: riscv64
+Version: 6.0.6
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 34552
+Depends: libc6 (>= 2.34), libdframeworkdbus2 (>= 5.5.5), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.4), libqt5core5a (>= 5.14.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 4.1.1)
+Filename: ./d/dde-introduction/dde-introduction_6.0.6_riscv64.deb
+Size: 26483136
+MD5sum: 3213f25c7337f31cb44643b62a6d5bda
+SHA1: 77d994d78a6c56a92e5dc2f44f8fa14f78156f34
+SHA256: c876a25bfb33e9056c8e02f8814ebae9704f6b5add2549e0b20ddb9e7e3597cd
+SHA512: a7ab67db5ee474a5a245d09ace8e96b5cfa3c6ea4469bc17b6825c072627fac17c77c2730ab9f36bb0a2ce4e1ef872c950cc05255a09b0848178723a841e4498
+Homepage: http://www.deepin.org
+Description: Introduction for UOS
+ When you log into the system for the first time, a welcome program will automatically start.
+ Watch the introduction video to get new features, customize your desktop, enable the window
+ effect and know more about UnionTech OS.
+
 Package: deepin-music
 Architecture: amd64
 Version: 7.0.3
@@ -6347,6 +6488,28 @@ SHA512: c5dbd8bc5d6a15386594199e196541d4440fc116b5e11b4b8286d38429ee09ef07bd9e47
 Homepage: https://github.com/linuxdeepin/dde-control-center
 Description: dde-control-center (document)
  This package contains the doc files of dde-control-center
+
+Package: deepin-deb-installer
+Architecture: riscv64
+Version: 6.0.14
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 2617
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqapt3 (>= 3.0.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 13.1), libqapt3-runtime
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-deb-installer/deepin-deb-installer_6.0.14_riscv64.deb
+Size: 1071328
+MD5sum: 4c016d0f122487ca19c1cecc84f349d5
+SHA1: bddf4631fc16a0b50a21cb4f3afd48c97b15087c
+SHA256: 0b99ccd95814af484db99eb966ee9c590274bd89051c487b5623bc1504e833f4
+SHA512: 54ae39728b83069ccbffbc1975196ac5385e67d5384deb68732dc70125d6b38dd665e20890b9d56739e1f50f105d4dde6d07f77b82c427072618a5a8f7a85384
+Homepage: https://www.deepin.com/
+Description: Package Installer helps users install and remove local packages.
+ Package Installer is an easy-to-use .deb package management tool
+ with a simple interface for users to quickly install customized applications
+ not included in App Store supporting bulk installation, version identification
+ and auto completion.
 
 Package: deepin-deb-installer
 Architecture: arm64
@@ -6772,6 +6935,24 @@ MD5sum: f1983b0f5dbbe7d4ff8277c497efa98d
 SHA1: 6d172603ece6846e442d3059513550b6676688db
 SHA256: 7a8c02d03b700c9f8f85ad90598540de0f3fce8a94e3ffe204b384887d9c3a18
 SHA512: 7dedb389655c95c4070891f694494099577429800b6344be2a5cc9a9c29e3a4b2aeb5e2f8c30071123b5a5953db98f7ed6c9e39d54fe30c3d3cf43a0ac2a39fb
+Homepage: https://www.deepin.org
+Description: cross-device collaboration by deepin
+ dde-cooperation is a cross-device collaboration.
+
+Package: dde-cooperation
+Architecture: riscv64
+Version: 0.1.0
+Priority: optional
+Section: utils
+Maintainer: planc <hubenchang0515@outlook.com>
+Installed-Size: 1178
+Depends: adb, qml-module-qtmultimedia (>= 5.11.2~), qml-module-qtquick-controls (>= 5.11.2~), qml-module-qtquick2 (>= 5.11.2~), init-system-helpers (>= 1.52), libavcodec60 (>= 7:6.0), libavformat60 (>= 7:6.0), libavutil58 (>= 7:6.0), libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libevdev2 (>= 0.9.1), libfmt9 (>= 9.1.0+ds1), libfuse3-3 (>= 3.2.3), libgcc-s1 (>= 4.3), libprotobuf32 (>= 3.21.12), libqrcodegencpp1 (>= 1.2.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.5.0), libqt5qml5 (>= 5.1.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 13.1), libswscale7 (>= 7:6.0), libuuid1 (>= 2.16), libxcb-randr0, libxcb-xfixes0, libxcb-xinput0 (>= 1.15), libxcb1
+Filename: ./d/dde-cooperation/dde-cooperation_0.1.0_riscv64.deb
+Size: 346156
+MD5sum: e66b55fe1920af9d7d0f39dcd516dc25
+SHA1: dac84c8985086a1f1097573b487f51742a7d1930
+SHA256: 77981d5d81992a83a67ddc9d4b983781d25d67e2f04cb24d8948b6977e4f881e
+SHA512: 385fa9e20ba5ee76f6f9ed84d75df3344703d415e2892915e2e610bf0778b56f81b97f728380bf73d5159f0318f64a06b4ae8b1568a909b5234a2c55663e2a08
 Homepage: https://www.deepin.org
 Description: cross-device collaboration by deepin
  dde-cooperation is a cross-device collaboration.
