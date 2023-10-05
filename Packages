@@ -139,6 +139,25 @@ Homepage: https://www.deepin.org/
 Description: movie player widget library development headers
  deepin movie player widget library development headers
 
+Package: libdmr-dev
+Architecture: amd64
+Version: 6.0.5
+Priority: extra
+Section: libdevel
+Source: deepin-movie-reborn
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 49
+Depends: libdmr (= 6.0.5), libgsettings-qt-dev
+Filename: ./l/libdmr-dev/libdmr-dev_6.0.5_amd64.deb
+Size: 11068
+MD5sum: a6b9503955650b1c4e252e7972991043
+SHA1: 619f60f05803cff56a3c7d02f7a02f8f5323e2af
+SHA256: 4887b7e70904d592659ac57a180b2836bbdcb32786425a0f35d3da03e7a4bf64
+SHA512: 081d81ac596ba2adf8b656ebf6b9ffe29af928b85ab910fcb9b2fff98b70dde6095f765ac51fa2be85f5ea85c2a1b8c75d46775710988a4bc72ae9e6c5944651
+Homepage: https://www.deepin.org/
+Description: movie player widget library development headers
+ deepin movie player widget library development headers
+
 Package: libdtkgui5
 Architecture: amd64
 Version: 5.6.17
@@ -1632,6 +1651,26 @@ Homepage: https://www.deepin.org/
 Description: movie player widget library
  deepin movie player widget library
 
+Package: libdmr
+Architecture: amd64
+Version: 6.0.5
+Multi-Arch: same
+Priority: extra
+Section: libdevel
+Source: deepin-movie-reborn
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 784
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.14.1), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.5.0), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libavcodec58 (>= 7:4.0), libavformat58 (>= 7:4.1), libavutil56 (>= 7:4.0), libffmpegthumbnailer4v5, libmpv1 (>= 0.29), libpulse0 (>= 0.99.1), libqt5concurrent5, libmpris-qt5-1
+Filename: ./l/libdmr/libdmr_6.0.5_amd64.deb
+Size: 234428
+MD5sum: 1ef9902c2188eab541c6ad1f00fbde24
+SHA1: f0dea1162654d598b7e1820c6e028cc0c212c955
+SHA256: fe96d997cde561dabe461e245a49222e25e38b93228814e952626fefd06d794a
+SHA512: 46fbf64773b8bd620232047dcb14381576b5f03d790e0e2b9051819fa0ed171010ebf4d2b19dac42a2ca6c63d256a3b8f69345f0ad2f3abf2c4ca430f7036ffa
+Homepage: https://www.deepin.org/
+Description: movie player widget library
+ deepin movie player widget library
+
 Package: libdtkgui-dev
 Architecture: amd64
 Version: 5.6.17
@@ -2540,6 +2579,24 @@ Description: Qualityassessor3 for deepin
  Qualityassessor3 for deepin to using.
 
 Package: spark-store
+Architecture: amd64
+Version: 4.2.7.3
+Priority: optional
+Section: utils
+Maintainer: shenmo <shenmo@spark-app.store>
+Installed-Size: 1270
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.5.0), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2), libqt5gui5, libqt5concurrent5, qtwayland5, curl, openssl, dde-qt5integration, aria2, gnupg, zenity, policykit-1, libnotify-bin, desktop-file-utils
+Filename: ./s/spark-store/spark-store_4.2.7.3_amd64.deb
+Size: 699572
+MD5sum: 7a3bcfba0ee3db4f8c3f907ddc253705
+SHA1: 37fa0e35906204f8df4be3c5223a32f8fc5b29f0
+SHA256: 239cdc6d257f59d290bac72cca6cc045226c0767c75904118c996278167ed05d
+SHA512: ea3aba442a1ad6f9e6aeaa0ecdeb32c0c284f7e70f07f98c72f3e8a0c08001ece027261e2925c31fc893d161f354eff24c5249bd745bcb9a8db9d6102b5d7715
+Homepage: https://www.spark-app.store/
+Description: Spark Store
+ A community powered app store, based on DTK.
+
+Package: spark-store
 Architecture: arm64
 Version: 4.2.7.3
 Priority: optional
@@ -2854,11 +2911,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2007
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 310056
-MD5sum: aa40c0b2dfa8a4f34e0966963e0d3e46
-SHA1: b3c02a79b9bce474a79fc29bee196c00a44877d0
-SHA256: 3b738852f17ff9675e407d06f8460b98e4b33b116011d610826a84cbf99cfd2d
-SHA512: 5b00d8cef8722dd5689f9b9b427fe992ef11b56a38b7705eeb8709aafadd3c51ee71c0ae5f1f9f23b6c550e08a4eb92f1a7303bd0eb57cc706b2d512f0bf72aa
+Size: 310196
+MD5sum: bf4083203e7d16805c49765383a64567
+SHA1: d23e1af2ed9e2510367ccd02c9a908cadea6804a
+SHA256: 94e1892e231568bc5e0cdea68213e55aba3f17ceeb12814e77c9836d480dd85e
+SHA512: 8f1e14e5729d8d1b9638d945f637d899f40685d0eb0915ebd01bfab666169efa4d0dff2ed3d1ba3b5d7a3757867c06ee1db21228834d19d8e2a9fc3a28c8394e
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -3884,6 +3941,26 @@ MD5sum: b185f4185139cc3c21d39b97f7a97e3b
 SHA1: 9e511f21aab2bffe01111277d838d27ce6900413
 SHA256: d556a8005ce4c58dabf8e3de2b2898d74a9dd60ef95793971b41130e4c961421
 SHA512: 9a8c1bef98f597f873971624e7ee2715fb8272588362d399671bbc1ed1a44ef6e39fd941dc48b641807622bd589bace6525ea95e25cbab8449007fdc52c9f126
+Homepage: https://www.deepin.org/
+Description: movie player
+ Movie is a full-featured video player, supporting playing local and streaming media in multiple video formats.
+
+Package: deepin-movie
+Architecture: amd64
+Version: 6.0.5
+Priority: extra
+Section: libdevel
+Source: deepin-movie-reborn
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 21513
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libmpris-qt5-1 (>= 1.0.3), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.14.1), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libva-x11-2 (>= 1.0.3), libva2 (>= 1.0.3), libx11-6, libxcb-shape0, libxcb1, libxtst6, dconf-gsettings-backend | gsettings-backend, va-driver-all, libavcodec58 (>= 7:4.0), libavformat58 (>= 7:4.1), libavutil56 (>= 7:4.0), libffmpegthumbnailer4v5, libmpv1 (>= 0.29), libpulse0 (>= 0.99.1), libqt5concurrent5
+Recommends: libgpuinfo
+Filename: ./d/deepin-movie/deepin-movie_6.0.5_amd64.deb
+Size: 9521592
+MD5sum: 009cf13e78b943b66c7269fbc9b17dfe
+SHA1: 07cc3b55f6dc7b21cb797a1963caf9b55133c69d
+SHA256: bf6e86dbab4b0c10f334487b99b1687e0f8fc9572191af45cf4502c9cd077690
+SHA512: 952be36a92a484800e89bbc994bcacbde5acddfa066668c7661ce43da43d5a11bd85f0ad9331ca5520a104a8ba9c24c13f10ed83b586684ec3cf14f3795c137d
 Homepage: https://www.deepin.org/
 Description: movie player
  Movie is a full-featured video player, supporting playing local and streaming media in multiple video formats.
@@ -6334,6 +6411,25 @@ Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dde-launcher module
  Deepin desktop environment 2015 - dde-launcher module.
  Display all installation programs, and provide access to open, uninstall, boot and start, which is convenient for users to operate quickly
+
+Package: deepin-image-viewer
+Architecture: amd64
+Version: 6.0.3
+Priority: extra
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 7828
+Depends: libc6 (>= 2.34), libdeepin-ocr-plugin-manager (>= 1.0.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfreeimage3 (>= 3.18.0+ds2), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5printsupport5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.6.0~beta) | libqt5quick5-gles (>= 5.6.0~beta), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libraw20 (>= 0.16.0), libstdc++6 (>= 11), qml-module-qt-labs-settings, qml-module-qt-labs-folderlistmodel, libqt5sql5-sqlite, qt5-image-formats-plugins
+Recommends: libqt5libqgtk2, deepin-ocr
+Filename: ./d/deepin-image-viewer/deepin-image-viewer_6.0.3_amd64.deb
+Size: 5211828
+MD5sum: 1497fcd5615f6329d19fb0fd4705d6b8
+SHA1: 567d1eca19c4f64a158bb7985a1cab1150935464
+SHA256: 972779b876faba8ca6d6ad0d850d0c86a032ff205cc6bab439df03305f274e2f
+SHA512: 56bd8fff79559a8792fdf1ccdb62e0adc7c5760bddb2e04db9fab89247935599e19811f53da0628751563466288bbac7047a0d42f7616ff4832e829f7f289346
+Homepage: http://www.deepin.org
+Description: Image Viewer is an image viewing tool with fashion interface and smooth performance.
+ Deepin Image Viewer is an image viewing tool with fashion interface and smooth performance.
 
 Package: dde-api
 Architecture: arm64
