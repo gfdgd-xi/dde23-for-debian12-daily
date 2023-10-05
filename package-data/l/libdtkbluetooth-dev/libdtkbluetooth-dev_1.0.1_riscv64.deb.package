@@ -1,0 +1,20 @@
+Package: libdtkbluetooth-dev
+Architecture: riscv64
+Version: 1.0.1
+Priority: optional
+Section: libdevel
+Source: dtkbluetooth
+Maintainer: Packages Builder <packages@deepin.com>
+Installed-Size: 1036
+Depends: libdtktemplate (= 1.0.1)
+Filename: ./l/libdtkbluetooth-dev/libdtkbluetooth-dev_1.0.1_riscv64.deb
+Size: 742124
+MD5sum: e9adf5fd4f32a0f2f05953ff59b3f82f
+SHA1: 3a838c196d60f41c1b2183f9c23948d3bc33fe3b
+SHA256: 99afde04a2a396d66135036e0821a758b459a2aef6a9726330993644b0a483cf
+SHA512: b255a4b2968e19297e135c77badd3d74773f6498c3cc046837ca3cf6f4877a4d450337a38e3001e427b7415a139f29370135241590a73a6f85cf2a80a664a3d5
+Description: Deepin Tool Kit: bluetooth devel library
+ libdtkbluetooth-dev is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries.
+
