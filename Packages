@@ -4342,6 +4342,24 @@ Description: dde session module
   dde-session is used for launching DDE components systemd service project.
 
 Package: dde-session
+Architecture: riscv64
+Version: 1.1.9
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1646
+Depends: startdde (>= 6.0.4), libc6 (>= 2.34), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.26.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5network5 (>= 5.0.2), libsecret-1-0 (>= 0.18), libstdc++6 (>= 5.2), libsystemd0, libx11-6, libxcursor1 (>> 1.1.2), libxfixes3
+Filename: ./d/dde-session/dde-session_1.1.9_riscv64.deb
+Size: 316316
+MD5sum: 04ce1578e1c82b6a832582f3c804f8bb
+SHA1: e0808007013b219100a028454b60e92edc13d86b
+SHA256: e7302a20dfe2bac606c0623b30843b7652e04f78fee9e918a80ff34996c9d76f
+SHA512: 9cf9b69bbb4b6f00509bf18e08dafcb0db072304c5c7a27a88311d260b53b3015df1bee1c189b2cd782340cf4b4a9b77bbc5b825b6f8609a607eb46d9fda637c
+Homepage: https://www.deepin.org
+Description: dde session module
+  dde-session is used for launching DDE components systemd service project.
+
+Package: dde-session
 Architecture: amd64
 Version: 1.1.9
 Priority: optional
@@ -5357,6 +5375,24 @@ Description: deepin desktop-environment - dde-appearance module
  dde appearance Provides application resource management and control services for the dde desktop environment.
 
 Package: dde-device-formatter
+Architecture: riscv64
+Version: 0.0.1.15
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 231
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 4.1.1), libudisks2-qt5-0 (>= 5.0.6), libx11-6
+Filename: ./d/dde-device-formatter/dde-device-formatter_0.0.1.15_riscv64.deb
+Size: 56044
+MD5sum: 0b16a3695434d959b6e61240ca1f8ba1
+SHA1: cf0c1a839941f0dd6777c9bedc884aedb1320c5a
+SHA256: a0e9425e4a8e7fcfca1d6225f8635d36b21fea3711d00a90b263b03a314adf6b
+SHA512: abd47a0614a3f2577696c41992a5e48a96c223a45284f147bb667bacd8836ea635c229174976dafc80aec1d139f5b98a9af88454fce6e8dd849ba5945fed68ef
+Homepage: http://www.deepin.org
+Description: Device formatter
+ A simple graphical interface for creating file system in a block device.
+
+Package: dde-device-formatter
 Architecture: arm64
 Version: 0.0.1.15
 Priority: optional
@@ -5968,6 +6004,25 @@ MD5sum: 6dd46a73ebc516bd38d6d77f28217a34
 SHA1: dde955e46ce5170d5dd2951f470527cfaa4011a6
 SHA256: 3c036988a5495b7aca5e9a0d8ee571d567e5158ead8b30adee0f0941da536a87
 SHA512: c1c25beb696494d3e03e9d2e6a8ef9cd37c8e79e54cfe82c2e66310d1895c1d0802b8aa1acc7ffe3d5cd7400bce0a68b1304e102cc2c6105b075c3d6c0ffcec6
+Homepage: https://www.deepin.org
+Description: dde api dbus proxy module
+  dde-api-dbus-proxy is used for compatibility with old dbus APIs for DDE.
+
+Package: dde-api-dbus-proxy-v1
+Architecture: riscv64
+Version: 1.0.8
+Priority: optional
+Section: devel
+Source: dde-api-proxy
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 2575
+Depends: dde-daemon (>= 6.0.7), dde-permission-manager (>= 1.0.5), lastore-daemon (>= 6.0.2), dde-dock (>= 6.0.5.1), dde-launcher (>= 6.0.5.2) | dde-launchpad (>= 0.0.1), dde-control-center (>= 6.0.5), dde-session-shell (>= 6.0.4), dde-session-ui (>= 6.0.5), deepin-pw-check (>= 6.0.1), libc6 (>= 2.34), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 5.2)
+Filename: ./d/dde-api-dbus-proxy-v1/dde-api-dbus-proxy-v1_1.0.8_riscv64.deb
+Size: 546192
+MD5sum: 953b75a450fe8d8f9cb09bf70bbe47f6
+SHA1: 9d4c228f4c4995703bc325d0f0eecbf398ed078d
+SHA256: 3292580c6eab6d6ba62050bc49b2b23961ff6f45e70a7363c409dac58a3bc616
+SHA512: 3976296f8fa9e3f4466735d2d18d92d478bf5ed7a2bdb602cc40493220ca6d8c33a09648a2b18cb2a1f35a399a2f8402e647a2e8a3878492fe661a882eb240b6
 Homepage: https://www.deepin.org
 Description: dde api dbus proxy module
   dde-api-dbus-proxy is used for compatibility with old dbus APIs for DDE.
@@ -6795,6 +6850,29 @@ Description: dde wallpapers
  Default wallpapers for debian-dde
 
 Package: dde-session-ui
+Architecture: riscv64
+Version: 6.0.10
+Priority: optional
+Section: devel
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 9054
+Provides: lightdm-greeter
+Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libdeepin-pw-check, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.4), libglib2.0-0 (>= 2.30.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5test5 (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 13.1), libsystemd0 (>= 213), libxcb-ewmh2 (>= 0.4.1), libxext6, deepin-desktop-schemas (>= 5.9.14), dde-daemon (>= 5.13.27), startdde (>= 5.8.15), x11-xserver-utils, dbus-x11, dde-session-shell, pandoc
+Recommends: onboard
+Conflicts: dde-control-center (<< 6.0.0.1), dde-workspace, deepin-notifications, startdde (<< 2.91.1)
+Breaks: dde-control-center (<< 6.0.0.1), dde-workspace, startdde (<< 2.91.1)
+Replaces: deepin-notifications
+Filename: ./d/dde-session-ui/dde-session-ui_6.0.10_riscv64.deb
+Size: 1461760
+MD5sum: 416e16e43ca57361b191d7a85cf4c492
+SHA1: 44deeae898862905c89b75c10ba50ebe9914dfc5
+SHA256: 215d375a42b951d66b487c941259c862554e49a61572ed058ca7c2ca6b24b222
+SHA512: d56142c581f8a7047c73bcb26ee9799baff1040b85ae1700ddaef464fbfadb1c648ad1c4e51f557e4f8d9b128f390bf1471a01ad69cc021877ca2b555bb4520f
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dde-session-ui module
+ Deepin desktop environment 2015 - dde-session-ui module.
+
+Package: dde-session-ui
 Architecture: amd64
 Version: 6.0.10
 Priority: optional
@@ -7371,6 +7449,24 @@ SHA512: 778509fc74b713d93591277f436097ea3991579da5afc765df04514f831c9498b15fa299
 Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
 Description: the plugin of network for dde control center
  dcc-network-plugin module
+
+Package: dde-api-proxy
+Architecture: riscv64
+Version: 1.0.8
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 8
+Depends: dde-api-dbus-proxy-v1
+Filename: ./d/dde-api-proxy/dde-api-proxy_1.0.8_riscv64.deb
+Size: 2528
+MD5sum: e2b4d6676521257fd2b4f3253f49851c
+SHA1: 9c2c81a79caaecb48e9123142756420bd18feb22
+SHA256: e73e80d3b010745ca11cd02e3511c1a1629138b0bf096f151a821fdd30564c56
+SHA512: f27635154a018985c1c4f26f5c57526e2768911fd8b89867653e84667b4de89226490fc33a2f362d071f8ffeed0f36d209ba326509346cb1800214f05da01bdd
+Homepage: https://www.deepin.org
+Description: dde api proxy index
+  dde-api-proxy is used for compatibility with old APIs for DDE.
 
 Package: dde-api-proxy
 Architecture: amd64
