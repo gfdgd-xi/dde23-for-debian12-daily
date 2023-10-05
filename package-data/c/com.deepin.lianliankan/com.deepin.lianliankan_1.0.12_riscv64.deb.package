@@ -1,0 +1,17 @@
+Package: com.deepin.lianliankan
+Architecture: riscv64
+Version: 1.0.12
+Priority: optional
+Section: utils
+Maintainer: Packages <deepin@deepin.com>
+Installed-Size: 19167
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 4.8)
+Filename: ./c/com.deepin.lianliankan/com.deepin.lianliankan_1.0.12_riscv64.deb
+Size: 15633236
+MD5sum: 993c6a260bcc726768dbc3485837388b
+SHA1: 4e4f959dbd9247c6baada9208caf34f22bb99d8f
+SHA256: 25120d383a349119af27eb50489704306cf7c4e083cd74212c1e242bb22df8e4
+SHA512: 3d782edff81d4d9ab7a38ed7f223532f640b22042583a8c06bec9d0ca671a5229452bda53e40a69090b5e0f85f64e160ecd8ee30a5924e05810da2b8d7381737
+Description: Lianliankan is a puzzle game.
+ Lianliankan is an easy-to-play puzzle game with cute interface and countdown timer.
+

@@ -1,0 +1,17 @@
+Package: deepin-home
+Architecture: riscv64
+Version: 1.4.1
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 15656
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkdeclarative5 (>= 5.6.17), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.9.0~beta), libqt5qml5 (>= 5.14.1), libqt5widgets5 (>= 5.0.2), libssl3 (>= 3.0.0), libstdc++6 (>= 5.2), qml-module-qtquick-dialogs
+Filename: ./d/deepin-home/deepin-home_1.4.1_riscv64.deb
+Size: 2023088
+MD5sum: 475f1cdfa56f3badc89f9b3389a7ece6
+SHA1: 1ef8af21b6dc33cbc730c3f15e648298b0a02c38
+SHA256: eee4b022e31093358ca2caa49508ffc34b85ed01f7768583258cbd4ac0965586
+SHA512: 1ddec52d73473e796ff509282de8dc1bc78b47c734e7dd4aa93eede412cfa6012370ae8d029ed306327b8928b7d1629fde08df85ea21bededf92754f34eaf2d2
+Description: deepin home
+ quick login bbs, bug report.
+
