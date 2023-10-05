@@ -1,0 +1,19 @@
+Package: libdmr-dev
+Architecture: riscv64
+Version: 6.0.5
+Priority: extra
+Section: libdevel
+Source: deepin-movie-reborn
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 49
+Depends: libdmr (= 6.0.5), libgsettings-qt-dev
+Filename: ./l/libdmr-dev/libdmr-dev_6.0.5_riscv64.deb
+Size: 11072
+MD5sum: fa667c499832234d1683d499c22ce077
+SHA1: 753448ebbc532c2c5444b651ac455bc124bb38f1
+SHA256: e7b6fa7f2558f1c3b624661eab8228ffaa9b0219ed13ac797f30f2499ca91c70
+SHA512: dca341116ddd92740022f7980f6fc819543ea4fed70ee613fbb15116d532e4dcced2238472de505dd1e4857548d512a711e88cd478c1e93efe30e88601160eef
+Homepage: https://www.deepin.org/
+Description: movie player widget library development headers
+ deepin movie player widget library development headers
+
