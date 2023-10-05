@@ -4008,6 +4008,26 @@ SHA512: 22f9f76ff9cd982a361c7652f84ca71e14fa7fd2debc92f361179fc92eacbc16c579249c
 Description: deepin desktop-environment - dde-dconfig-daemon module
  dde-dconfig-daemon provids dbus service for reading and writing DSG configuration.
 
+Package: dde-dconfig-daemon
+Architecture: arm64
+Version: 1.0.23
+Priority: optional
+Section: libdevel
+Source: dde-app-services
+Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
+Installed-Size: 494
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 5), systemd | systemd-standalone-sysusers | systemd-sysusers
+Conflicts: dconfig-daemon
+Replaces: dconfig-daemon
+Filename: ./d/dde-dconfig-daemon/dde-dconfig-daemon_1.0.23_arm64.deb
+Size: 95320
+MD5sum: 27ad2e5cdf73bdf96ffac3d8f087c770
+SHA1: a0660c57a2eaed02862d3ed8ad1ffbe5c3960d41
+SHA256: 6e6d06d5d9c3e492c4796641f575a62f0e9a3e88a8d9a0416f204c8e75ac3aad
+SHA512: 139cabb932bb2769337a15834aa65dc3ab68705ed7dc606eae00b215d4b7546e45de2c8842469ca40717f1262ff953fd62a94ae438b9ff040fef080382b68ecb
+Description: deepin desktop-environment - dde-dconfig-daemon module
+ dde-dconfig-daemon provids dbus service for reading and writing DSG configuration.
+
 Package: dde-desktop-plugins
 Architecture: arm64
 Version: 6.0.31
@@ -5052,6 +5072,23 @@ Description: KDE window manager x11 plugin
  This package is part of the KDE base workspace module
 
 Package: dde-dconfig-doc
+Architecture: arm64
+Version: 1.0.23
+Priority: optional
+Section: libdevel
+Source: dde-app-services
+Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
+Installed-Size: 171
+Filename: ./d/dde-dconfig-doc/dde-dconfig-doc_1.0.23_arm64.deb
+Size: 100568
+MD5sum: 83a2f225df22c23c8e98ca9325494270
+SHA1: c19f0aec6d75fb4c9515a486eb4773705914f6f9
+SHA256: a053d53fd2384116c77406c7ff2d588f91cdf7282d90854c1007105d49069e1b
+SHA512: d34f5c2cbf7ca33832bc04e1edac3280826e077256d9ff25aefbbd5017e3cabb31fdb22dc40256af5f53246cb3c3478490e8b47e0cc08e08b13a59a80277a99a
+Description: Deepin Tool Kit DConfig (document)
+ This package contains the doc files of DConfig
+
+Package: dde-dconfig-doc
 Architecture: amd64
 Version: 1.0.23
 Priority: optional
@@ -5078,11 +5115,11 @@ Installed-Size: 1048
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.16.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libgtk-3-0 (>= 3.0.0), libkf5configcore5 (>= 4.97.0), libkf5globalaccel-bin, libkf5globalaccel5 (>= 5.10.0), libkf5windowsystem5 (>= 4.100.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libssl3 (>= 3.0.0), libstdc++6 (>= 5.2), libx11-6, libxcb-randr0, libxcb1, libxcursor1 (>> 1.1.2), libxfixes3
 Conflicts: dde-kwin
 Filename: ./d/dde-appearance/dde-appearance_1.1.6_arm64.deb
-Size: 260828
-MD5sum: 94fdbde64458b2e38e1e89557128943b
-SHA1: 832b0ad8cc88ae150027af888075c7c03220ebaf
-SHA256: 9e88a48fe0458790f335ef378ca0ec156eace16960d77aa8ed55b6c6ebf3d8cf
-SHA512: 91a0391835385ec6505597f8032b1cd3895407181c63605f7e52d58faea7d2be82484ef03d3ca4c4a9ce446d2f8f3475be6bb2930674d4fe55905fc2b2fbbeee
+Size: 259828
+MD5sum: d862647e3e9d37dbe196f989222f7e2b
+SHA1: c4db72e6716e7c2e5364381f7d555238efe53e73
+SHA256: e44e803efb3b97c06011fdeb5d481febb9367f34fc98c19af9d2bbf5ec0a2b7f
+SHA512: 824e7607d42d869cfbb10339ca1b23678a9e2cfe6eb783bdf59e77ab4d13e5f897342cc610275af2242db9dcea6bdf3d1e10a6449c1e5f567c82e85f164c16be
 Homepage: http://www.deepin.org
 Description: deepin desktop-environment - dde-appearance module
  dde appearance Provides application resource management and control services for the dde desktop environment.
@@ -5846,6 +5883,27 @@ Description: deepin desktop-environment - dde-dconfig-editor module
  dde-dconfig-editor is a GUI or Console tool, it's used to view and edit
  DSG configuration for current user.
 
+Package: dde-dconfig-editor
+Architecture: arm64
+Version: 1.0.23
+Priority: optional
+Section: libdevel
+Source: dde-app-services
+Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
+Installed-Size: 341
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.14.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5)
+Conflicts: dconfig-editor
+Replaces: dconfig-editor
+Filename: ./d/dde-dconfig-editor/dde-dconfig-editor_1.0.23_arm64.deb
+Size: 93476
+MD5sum: 1cb0b33190137a27e39160706d425a48
+SHA1: bafba4a88f34d1e2ccbfdc199ef2b02a7bd209c6
+SHA256: 9a538ac4e68912249b5dc424cd4f480063f626dde8dd7f1acc2d42b5e9cd57ba
+SHA512: 113f6d5fe7dafc93abc3363e29a1b7cd870555d0151aab911b9ccf4f824ed2cd94eae88a284de67da9c551ca7466240e2a901033075ac6f503f8cd89dfe10440
+Description: deepin desktop-environment - dde-dconfig-editor module
+ dde-dconfig-editor is a GUI or Console tool, it's used to view and edit
+ DSG configuration for current user.
+
 Package: dde-desktop
 Architecture: arm64
 Version: 6.0.31
@@ -6067,11 +6125,11 @@ Maintainer: Deepin Sysdev <sysdev@deepin.com>
 Installed-Size: 767
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.25.0-kwayland.5.24.3), libgcc-s1 (>= 3.0), libgio-qt0 (>= 0.0.11), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5), dde-daemon (>= 5.12.0.31), startdde (>= 5.6.0.34), dde-api (>= 2.92.1), dde-session (>= 1.1.5)
 Filename: ./d/dde-clipboard/dde-clipboard_6.0.7_arm64.deb
-Size: 162232
-MD5sum: 8d336738adf5260abec4f5ec9f46fc29
-SHA1: 0b0dc28c613b8309663a44c8bdeb83a0dcc4d185
-SHA256: e6ad379df78cc6457aad95786357bb3da0c6f6f63324776a50c85675e052a5cb
-SHA512: 5b4048214a07f6e90178c4cc920ca4f573b6998fa5bdec3f4e98cf5d0226a8aa57ead8b5250e2966c34149411a486faa0a8ede910f24e26ed42fd08fe14d6731
+Size: 162164
+MD5sum: ff8df03a52802df1cbcfdaab35038335
+SHA1: 5d9e6907fed05afa5902e5d3f2e77ac153cbc9ac
+SHA256: 7bb031ad8e4ca0701b7935e3c2ad2423f94ba44cf0fbbdbc0dc17e850eada367
+SHA512: 51c41f30455b6369ab4865a956ec3b859c3e6fcb9f44103745ab06ff9a85e0515248a95e85e7b9a9c809c87f4aa0450d13dbf90ee0b51dd830fc422a0c9a6ae3
 Homepage: https://github.com/linuxdeepin/dde-clipboard
 Description: deepin desktop-environment - clipboard module
  Clipboard module of deepin desktop-environment
@@ -7052,11 +7110,11 @@ Section: admin
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
 Installed-Size: 17043
 Filename: ./d/dde-control-center/dde-control-center_6.0.29_arm64.deb
-Size: 4087180
-MD5sum: 044936cfd4297be526ec5e17fc149936
-SHA1: b7b79bb4d2e410b0cf10c6810b8d779e7570e844
-SHA256: 63c0e3b45fafab9a2880a89fb3c3f3c5d82237282a1b774948e2d6d51c939274
-SHA512: 54ac733f339773c80f61e177990199331e1cadecc8a80b667dca94539a18900468f761914e7bef2c4e3f393ddba10dafe45444bd23b07d300e7d7655d1ea71a9
+Size: 4087560
+MD5sum: 1c6e057b5dfdf0808f9cb3a13168c04f
+SHA1: bf5afebfbb76c81e7cbb4e4df1e93c09365fb850
+SHA256: fc92381777b33e599eec613935ec771db82952f5bbc355b4b2bb40b32ea6fb6d
+SHA512: 530972aa88a7e17bd7c54064a398314773552119062a96207d427c9512862470a9dac2b884fed19d1eb5beff91d2ae28a348b0a8cbfd5f90084ec2eec584079e
 Homepage: https://github.com/linuxdeepin/dde-control-center
 Description: New control center for Deepin Desktop Environment,
  Integrated control center with rich functions,Besides providing rich
