@@ -1,0 +1,18 @@
+Package: deepin-system-upgrade
+Architecture: riscv64
+Version: 6.0.9
+Priority: optional
+Section: utils
+Maintainer: LinuxDeepin <linuxdeepin@deepin.org>
+Installed-Size: 6397
+Depends: deepin-upgrade-manager, libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.70.0), libgtk-3-0 (>= 3.0.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 13.1), plymouth-label, fuseiso, dpkg-repack, squashfs-tools
+Filename: ./d/deepin-system-upgrade/deepin-system-upgrade_6.0.9_riscv64.deb
+Size: 2192652
+MD5sum: fe2cc0600645a463e5806daa2067632a
+SHA1: afb5f8ed4de0ceb3d3d6f1f017ca5ba63692d60b
+SHA256: f7cf6b2a6795fe32ea59f4dd6d3242f0a87406870ab2de27d98b03fb31c4fd98
+SHA512: 1b73fc335abf38bf615efb65cd25b3eef77e3b207399c9f868a0ac7d729362312947acd128e6c7acbcdfa6b73a307fc9155e9608b6e68c77c540f4a5b7134978
+Homepage: http://www.deepin.org
+Description: system upgrade tool
+ deepin system upgrade tool in Linux
+

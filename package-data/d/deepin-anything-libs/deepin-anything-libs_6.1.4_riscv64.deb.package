@@ -1,0 +1,19 @@
+Package: deepin-anything-libs
+Architecture: riscv64
+Version: 6.1.4
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 184
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.36.0)
+Filename: ./d/deepin-anything-libs/deepin-anything-libs_6.1.4_riscv64.deb
+Size: 54212
+MD5sum: 8e16a1dadcd407a6c489e32e1d156ba4
+SHA1: e9fb884b264a2da86ac8e59ad5c5ba58a9ca65c6
+SHA256: 2361ee31ad34791ab8b478000e2e13f209d8c24c3e44da3e57ae4dd4c8fdfd02
+SHA512: 06719547c05cff2dc8765830e715a4429d4b7a5bb4ee60be808bc7c11918e6e4d79d5b76419f06ab668326b4d736d00f8a2a36f949f7d021fd4df39fd4eda5d7
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything library
+ anything library package
+
