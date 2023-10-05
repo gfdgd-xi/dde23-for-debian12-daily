@@ -1,0 +1,19 @@
+Package: dde-file-manager-common-plugins
+Architecture: arm64
+Version: 6.0.31
+Priority: optional
+Section: libdevel
+Source: dde-file-manager
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 3583
+Depends: libc6 (>= 2.34), libdde-file-manager, libdfm-burn, libdfm-extension, libdfm-io, libdfm-mount, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5.2)
+Filename: ./d/dde-file-manager-common-plugins/dde-file-manager-common-plugins_6.0.31_arm64.deb
+Size: 730508
+MD5sum: a02c5669c42e85b11f7eb4e4ade2554c
+SHA1: e49efd170572cad30772dbe4471fac0a732f751d
+SHA256: 205f6ff4275d60e12af8a9d01ebaf56581c69e6f7cb3ad154f69a70fec3ce0d8
+SHA512: cfddfb9a7bcbdd16c7bd2e02cdae5234c9241e36f3578137384b2c578421fa4442886a7e41a1e9ac9bf6165a94b4ac072f7ab0ad6e9af898673e2c3e435842a9
+Homepage: http://www.deepin.org
+Description: deepin desktop-environment - filemanager common edge plugins module
+ Deepin Desktop Environment (DDE) - filemanager common edge plugins module.
+

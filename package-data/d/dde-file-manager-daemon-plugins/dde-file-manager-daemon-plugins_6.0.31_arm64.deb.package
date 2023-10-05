@@ -1,0 +1,19 @@
+Package: dde-file-manager-daemon-plugins
+Architecture: arm64
+Version: 6.0.31
+Priority: optional
+Section: libdevel
+Source: dde-file-manager
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 540
+Depends: libc6 (>= 2.33), libcryptsetup12 (>= 2:1.6), libdde-file-manager, libdfm-io, libdfm-mount, libgcc-s1 (>= 3.0), libmount1 (>= 2.20.1), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Filename: ./d/dde-file-manager-daemon-plugins/dde-file-manager-daemon-plugins_6.0.31_arm64.deb
+Size: 111364
+MD5sum: 7a0f144bfb543de54ea061436b9c87ea
+SHA1: bcc81dbacccd64519f2fe0fd56484772e2ef58bd
+SHA256: 54648d436ee33a2e09ca7c681c6ad88296da88febf01cf18ca26c8fb35aac039
+SHA512: ec32c4b6f1e2389c27e86cf1d339ade0c3093d6ed6a92069bb69ccf3a5146359de9450395fbfb512c99d0411b289ae4e234c96f66ff64efaf2064eaf89c98399
+Homepage: http://www.deepin.org
+Description: deepin desktop-environment - daemon edge plugins module
+ Deepin Desktop Environment (DDE) - daemon edge plugins module.
+

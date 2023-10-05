@@ -1,0 +1,20 @@
+Package: libdfm-extension-dev
+Architecture: arm64
+Version: 6.0.31
+Priority: optional
+Section: libdevel
+Source: dde-file-manager
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 33
+Depends: libdfm-extension (= 6.0.31)
+Filename: ./l/libdfm-extension-dev/libdfm-extension-dev_6.0.31_arm64.deb
+Size: 5284
+MD5sum: 70606afd890e481a8a11f738fb951a9f
+SHA1: 37a38b5e4ad786d3cb8a02b269f1c2a76696d4c8
+SHA256: a2270896779110c489c1caa3861ed6430647441377e8d235510507db561adfd4
+SHA512: 2d9ab3a970d335056e1e292ba60576c9c2b52ac61edaa63b6c2a89d343757bcc6f8dcb70fb7143a2ca023d276c6f089c576d9709e03d011f83f0b2d9a05383a5
+Homepage: http://www.deepin.org
+Description: Development package for libdfm-extension
+ This package contains the header files and pkgconfig
+ of libdfm-extension
+
