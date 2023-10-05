@@ -3113,6 +3113,25 @@ Description: New control center for Deepin Desktop Environment - development fil
  DDE Control Center is the control panel of Deepin Desktop Environment.
 
 Package: dde-launcher-dev
+Architecture: arm64
+Version: 6.0.17
+Priority: optional
+Section: x11
+Source: dde-launcher
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 23
+Depends: dde-launcher (= 6.0.17)
+Filename: ./d/dde-launcher-dev/dde-launcher-dev_6.0.17_arm64.deb
+Size: 8924
+MD5sum: 03768d2a5e28b663cace504cb208f88c
+SHA1: 44236082adbb43a4b4e7055d69900411ec5177bd
+SHA256: 148fcc05cb787c883870a158224ef5774db37631ca44a1925a9b819afd9c5e1d
+SHA512: 2795d5edbb3ae5f75e9a4352c74290749658513d97fb3fb3e1d0005f015c195fece3347a5ad68529c9f884b2144dd00090f15ca78efedb6cb368cfda73bd0961
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - launcher module development files
+ Launcher module development files of deepin desktop-environment
+
+Package: dde-launcher-dev
 Architecture: amd64
 Version: 6.0.17
 Priority: optional
@@ -5689,6 +5708,26 @@ MD5sum: 8c6fdce5d4ec8b36a01a1c6e9c6de3c0
 SHA1: 601d16a0dbaa3cee0a4f2640e89066f734fe0a00
 SHA256: 1fa490a556e15c3cb88b2c7c73b617eb3ae5a9e6551367652e50ca8dc84c1c7e
 SHA512: 7cb36fa52885d91c8179811db8c9ab886b43d2ed3233819f760b8c916005948a74819cfe76c20f7df5dac2e1f26cbf26a828e70fbb1f7a1f95286ff76ef54b2a
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dde-launcher module
+ Deepin desktop environment 2015 - dde-launcher module.
+ Display all installation programs, and provide access to open, uninstall, boot and start, which is convenient for users to operate quickly
+
+Package: dde-launcher
+Architecture: arm64
+Version: 6.0.17
+Priority: optional
+Section: x11
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3109
+Depends: qtxdg-dev-tools, deepin-desktop-schemas (>= 5.9.14), dde-daemon (>= 5.13.12), startdde (>= 5.8.9), lastore-daemon (>= 5.2.9), libxcb-util1, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.24.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libxcb-ewmh2 (>= 0.4.1), libxcb1
+Conflicts: dde-workspace (<< 2.90.5)
+Filename: ./d/dde-launcher/dde-launcher_6.0.17_arm64.deb
+Size: 717768
+MD5sum: 6d96b5fd0e77ab5f0466699a0f73c7d0
+SHA1: 4df9ee0dde88e10c12c5c416eb86f7eb2b98c220
+SHA256: 79e265e6d4462987dd3b04f3cd057960045b9d659ce10cb7be3cdc0f0f4fd513
+SHA512: f12ae6f440ea225a23cd2d0db19b2f20ce68fb8b2927c8f3fb7c5240d7925e480f076c0f608e5d97ac14bd94ab78082ad0e5f765f6fab80093c28bd4d8a52572
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dde-launcher module
  Deepin desktop environment 2015 - dde-launcher module.
