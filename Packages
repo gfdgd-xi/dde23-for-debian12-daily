@@ -525,6 +525,24 @@ Description: dtk common files
  Used to store public configuration files
 
 Package: libdtkdata
+Architecture: riscv64
+Version: 5.6.17
+Priority: optional
+Section: libdevel
+Source: dtkcommon
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 12
+Filename: ./l/libdtkdata/libdtkdata_5.6.17_riscv64.deb
+Size: 3008
+MD5sum: 5e3d0781b29db4066db5641ee5afda49
+SHA1: 49a09f7036fa90003a7ab61ac3c61261cfa1013d
+SHA256: fe3983a85b40ef7bbaebc5d1fc3eddb5d96ebdd1c2103fc6befb9c5af1559750
+SHA512: 10740884941253a71c327710ec2ebf963abfa9e70af94248ecb973854b55c08ad4010fcc299423d1c345b49c85cce11b83659ab813d44af68de43e402efc55f9
+Homepage: http://www.deepin.org/
+Description: dtk common files
+ Used to store public configuration files
+
+Package: libdtkdata
 Architecture: arm64
 Version: 5.6.17
 Priority: optional
@@ -1904,6 +1922,26 @@ MD5sum: 3a2c22bb3e7477fef42faadbc1dd148d
 SHA1: 1201512c5958874b3372a61aeddb39dc07dad30a
 SHA256: f244ca3f7a17b4ed3ff67d1d734e9c2c839b303de1a85d51fa8a7cd22742f599
 SHA512: 6519e45d66cbdd11738ca07905ed7f4c9684f9e6a2a2502bb25a0d4c8843f7962495748644218eddec9802bd58b8c8055ef75709c73bbcdea1091cdf767e2c6a
+Homepage: http://www.deepin.org/
+Description: dtk common files
+ Used to store public build files
+
+Package: libdtkcommon-dev
+Architecture: riscv64
+Version: 5.6.17
+Priority: optional
+Section: libdevel
+Source: dtkcommon
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 24
+Conflicts: libdtkcore-dev (<< 5.4.10)
+Replaces: libdtkcore-dev (<< 5.4.10)
+Filename: ./l/libdtkcommon-dev/libdtkcommon-dev_5.6.17_riscv64.deb
+Size: 4904
+MD5sum: 3370434d8ea2e4139769d8cc9abd56b1
+SHA1: 3e8ae01fad7c19844630ae593305a3b878fbd933
+SHA256: d71c128f1fbf501bf07a288ecb8ac74c54dc2cbc37225a3e2481c12d28d05ccc
+SHA512: 9f669cae34b066a3af16a1da2d652ac9169853e6257d7723c1211b71083bbbc9531cf69c045488b4610474f5cbd49db71bce034b99cad675d7e29e1a81d82848
 Homepage: http://www.deepin.org/
 Description: dtk common files
  Used to store public build files
