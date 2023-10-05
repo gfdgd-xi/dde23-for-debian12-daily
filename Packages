@@ -4818,6 +4818,27 @@ Description: movie player
  Movie is a full-featured video player, supporting playing local and streaming media in multiple video formats.
 
 Package: deepin-editor
+Architecture: riscv64
+Version: 6.0.13
+Priority: optional
+Section: editors
+Maintainer: Debian Deepin Packaging Team <pkg-deepin-devel@lists.alioth.debian.org>
+Installed-Size: 19346
+Depends: dde-qt5integration, libc6 (>= 2.34), libchardet1, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.4), libicu72 (>= 72.1~rc-1~), libkf5codecs5 (>= 4.96.0), libkf5syntaxhighlighting5 (>= 5.90.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.6.0~beta), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 13.1), libuchardet0 (>= 0.0.6), qtbase-abi-5-15-10
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-editor/deepin-editor_6.0.13_riscv64.deb
+Size: 14043176
+MD5sum: 264f6becce4c0c5589122db6156007e8
+SHA1: 912bee442f6c864cfce78ec275aeb0cd8475dd81
+SHA256: e9310e4aebf12ca1681af651a821d9a0af96f6648ac3867d8c97db5f4ee52dd7
+SHA512: 27247b7be2e725198f381673cb3bdfd13c5ae9fc1c891ba26c0e3e105f48361c602ab6f460fab4fd8855e899771e59dc662eb5925154253a751d28e63fff5012
+Homepage: https://github.com/linuxdeepin/deepin-editor
+Description: Text editor for DDE (Deepin Desktop Environment)
+ Advanced text editor based on dtk.
+ .
+ This package is part of DDE (Deepin Desktop Environment).
+
+Package: deepin-editor
 Architecture: arm64
 Version: 6.0.13
 Priority: optional
@@ -5662,6 +5683,29 @@ SHA512: e2e26bd5144d3cc9cc1920cf33cf3db1a253159af38441f5090aabc21f45305e9f4e7d01
 Homepage: http://www.deepin.org
 Description: system upgrade tool
  deepin system upgrade tool in Linux
+
+Package: deepin-terminal
+Architecture: riscv64
+Version: 6.0.7
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 6651
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.4), libglib2.0-0 (>= 2.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libsecret-1-0 (>= 0.7), libstdc++6 (>= 5.2), libxcb1, qtbase-abi-5-15-10, expect, zssh
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-terminal/deepin-terminal_6.0.7_riscv64.deb
+Size: 3419104
+MD5sum: e669550443412c2ba886e0875308b4d4
+SHA1: 52a3fe01b0061d29964ea2e222f634be75f8c4f1
+SHA256: 2cc57d73c15522b2cdf1efd018aaf320b933499019ec1c22ca9d4d3007bb5a7c
+SHA512: 019b138842ddc45b7f37e259c463337816b5edf7db3a3fbf44f105dd27d912cda557c62126cab577df8ec46639464ef6c918d9a2002e49389f113a1e0aae2dd1
+Homepage: https://www.deepin.com/
+Description: Terminal is an advanced terminal emulator with workspace, multiple
+ windows, remote management, quake mode and other features.
+ Terminal is a terminal emulator with simple interface, rich and powerful
+ functions such as multi-windows, workspace, remote management, Quake mode
+ and etc. You can instantly start and close Terminal smoothly like normal
+ file window, allowing you to input commands with facility and no distractions.
 
 Package: deepin-terminal
 Architecture: arm64
@@ -7401,6 +7445,25 @@ Description: Deepin New Desktop Environment - Next
  This is a cli meta package depends Deepin New Desktop Envrionment.
  .
  You can safety remove it after installed.
+
+Package: deepin-draw
+Architecture: riscv64
+Version: 6.0.5
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 30098
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.4), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), qt5-image-formats-plugins, deepin-picker-cli
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-draw/deepin-draw_6.0.5_riscv64.deb
+Size: 24658792
+MD5sum: 3d7edc07688beb0e1662a497fee8caf2
+SHA1: a0586aa51cd6d8758b3e527d24bb5d27cbf1d4f8
+SHA256: 9ced668dd1a185b58fc20985a4d233a454f38b3e69b7c1700b3e2459d22bf123
+SHA512: 23ef73d3aad247bb8c260e62cee29212ae63987b632e164fe2709d3dc20542a5f08d98a67e5b5a3926c59174658a2d6511258e2f899d13957612cc52afe22b57
+Homepage: http://www.deepin.org
+Description: Draw for UOS
+ Draw is a lightweight drawing tool for users to freely draw and simply edit images.
 
 Package: deepin-draw
 Architecture: amd64
