@@ -9,10 +9,10 @@ Installed-Size: 287
 Depends: libdtk6core (= 6.0.0)
 Filename: ./l/libdtk6core-dev/libdtk6core-dev_6.0.0_arm64.deb
 Size: 38904
-MD5sum: b28730b6e55c2c33b4c6478e8eadf907
-SHA1: 1c6fa1ea750e5ee643f159db0f39598a78309d22
-SHA256: 7281e223f357dedffb1e6f3580a537ff1fc4f683e9f74692095949ccbe199204
-SHA512: d51c7a35d7c50ea64977f87ed2574eb96c8a29179dd0a2b12ddb2ef41e21ceebcd0182c05760d51d9f955f20c676efbd46bae8752f8acf2d06010797aadc0cdc
+MD5sum: c1dfb2c585340df466273a3f4040015b
+SHA1: edbdf06826ff1de6bfc5c00e939f94cb9256b13b
+SHA256: 84b33e8cec797a77e17d9753d464eed6356689bb3b88ae652b3e40789f4497a2
+SHA512: ea0c4a04e6cecdf03b6501900b5e2e0330a7cea27be4c06cdf630ec2133695740e3ed911e154568d47afa5882c7919768c3b4de7fee95405abfd90b9ce67ce61
 Description: Deepin Tool Kit Core Devel library
  DtkCore is base devel library of Deepin Qt/C++ applications.
  .
