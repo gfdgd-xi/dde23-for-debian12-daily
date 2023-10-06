@@ -1,0 +1,18 @@
+Package: dde-control-center-doc
+Architecture: riscv64
+Version: 6.0.29
+Priority: optional
+Section: admin
+Source: dde-control-center
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 729
+Filename: ./d/dde-control-center-doc/dde-control-center-doc_6.0.29_riscv64.deb
+Size: 519464
+MD5sum: 989b505d7d5360ca7bb053fed9bc08d1
+SHA1: bf20d60253c8152e4a2453a4ebf878810f1397d8
+SHA256: 8b71c2cb0161f59a9e6a2384b290311e98f5267fcab4a1df4c75101227dd1848
+SHA512: d42eb6e5db096680afeaac7430297683f1d3daa6d50fdc3d627c2d0b4c76e259c12c0dddeeb8378305cd1295f01c79ab12b03558a8927324e0c3caee57fdb4c5
+Homepage: https://github.com/linuxdeepin/dde-control-center
+Description: dde-control-center (document)
+ This package contains the doc files of dde-control-center
+

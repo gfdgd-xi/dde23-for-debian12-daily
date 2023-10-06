@@ -1,0 +1,17 @@
+Package: dde-dconfig-doc
+Architecture: riscv64
+Version: 1.0.23
+Priority: optional
+Section: libdevel
+Source: dde-app-services
+Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
+Installed-Size: 175
+Filename: ./d/dde-dconfig-doc/dde-dconfig-doc_1.0.23_riscv64.deb
+Size: 104600
+MD5sum: f71c2f24de6665515436c8dd84a107e7
+SHA1: 8e053bfacc5ed780978ca699313916fd17e382d8
+SHA256: 835fcd69da8e2d697ffd02e9a8044f336b177a0bcbb7d49d4983b1ee9d43973f
+SHA512: 638b80c5b687a835b746572ee7edbf2ea42fd32fb3ee607ec867c07c2e7a34dd63b4d1a5dd3c7fdb42af492694be56c94f3f68fde96bad30bf4666bc87487328
+Description: Deepin Tool Kit DConfig (document)
+ This package contains the doc files of DConfig
+
