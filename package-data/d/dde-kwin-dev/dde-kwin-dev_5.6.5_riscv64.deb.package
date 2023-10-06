@@ -1,0 +1,18 @@
+Package: dde-kwin-dev
+Architecture: riscv64
+Version: 5.6.5
+Priority: optional
+Section: libdevel
+Source: dde-kwin
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 10
+Filename: ./d/dde-kwin-dev/dde-kwin-dev_5.6.5_riscv64.deb
+Size: 4340
+MD5sum: 7db3818dfa4a4ee158a0384567b0a41a
+SHA1: 4ce6f117c951414f6dc064b46c1f901928996393
+SHA256: e83e2b8eb47b99d7cf36c6133d4929aa91db9e3ebced1e14e117ecccb6db440b
+SHA512: 90e98e5dc42e3fc2ec5c4caaa8a8df846341cc9d565460a8330522df79037d110eb778cfda36adddfcb07fe0e9e961872702b3e6de93bd86f239a10228a98844
+Homepage: https://github.com/linuxdeepin/dde-kwin
+Description: Developer package of dde-kwin
+ Provide dde-kwin plugin implementation basis files.
+
