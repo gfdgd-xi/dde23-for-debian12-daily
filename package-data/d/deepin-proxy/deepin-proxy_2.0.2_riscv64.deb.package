@@ -7,11 +7,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 9140
 Depends: adduser, libc6 (>= 2.34), libglib2.0-0 (>= 2.70.0), libgtk-3-0 (>= 3.0.0)
 Filename: ./d/deepin-proxy/deepin-proxy_2.0.2_riscv64.deb
-Size: 2452332
-MD5sum: 00adf1ffea690015d4628935ea356638
-SHA1: b6d3d6015d16b5fcb78ad426118d18513af47e0a
-SHA256: 7ccfd39670817eca383afa29f55345d2216b6f2ef56ff805788acb217c7f89ca
-SHA512: 56f23ce5f4a0a6ed996fd949488df351307397746f3b1b3fb7a492862da2d2c53db65dfc6f558d2964ef86c0e5368db1ae7a5463836d987e201ba7f4076fa2c5
+Size: 2450760
+MD5sum: a569f02c8e477a43bea465d459c25af3
+SHA1: ea6b6060bf7ae44e963340122dfa4eab1a2f8cf1
+SHA256: b7de546db047ba5a5736d408649a30d02d74231841eec8a1fc6d52b96016339c
+SHA512: 421075eb043c744102f92cd4177558a063b1445064dfdac56c81014286b53a37c22e1eee12474e07c84705121af8f19e4ffdde711c23d20542894695358cbeee
 Homepage: http://www.deepin.org
 Description: service for global or app proxy
  deepin-proxy is used for proxy
