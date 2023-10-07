@@ -4,17 +4,17 @@ Version: 6.0.0
 Priority: optional
 Section: libdevel
 Source: dtk6widget
-Maintainer: Deepin Packages Builder <packages@deepin.com>
+Maintainer: Deepin Packages Builder <packages@deepin.org>
 Installed-Size: 17032
 Filename: ./l/libdtk6widget-doc/libdtk6widget-doc_6.0.0_arm64.deb
-Size: 13707768
-MD5sum: 06773f360bfb96275772f8ba03a8f5b7
-SHA1: ea65f997bb66765a26266ae6c46ff3dbfe5216b5
-SHA256: c3884273a4553c3cfadbfcb243b828a2665084cc52f6db32b53258f244960ca2
-SHA512: a24fc3acb7bf815281ae088ee92fdaada2eaefd00d27cfe51d25419478cf5bb51c869d14d7bbadb4ed9432537b43b73de930982d019c31c317ced404575743d0
+Size: 13708152
+MD5sum: 010f2563b867ab77e71e4a59a5725332
+SHA1: 807b0359240ab021fae88ffa1827af049341e923
+SHA256: bf6b044fa28889113b8814374bbd0e592af904d5ce633cbfbeb2d022523ce53b
+SHA512: b1743500c8aa746f4c50ca87067b5750642f7970889ea16baecb3bd713e3d4585a573079920f35ca9265c97786273ebe7ecdff8ea01e26aab5a7bce8dffa1b2b
 Description: deepin graphical user interface library (Document)
-  DtkWidget is deepin graphical user interface for deepin desktop development.
-  .
-  This package contains example application which are
-  needed for developing deepin applications.
+ DtkWidget is deepin graphical user interface for deepin desktop development.
+ .
+ This package contains example application which are
+ needed for developing deepin applications.
 

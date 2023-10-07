@@ -5,17 +5,17 @@ Multi-Arch: same
 Priority: optional
 Section: libdevel
 Source: dtk6widget
-Maintainer: Deepin Packages Builder <packages@deepin.com>
+Maintainer: Deepin Packages Builder <packages@deepin.org>
 Installed-Size: 4101
 Depends: libc6 (>= 2.34), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libqt6printsupport6 (>= 6.1.2), libqt6widgets6 (>= 6.3.0), libstartup-notification0 (>= 0.10), libstdc++6 (>= 11), libx11-6 (>= 2:1.2.99.901), libxcb-util1 (>= 0.4.0), libxcb1, libxext6, libxi6 (>= 2:1.2.99.4), qt6-base-abi (= 6.4.2), libdtkdata
 Filename: ./l/libdtk6widget/libdtk6widget_6.0.0_arm64.deb
-Size: 853832
-MD5sum: 6a8cba8cf49e603d09eb2abed24dfa47
-SHA1: f2cefc172c2dfbdc5929823427a0e2b06b0ff235
-SHA256: ac2e45d1cca584ef289deb4f2b2d41ca31797cfa0c78f5787d3db982e7ebd8f1
-SHA512: a36b6a4db7fe5dd8f4c043374fc35c3258ac257742b2a99241401f8e2862b5ec49db0d47c86e7b0275b139483abad1799e23bd36bd3ffd74399fe62b4a1b59ca
+Size: 853820
+MD5sum: c8e280fcbd0bde5a2a56beebb38c82cc
+SHA1: 7cadac0e4e79b5ca74a4b7f167298a4a8e8b0b5d
+SHA256: ba087511ed4282bba4cc9d0844284e8b7f1721762d51213274cad5be0fa958ac
+SHA512: ea960bf010e1e3f8259b24d786ed320a6ebe0ca3272dc3201109ebcde7d85bb6152541f9385d96032905fc92943a07842bb5593464251f6d5fb36f998b409df4
 Description: deepin graphical user interface library
-  DtkWidget is deepin graphical user interface for deepin desktop development.
-  .
-  This package contains the shared libraries.
+ DtkWidget is deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the shared libraries.
 
