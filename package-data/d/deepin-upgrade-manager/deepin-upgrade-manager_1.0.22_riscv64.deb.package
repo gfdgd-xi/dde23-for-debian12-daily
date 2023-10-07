@@ -4,14 +4,14 @@ Version: 1.0.22
 Priority: optional
 Section: utils
 Maintainer: LinuxDeepin <linuxdeepin@deepin.org>
-Installed-Size: 7912
+Installed-Size: 7916
 Depends: libc6 (>= 2.34), ostree, deepin-boot-kit
 Filename: ./d/deepin-upgrade-manager/deepin-upgrade-manager_1.0.22_riscv64.deb
-Size: 1721916
-MD5sum: f137ace9390769187abd0d410285bc28
-SHA1: aaf03cafe5d9177cbe5677292f521b82137df7a2
-SHA256: 9ff035203ec1fee04e5315a74e9ef23ef17b0e72358928fa1da977befd26bbe7
-SHA512: 9bad6b25867efe0fe705a397347256f7b45cc63a158f507eb692c039f0c5faabdef83253577043e024dbe426dff921b63905bfc556a03f9d7c1f259bb71592d7
+Size: 1720508
+MD5sum: 51f7c1261d0e042076bb8eb780cb77b4
+SHA1: 1d1fcba85643b71f1209c732758d1b36b68214a8
+SHA256: c30253057d1ea4e19636728c2d90c86892784ab7e04969d1f38abb13a4927c4c
+SHA512: 75da83b0ef2897104353f6eb49242dc43ced4d2bf71bd000c31ac1988304ecf109464f3f62f3ef3855de2ee3206483ba03544a9a1d0f37a9d831fbe5896da862
 Homepage: https://www.deepin.org
 Description: uos backup and restore tool
  uos system backup and restore tool in Linux.
