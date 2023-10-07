@@ -4430,15 +4430,15 @@ Priority: optional
 Section: unknown
 Maintainer: Gary Wang <wangzichong@deepin.org>
 Installed-Size: 836
-Depends: libappstreamqt2 (>= 0.16.1), libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.39.4), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5qml5 (>= 5.14.1), libqt5quick5 (>= 5.6.0~beta) | libqt5quick5-gles (>= 5.6.0~beta), libqt5quickcontrols2-5 (>= 5.7.1), libqt5svg5 (>= 5.6.0~beta), libstdc++6 (>= 5.2), qml-module-qtquick-layouts, qml-module-qtquick-window2, qml-module-qtquick-controls2, qml-module-qtquick-controls2-styles-chameleon, qml-module-qtgraphicaleffects, qml-module-org-kde-kitemmodels
+Depends: libappstreamqt2 (>= 0.16.1), libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.39.4), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5qml5 (>= 5.14.1), libqt5quick5 (>= 5.6.0~beta) | libqt5quick5-gles (>= 5.6.0~beta), libqt5quickcontrols2-5 (>= 5.7.1), libstdc++6 (>= 5.2), qml-module-qtquick-layouts, qml-module-qtquick-window2, qml-module-qtquick-controls2, qml-module-qtquick-controls2-styles-chameleon, qml-module-qtgraphicaleffects, qml-module-org-kde-kitemmodels
 Conflicts: dde-launcher
 Replaces: dde-launcher
 Filename: ./d/dde-launchpad/dde-launchpad_0.0.2_arm64.deb
-Size: 255840
-MD5sum: d185746ab0841674d4bff66406b1b1f1
-SHA1: 9161621a3a296b6d482ed596f7e886c105c6b8f2
-SHA256: 85eee1ce6e0b76bba9ce2b1a669ac8a101e0faf50a9d67beb263b005b1a0556e
-SHA512: fa966f4bc601ba009c6b2b29e2df87af47a2275e30fb97c88b9cb50e796ff581bb9928b10be0f6a7021b7ad01bb6fdaf289f22b323a30a35fa94e9b78b78c57d
+Size: 255016
+MD5sum: fb7dace1965dad0da26a2f3116754661
+SHA1: 386fc4b801442bd05b329dce30269af099af1cc2
+SHA256: f9f4a65957e47ba43096f3cf4726b3c44a5a489b6c1148a8c5a4ef78122b1d2d
+SHA512: 7f74a099f7be2d017be87df3607962d0ddae4e5edb8459784f4eb3a1a88111bb0d3a02a7a16292075afebaa92c5542585afa8336f5e029756cba5963d7390397
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
@@ -7648,11 +7648,11 @@ Maintainer: Deepin Sysdev <sysdev@deepin.com>
 Installed-Size: 767
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.25.0-kwayland.5.24.3), libgcc-s1 (>= 3.0), libgio-qt0 (>= 0.0.11), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5), dde-daemon (>= 5.12.0.31), startdde (>= 5.6.0.34), dde-api (>= 2.92.1), dde-session (>= 1.1.5)
 Filename: ./d/dde-clipboard/dde-clipboard_6.0.7_arm64.deb
-Size: 162144
-MD5sum: 25188c8ed1a79ccdc1980f1c80c72843
-SHA1: ad71ced27771b370a4bbf2a69303ed833b585694
-SHA256: 41d3da7eb178adbe634d3fb1f7d7799a46afcbfb2ec923c72d3f537489242994
-SHA512: a395a8251cd490fd987f2154ce6dcb6f4055da3b77548e406ed19e84784361593e1608287ea37b2fa612ad8f2d0da3ba7e75f843c9706c94171617c72ca223ac
+Size: 162500
+MD5sum: d72a8f86fc00c8e4c2b1c706bf4577b9
+SHA1: da7d7178fe3ba047277e4b3debed68431e3fbb12
+SHA256: 31b3dd5a6b18257ba17f2003d97fb5475130174e4da1cac7469b96ef927756b1
+SHA512: 377cbe9104d717fe25ae52b5cd1c7146a426b32961d3f63080b5bfbee343cce84e4a3554173281004adb4ab055228690f79274f41d6f66bfd82b7fd80ba75985
 Homepage: https://github.com/linuxdeepin/dde-clipboard
 Description: deepin desktop-environment - clipboard module
  Clipboard module of deepin desktop-environment
