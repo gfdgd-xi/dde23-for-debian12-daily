@@ -7,11 +7,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 62028
 Depends: adduser, alsa-utils, bc, blur-effect, coreutils (>= 8.30), fontconfig, fonts-noto-cjk, libcanberra-pulse, locales, rfkill, fonts-unifont, libasound2 (>= 1.0.16), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libfreetype6 (>= 2.2.1), libgdk-pixbuf-2.0-0 (>= 2.25.2), libgdk-pixbuf-xlib-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.70.0), libgtk-3-0 (>= 3.11.5), libpoppler-glib8 (>= 0.18.0), libpulse0 (>= 0.99.1), librsvg2-2 (>= 2.14.4), libx11-6, libxcursor1 (>> 1.1.2), libxfixes3
 Filename: ./d/dde-api/dde-api_6.0.7_arm64.deb
-Size: 12150820
-MD5sum: d521ed907c22b53333f89512fbe39c2f
-SHA1: 6d2038be8cd207663d9d01ab14fe4850182b2d18
-SHA256: 4446ce958377ab35e3ef597fa43f80b5695bf5c3f80db5b99ad3b0d99dff37d7
-SHA512: 19a4d03acd57a3846f04091b12752550a6fbdd29cdd8396b4ffb6325c9922e8241574d3ecd13a4480edf3d0897d9d78f727b012dc1957865fa7db99f13cc1a6a
+Size: 12147996
+MD5sum: d95bba1626f43cd7dec65471a13133b4
+SHA1: cb07271e725238a3b5710c6eda2cb1b0ef862b62
+SHA256: 50c5615bb8b08dbef3331cb9153a8558b82fd9e6cfc209dba7baa0d55a10fb71
+SHA512: 6975c39f766bf809c71955e2fb0f0cf1f8faa296ecc7dfc3bdc0d847ebc3a484e2c25cd551354f9399582e21477a4e800bc4878cb3dcdde5571b522b9b1c3071
 Homepage: http://www.deepin.org
 Description: Go-lang bingdings for dde-daemon
  DDE API provides some dbus interfaces that is used for screen zone
