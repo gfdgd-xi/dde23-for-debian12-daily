@@ -488,11 +488,11 @@ Source: dwayland
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 770
 Filename: ./l/libdwayland-doc/libdwayland-doc_5.25.0-kwayland.5.24.3_all.deb
-Size: 519224
-MD5sum: e56188cab44744005d7eac4013398204
-SHA1: 024fe2e860dfef4cd0672aadb56ac732b97ae5f0
-SHA256: 963a51e074f2bed9c34e9c1b9aa246ab20c74092984ad2dfd137d556b645c61d
-SHA512: 4f90f0ec409b45ee59a6d8232cca7f825788beebaddaa15449c80f65eb0da846b5cb7427f7ba267df298acf31b6f3b761fbf442cc01de879af19fbf2a04b4ff3
+Size: 516840
+MD5sum: e34c2af31a5aae11f8480cc3486b34ab
+SHA1: ca2fafc044ed9664acbf6cfd2729ced394f5fcff
+SHA256: 311ac66910bbf964895988d03069a8d481781561220d69168eae4fb9e4612beb
+SHA512: 991b8f8997a67b8c418d36d96ff69a98315393623db26da9798d8dcea12b0d509b33025e7de2ab50039ca34fba7ee9de481b39f2213bab93b05ca2b3adbb6e9e
 Homepage: https://invent.kde.org/plasma/kwayland-server
 Description: Qt library wrapper for Wayland libraries (documentation)
  DWayland provides a Qt-style Client and Server library wrapper for
@@ -1200,11 +1200,11 @@ Section: admin
 Maintainer: Deepin Packages Builder <packages@deepin.org>
 Installed-Size: 2520
 Filename: ./l/linglong-loader/linglong-loader_1.3.3.10-1_arm64.deb
-Size: 779572
-MD5sum: 432ee63665a7d8b54fa8de6b4454313e
-SHA1: b71169bfcc45809d999f089287d54e8ab4150419
-SHA256: d24390bd9691da06d8b63abcb2908ccc71423fa276acc899e6d9e7adfe0ac661
-SHA512: bfd218b263d7fc5b4552f57da8e81547f9ebe4f7678b80dc14578b5388e180a42bf445ebf9ef8843ca58d8c1241365396b7055a318af6ef5e253058497c0de46
+Size: 779612
+MD5sum: 33d9f3c871d640653133876a5b05315e
+SHA1: cca8300180aa2b85c01c93a50e806eef0f312171
+SHA256: 218abbed910681db37c572c73c5a44c78a2be9ea09cc05f6fbe2840ad762cf90
+SHA512: d841ed461267998d70f229b8813d262b9fcb8fd0fc3baacc67ff0d2879120fa74589e8788149428344949600035c6962b1d4e8cd681ab8e4cb9337436aec0471
 Homepage: https://www.deepin.org
 Description: Package loader for removable bundle.
  Package loader...
@@ -2173,10 +2173,10 @@ Installed-Size: 2912
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libseccomp2 (>= 2.1.0), libstdc++6 (>= 11)
 Filename: ./l/linglong-box/linglong-box_1.3.3.15-1_arm64.deb
 Size: 793244
-MD5sum: 48df066ccc4dba0ce287e6ebd1bf8163
-SHA1: 0dc1c6619e0b89d0d448325d9d2b1c6d12c9cf20
-SHA256: 6bee690181c78604dade886c40016bd14bc61158847a01471fa253aca3aad3ee
-SHA512: 338ab2f148104be4045ed94c79d2b84c291176a61987f74d0b86d3785c77e75195c0be6874bac49adddf922343604cc14e3fc229f987292db23ed2cda5f0bb74
+MD5sum: c9042f6ab840d557c018c5786769f0d1
+SHA1: 2553d0451f381559df020f61f711c6b23e1becd2
+SHA256: ef03c5b6b724c772a7618421339a6191a745909d8d20a2c53d94385395ef4952
+SHA512: ac3124ee3ed7ec7a01c80c0505e82f38a3f41e994a531cbc6fa41112432368b3a48b4686907ec96a404f6da175d317be24d56b06692ead5c75f28b9a9df299c5
 Homepage: https://www.deepin.org
 Description: Deepin sandbox with OCI standard.
  Deepin sandbox...
