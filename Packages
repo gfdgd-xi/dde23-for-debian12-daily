@@ -4142,10 +4142,10 @@ Installed-Size: 6223
 Conflicts: debian-dde-icon-theme (<< 15.12.65)
 Filename: ./s/sea-icon-theme/sea-icon-theme_2023.09.25_all.deb
 Size: 2012564
-MD5sum: 158d7cf9ce9685efb4ee7205292d8267
-SHA1: eac980f579853eeaffd4fd1e6a5223423e88f2fd
-SHA256: 70eb07214794e7e69cf949ea0ab32763d04ce5784eaadb464a718adb36e8d8d2
-SHA512: 78cbf6dae498ab7a81a289e2f8b0605be4e0bb6d70d74bf46c9ad796084552ed6c82d78a49700f7d0a340edff5a09ce8d7c544b27d0e090be9deabd3168954e0
+MD5sum: 08e45b5038c641b5acfabae589a62c71
+SHA1: b71e189799e3a11457b86d5a8356d1eae9034bce
+SHA256: 6af52c7653f16d7a54b19773fbf2898dcde5125b57bc757d852ccfa03460b42d
+SHA512: 908288628d8b5defb9b1478101578ac812a82d2faefd04cc96d4f45e3a09f31c0415dd4fffdc14dcd50a20acf272b13f67a27b03c0664d8e32f725f5805462be
 Homepage: https://github.com/gfdgd-xi/debian-dde-icon-theme
 Description: Deepin Sea Icons
  This package is DeepinIconTheme Sea
@@ -7897,17 +7897,17 @@ Version: 1.8.0
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 51183
+Installed-Size: 51074
 Provides: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Pre-Depends: debian-dde-wallpapers (>= 1.7.14)
 Conflicts: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Breaks: deepin-community-wallpapers, deepin-desktop-base (<< 2017.11.2), deepin-wallpapers-nonfree
 Filename: ./d/debian-dde-wallpapers-nonfree/debian-dde-wallpapers-nonfree_1.8.0_all.deb
-Size: 48933136
-MD5sum: 5d3ce4a06152905e6be6971f199298ed
-SHA1: 47a7a99d9a145df3baeb8dfb8f947591b1e1fbf0
-SHA256: 58e84f623bf2d2cc4e3abc6d4d3f6383ac1de06390bd9da9f0ff2c4e38f4e81a
-SHA512: 1944c06d7758d54b7d21121cdbdaa0a290b248c332996674d9e222c8164e2da3d95e289b8374655758db3dcaf2dc60cf78995544c59b57fbc9352cd2e7dd9628
+Size: 48821712
+MD5sum: 18af0b4d143691bf82b71f715d21a1f1
+SHA1: 9835d289d1dc98076a8c5592ccc27945998fcaf1
+SHA256: d8872d323ed5a6cb3ff1125411d1aa0c016a50d1f938df6f9ee37a1d6e0a0d4a
+SHA512: 9f6708b1dafd3dc8c594c7834a2218512c96228a1e0d4c831e409db8233589981295fc6a11d2a8ba1033aa3163eb1b05ae65d738dbb7c17f8339d137b1bee9c4
 Homepage: https://www.deepin.org/
 Description: When users are ready to set their own desktop background,
  Deepin Wallpaper provides many beautiful background pictures for users to choose.
@@ -8145,17 +8145,17 @@ Version: 1.7.17
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 27185
+Installed-Size: 27114
 Provides: deepin-wallpapers
 Conflicts: deepin-wallpapers
 Breaks: deepin-desktop-base (<< 2017.11.2)
 Replaces: deepin-wallpapers
 Filename: ./d/debian-dde-wallpapers/debian-dde-wallpapers_1.7.17_all.deb
-Size: 25466948
-MD5sum: f1cbfc0285c3ba0dbb1dc31a31af0289
-SHA1: 8a69bfdb65b715724a2809e4c338d893ad8b40e4
-SHA256: 00b1e82f63964c81fef7dcb5c29d40993ccd82550859712c6152577552fe362d
-SHA512: fdf3a5ab9cbaffdc7b0891d457286669adb2f4d4a314d6d725a9bd7169cb11fb700f14890d282e01b97952d88880957efbee2513760914d3bb4cee5ec7ca6b6f
+Size: 25385096
+MD5sum: e65ad04b8de10f1b6e4a1dc9635b43e3
+SHA1: a0e0bfe3ccd265a5d2901f17edb411888468292c
+SHA256: 4f99ab211e084621848c5a1f7580d1382a7fce98b08d631fa9203865bff8e9f7
+SHA512: 80621b1a04871918dbd170b164e769215ab97ad3b81c4c39cc64868234ed6a24391fd85823fd56a72ea3fd1645331e40a100079704037fe72773d8e48a63bf55
 Homepage: https://www.deepin.org/
 Description: dde wallpapers
  Default wallpapers for debian-dde

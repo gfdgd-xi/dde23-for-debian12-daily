@@ -9,10 +9,10 @@ Installed-Size: 6223
 Conflicts: debian-dde-icon-theme (<< 15.12.65)
 Filename: ./s/sea-icon-theme/sea-icon-theme_2023.09.25_all.deb
 Size: 2012564
-MD5sum: 158d7cf9ce9685efb4ee7205292d8267
-SHA1: eac980f579853eeaffd4fd1e6a5223423e88f2fd
-SHA256: 70eb07214794e7e69cf949ea0ab32763d04ce5784eaadb464a718adb36e8d8d2
-SHA512: 78cbf6dae498ab7a81a289e2f8b0605be4e0bb6d70d74bf46c9ad796084552ed6c82d78a49700f7d0a340edff5a09ce8d7c544b27d0e090be9deabd3168954e0
+MD5sum: 08e45b5038c641b5acfabae589a62c71
+SHA1: b71e189799e3a11457b86d5a8356d1eae9034bce
+SHA256: 6af52c7653f16d7a54b19773fbf2898dcde5125b57bc757d852ccfa03460b42d
+SHA512: 908288628d8b5defb9b1478101578ac812a82d2faefd04cc96d4f45e3a09f31c0415dd4fffdc14dcd50a20acf272b13f67a27b03c0664d8e32f725f5805462be
 Homepage: https://github.com/gfdgd-xi/debian-dde-icon-theme
 Description: Deepin Sea Icons
  This package is DeepinIconTheme Sea
