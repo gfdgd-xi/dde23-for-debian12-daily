@@ -8159,11 +8159,11 @@ Installed-Size: 12639
 Depends: python3:any
 Recommends: plasma-framework, qml-module-qtmultimedia, qml-module-qtquick-controls, qml-module-qtquick-layouts, qml-module-qtquick-virtualkeyboard, qml-module-qtquick-window2, qml-module-qtquick2
 Filename: ./d/deepin-kwin-data/deepin-kwin-data_5.25.11-kwin.5.24.3_all.deb
-Size: 4011948
-MD5sum: f373b78c9e1d5c82a9191ac9a98d38a2
-SHA1: 499dbc2028dc58f7fc72acade464cfc739cb594e
-SHA256: 1ba671cb2a66589633176ad107b02205d5ae64c9df880013f4c65ab7c1c400f7
-SHA512: 11353a0a3e568e43db94040e7a0ca2d28ca44a48e61a7dadc6f39748039aba2acfe5f674c5397d3dbb0498d33955a1d18c2c02c2153e183658ba58bc32cfb712
+Size: 4012160
+MD5sum: 55c9f5a679134c1a7e46b0fb32afb155
+SHA1: 8814242890d4cb3b06a9596111a7975de788fe1e
+SHA256: bde13621bac642c1380d6703082753d98a1462f3f1d29456d85248e903bc0759
+SHA512: d4b7b2e0ed6b8abca1541fe23c78fd7a393aa266663fa4c086adc171ae5f282b2032ffb3186cec80e244e7b71fc5409ed00ff492077848225105787f3a74c851
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Description: KDE window manager data files
  KWin (pronounced as one syllable "deepin-kwin") is the window
@@ -9284,10 +9284,10 @@ Installed-Size: 78
 Depends: dkms (>= 2.1.0.0)
 Filename: ./d/deepin-anything-dkms/deepin-anything-dkms_6.1.4_all.deb
 Size: 14452
-MD5sum: f24c910a81b18ccf49f6b3692a177755
-SHA1: a03a99f7bfee4de0c85e154b446fee2ff3ac62ca
-SHA256: 11156d138740fdb953337826424ae828f05e3e393c710eaeeb97d83fe7ee0897
-SHA512: 37a929eb7f91883128b5459d62a6f8fca76364ad281abcd4cec4bab10e5d4c418b4fc9a996ac6648469d6445c38f12d502da2415bc562ecf409e11a59b766ebe
+MD5sum: ea220a68572a1670b43c16a5e6c60285
+SHA1: 5866d024c190de5a7bd9dd3500f9fe4c448d0ad4
+SHA256: f883860a67c65b47910821b9bcd95e6e3fc22cd00217cd8b646ebdbe8fc7d8a1
+SHA512: 96fec26cb6525652fce23740780bf75e2cf8781247c4e5c0a4b086de802265ed0012132635e86c4b174c6d067ab672d69c2cf00ef9c7fc174d6982fee8e57e3d
 Homepage: http://github.com/linuxdeepin/deepin-anything
 Description: anything module
  anything kernel module package
