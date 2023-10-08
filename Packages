@@ -4410,16 +4410,16 @@ Version: 0.0.2
 Priority: optional
 Section: unknown
 Maintainer: Gary Wang <wangzichong@deepin.org>
-Installed-Size: 791
+Installed-Size: 795
 Depends: libappstreamqt2 (>= 0.16.3), libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.4), libglib2.0-0 (>= 2.40.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5qml5 (>= 5.14.1), libqt5quick5 (>= 5.6.0~beta) | libqt5quick5-gles (>= 5.6.0~beta), libqt5quickcontrols2-5 (>= 5.7.1), libstdc++6 (>= 5.2), qml-module-qtquick-layouts, qml-module-qtquick-window2, qml-module-qtquick-controls2, qml-module-qtquick-controls2-styles-chameleon, qml-module-qtgraphicaleffects, qml-module-org-kde-kitemmodels
 Conflicts: dde-launcher
 Replaces: dde-launcher
 Filename: ./d/dde-launchpad/dde-launchpad_0.0.2_riscv64.deb
-Size: 274416
-MD5sum: 3d5a297f24cd7bb9c15285c72045e3cc
-SHA1: 1e08e5da5f335ddf715efd6aa080ebabf4acb81f
-SHA256: d9045d64064beffb86efa30ba2b096860e1d60514d6b5cb88c5a50d147958d6c
-SHA512: b041494e36219c22d6e0f88bcc5bf4214c47b31c72789bffe9e2d3cc7350086b6b21f459e2d6b87e6fa035b9c79165da56d660d8b3451ed44cc5d8b8912d6ff0
+Size: 273960
+MD5sum: ff42008c3f45616d6046a33b3801bba2
+SHA1: e71b64306c4fe3f71c51a5463745a1ef885d508b
+SHA256: 1a92972145f07edf41d7fbe7b5305f1c415d3797666e5c6135b46e8f4128b5b3
+SHA512: ab46593b77b8c3d72426c03031930ada5528f46737b2ea285e9dfbe3d6a1e0757db1069ca30e3a55ba7a1ea9c6752b1ee08380a4ea50a70fcd385ff30d6e98b3
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
@@ -7685,11 +7685,11 @@ Maintainer: Deepin Sysdev <sysdev@deepin.com>
 Installed-Size: 731
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.25.0-kwayland.5.24.3), libgcc-s1 (>= 3.4), libgio-qt0 (>= 0.0.12), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5), dde-daemon (>= 5.12.0.31), startdde (>= 5.6.0.34), dde-api (>= 2.92.1), dde-session (>= 1.1.5)
 Filename: ./d/dde-clipboard/dde-clipboard_6.0.7_riscv64.deb
-Size: 194580
-MD5sum: 83a5e2efe5254e3f2dce5faab95455b1
-SHA1: f048d1565bcf7ac2e35ab452bc33ac2d6518711a
-SHA256: a3d2958aa6ac660049420a55bb86388a6d2a8eed424d2d2a59f44fcc7df353a2
-SHA512: ffd6c04cf1bcb2611f4ef3eaffcdbe944dc28c6f9e5e41791716d6a237dd3146ca4f26715e5d249517bea22ac1465750cb2bd2937c59ad524478b07696a868c8
+Size: 194716
+MD5sum: 0b318fddb645251c4036b15573de320e
+SHA1: 00cf19077b586f439fd7c0cb33921cab83bf6a3b
+SHA256: 0f0c4d5b96d9a6d678882d22de3b838a7111d42c0f5b3ea36df29478b4d1c124
+SHA512: cb7ef8defb6458b986cbac95553886330805acabd6ee42fe03b5b3fda101799200c61ec9305c66f3bb284241204dfe4fa3b58ae7f29a36fad3d0172773f91ed0
 Homepage: https://github.com/linuxdeepin/dde-clipboard
 Description: deepin desktop-environment - clipboard module
  Clipboard module of deepin desktop-environment
