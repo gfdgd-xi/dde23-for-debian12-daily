@@ -1,0 +1,19 @@
+Package: deepin-image-viewer
+Architecture: arm64
+Version: 6.0.3
+Priority: extra
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 7861
+Depends: libc6 (>= 2.34), libdeepin-ocr-plugin-manager (>= 1.0.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfreeimage3 (>= 3.18.0+ds2), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5printsupport5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.6.0~beta) | libqt5quick5-gles (>= 5.6.0~beta), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libraw20 (>= 0.16.0), libstdc++6 (>= 11), qml-module-qt-labs-settings, qml-module-qt-labs-folderlistmodel, libqt5sql5-sqlite, qt5-image-formats-plugins
+Recommends: libqt5libqgtk2, deepin-ocr
+Filename: ./d/deepin-image-viewer/deepin-image-viewer_6.0.3_arm64.deb
+Size: 5199980
+MD5sum: 84bc78602c47904b04047dc62ecf8b26
+SHA1: ee97de236575925d1df9e8024356b2eb6a07a537
+SHA256: 52add3f3d707de746a91bee169064e7e0d49e6b840bef026ac93be2abf080d41
+SHA512: bf4f39039cd217fd80bd5d98043ff757840aa21c9affe67d9a956610715e9e9a644c976f67535200512ef2463b393633831bafab3dcf183982b851fff611cb3c
+Homepage: http://www.deepin.org
+Description: Image Viewer is an image viewing tool with fashion interface and smooth performance.
+ Deepin Image Viewer is an image viewing tool with fashion interface and smooth performance.
+

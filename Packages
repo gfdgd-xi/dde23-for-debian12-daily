@@ -1789,6 +1789,24 @@ Description: extension library of dde-file-manager
  Extension library of dde-file-manager which is provided for third parties
 
 Package: libdeepin-unioncode-dev
+Architecture: arm64
+Version: 1.1.19
+Priority: optional
+Section: libdevel
+Source: deepin-unioncode
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 79
+Filename: ./l/libdeepin-unioncode-dev/libdeepin-unioncode-dev_1.1.19_arm64.deb
+Size: 12492
+MD5sum: 4e5360e3e92864aa3b34617bea994511
+SHA1: 04596ec4df6595f4b35a2c42b8063d436a36f541
+SHA256: 9d3fd297282aed304e0cd93ce7d4bd2b4c669f61f2211ad1a3a3c0b5b563b5ce
+SHA512: 79c4bc400f4cf3b8ca78df75d10069580d28619252853a27d47aab9d26cdf25bc645ce858664d3233bc1634baf14c49512f4841919a8e1720349f03e0176319c
+Homepage: http://www.deepin.org
+Description: IDE 'Union Code' devel library
+ IDE 'Union Code' development can be carried out through this library
+
+Package: libdeepin-unioncode-dev
 Architecture: amd64
 Version: 1.1.19
 Priority: optional
@@ -7044,6 +7062,25 @@ Description: KDE window manager - devel files
  This package is part of the KDE base workspace module.
 
 Package: deepin-unioncode
+Architecture: arm64
+Version: 1.1.19
+Priority: optional
+Section: libdevel
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 106167
+Depends: libc6 (>= 2.34), libclang1-14 (>= 1:5.0~+rc1~), libdbus-1-3 (>= 1.9.14), libdwarf++0 (>= 0.2), libelf++0 (>= 0.2), libgcc-s1 (>= 3.0), libjson-c5 (>= 0.15), libjsoncpp25 (>= 1.9.5), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5script5 (>= 5.6.0~beta), libqt5scripttools5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 12), libzstd1 (>= 1.5.2)
+Recommends: cmake, make, gdb, g++, gcc, git, npm
+Filename: ./d/deepin-unioncode/deepin-unioncode_1.1.19_arm64.deb
+Size: 71126300
+MD5sum: 375ba5492b287b24327f4ed5d21721c1
+SHA1: 8ccc98ab8260f4622d2172b540cd171d52a59f4d
+SHA256: fb95f6f9119c7c012d7f9878d516adfddddd530e70831f81adbfc656b72d7e96
+SHA512: 8172477f6718321164f3beb5478af6a96fdcb32ed99e051cc381a4d8f639c8db11ce86bbeca96ad6181aa59f56ff55fa489326d9a3f229f9adcd136b1de25b9b
+Homepage: http://www.deepin.org
+Description: IDE 'Deepin Union Code'
+ Lightweight cross-platform integrated development environment
+
+Package: deepin-unioncode
 Architecture: amd64
 Version: 1.1.19
 Priority: optional
@@ -9410,6 +9447,25 @@ MD5sum: 1497fcd5615f6329d19fb0fd4705d6b8
 SHA1: 567d1eca19c4f64a158bb7985a1cab1150935464
 SHA256: 972779b876faba8ca6d6ad0d850d0c86a032ff205cc6bab439df03305f274e2f
 SHA512: 56bd8fff79559a8792fdf1ccdb62e0adc7c5760bddb2e04db9fab89247935599e19811f53da0628751563466288bbac7047a0d42f7616ff4832e829f7f289346
+Homepage: http://www.deepin.org
+Description: Image Viewer is an image viewing tool with fashion interface and smooth performance.
+ Deepin Image Viewer is an image viewing tool with fashion interface and smooth performance.
+
+Package: deepin-image-viewer
+Architecture: arm64
+Version: 6.0.3
+Priority: extra
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 7861
+Depends: libc6 (>= 2.34), libdeepin-ocr-plugin-manager (>= 1.0.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfreeimage3 (>= 3.18.0+ds2), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5printsupport5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.6.0~beta) | libqt5quick5-gles (>= 5.6.0~beta), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libraw20 (>= 0.16.0), libstdc++6 (>= 11), qml-module-qt-labs-settings, qml-module-qt-labs-folderlistmodel, libqt5sql5-sqlite, qt5-image-formats-plugins
+Recommends: libqt5libqgtk2, deepin-ocr
+Filename: ./d/deepin-image-viewer/deepin-image-viewer_6.0.3_arm64.deb
+Size: 5199980
+MD5sum: 84bc78602c47904b04047dc62ecf8b26
+SHA1: ee97de236575925d1df9e8024356b2eb6a07a537
+SHA256: 52add3f3d707de746a91bee169064e7e0d49e6b840bef026ac93be2abf080d41
+SHA512: bf4f39039cd217fd80bd5d98043ff757840aa21c9affe67d9a956610715e9e9a644c976f67535200512ef2463b393633831bafab3dcf183982b851fff611cb3c
 Homepage: http://www.deepin.org
 Description: Image Viewer is an image viewing tool with fashion interface and smooth performance.
  Deepin Image Viewer is an image viewing tool with fashion interface and smooth performance.
