@@ -8,11 +8,11 @@ Maintainer: donghualin <donghualin@uniontech.com>
 Installed-Size: 5328
 Depends: dde-control-center (>= 6.0.29), libc6 (>= 2.17), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libkf5networkmanagerqt6 (>= 5.99.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.5.0), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5.2), network-manager-integration-plugins, libdde-network-core (= 2.0.15)
 Filename: ./d/dcc-network-plugin/dcc-network-plugin_2.0.15_arm64.deb
-Size: 983228
-MD5sum: 1693ce40783d1fa02bc5195b502c4251
-SHA1: 23d8243c0903877b7e1c66b8dfed5518ad384a8b
-SHA256: 6c5ae0b52cf0f1cbb58e8e7aa34946c9504313da1a02ff587beadb9e2f2a2378
-SHA512: 778509fc74b713d93591277f436097ea3991579da5afc765df04514f831c9498b15fa299459c884ee5b017a78603b78b371b45dbcac8732257fef629eb856051
+Size: 989812
+MD5sum: 797a29ffb7168c621cc354ae3cce8168
+SHA1: aa78ab27e5ee8090191d4b69183322a69a389bba
+SHA256: 194cb7988a6191b0953cebcc8a9c940bff2e5139dbb28c921ff56cc36d08f13b
+SHA512: cbe07a1dce3f73620db595a2ff245de6081fa9eddd9b19d7e0bfa6d4c686bee010582d66a0abcde878e4bd9d8f3a7de783746681d26180017da0f441b6a539f8
 Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
 Description: the plugin of network for dde control center
  dcc-network-plugin module
