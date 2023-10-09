@@ -9,11 +9,11 @@ Installed-Size: 803
 Depends: libdframeworkdbus2 (= 6.0.0)
 Conflicts: libdframeworkdbus
 Filename: ./l/libdframeworkdbus-dev/libdframeworkdbus-dev_6.0.0_amd64.deb
-Size: 63308
-MD5sum: 94f19acc2e29e72acb501d7812dca04a
-SHA1: c826d706fc3855729b9a4c05e10cbafc31e8f718
-SHA256: c4164b04ec14ab25acf2bbcd8ae29042c1550d4ba73d89da7a1d9e8efba9002c
-SHA512: 540953d1259b22bc41b913048f41873b81011ff6c85dfbbe36c4c446f36a1e2622d38154f45040bd1cf2d18fff5492451d6afb79e1866d4b12f2a487e1bfa7eb
+Size: 63280
+MD5sum: 49685e9ef5a069e3ac36c6c09808ed39
+SHA1: 0742a3ff6181e5c3682d27df45ab5e904f4e00c1
+SHA256: bc4b56970730822fa9c58e990b5d0391f22888ea963fc46dfdea6af82444ec56
+SHA512: 76422e60c0c0277146e209e605e35143a5d37f047eb7b0f6284231fbaa9f80625fd3d278f05f01928b6462b0e11cde90226703a52be44e27de6eda98d3c8498b
 Homepage: https://github.com/linuxdeepin/dde-qt-dbus-factory
 Description: Qt DBus interface library for Deepin software (development files)
  Libdframeworkdbus provides Qt DBus interface for various Deepin software.
