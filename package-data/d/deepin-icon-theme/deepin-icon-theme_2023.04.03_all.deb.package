@@ -9,10 +9,10 @@ Depends: papirus-icon-theme
 Conflicts: deepin-cursor-theme
 Filename: ./d/deepin-icon-theme/deepin-icon-theme_2023.04.03_all.deb
 Size: 28861320
-MD5sum: ecd5d676b6c9a74c2cf57d6f7e26e404
-SHA1: fe1556afa2d10088f59af68d73edb517df0dc437
-SHA256: d5fa4f2602cbb32e1c5103831d0e6948adaaae3741509f800ecf423c4476a664
-SHA512: 036f75dafc303b094bbbd7fd358235123c6b691ab8c9b469ce58d6c944ef8e3ff6ab693a201641ac091a7773647c627aef4a04ca29d8b455def9bcf35fe443e3
+MD5sum: d79267abf47d460c3714993d5393ed8f
+SHA1: 9e2a0baeefa75b48c5c66e449e01582affde86d0
+SHA256: f4ece32f803013fd30175b21cc3ba7aacc653473f2c93dd596a33062a975212e
+SHA512: 784c85b9e079025d4945df380d2b5f5d69b56af1bda730e01560e5618f660046ffc468262b4a0ea162b6f7e885212c80ded7b5349f6c30fcbf907b3442e543f8
 Homepage: https://github.com/linuxdeepin/deepin-icon-theme
 Description: Deepin Icons
  This package is DeepinIconTheme
