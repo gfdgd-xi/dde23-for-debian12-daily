@@ -9422,11 +9422,11 @@ Installed-Size: 2988
 Depends: qtxdg-dev-tools, deepin-desktop-schemas (>= 5.9.14), dde-daemon (>= 5.13.12), startdde (>= 5.8.9), lastore-daemon (>= 5.2.9), libxcb-util1, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.4), libglib2.0-0 (>= 2.24.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libxcb-ewmh2 (>= 0.4.1), libxcb1
 Conflicts: dde-workspace (<< 2.90.5)
 Filename: ./d/dde-launcher/dde-launcher_6.0.17_riscv64.deb
-Size: 825112
-MD5sum: b3b85ae83c4cb921e835d2128505ea08
-SHA1: 2a3a6af0c4493789c74b57eb90b9a23694011378
-SHA256: 9b7c4bffc871569153e59786f3119777c667ce3f57cf4dcc2e418d60e300e833
-SHA512: 79f0141264369d1e307a8cfba15873bd9ef6ee69c03c4878979a4db7daa46daf230fae2ebf1debec10b4635496f5f8c23605b3517651940ebc53543bb4fdfbdc
+Size: 825176
+MD5sum: d7ec76363f798f69de751e5bdc9ea096
+SHA1: c53f01a965a1d1f39599c160a31e16d79f16bad4
+SHA256: 4788547f96954aa29fc79daa243268eb0a86a0a2d72275f34e9091cc79163491
+SHA512: c52c5e6cd9b497ca99ee018b78d0d9b5ff9f9ac495f220070adbdabf40d675343261cc23668da719adc7559c06f86c9a40dd7dc7b70af489438883b70faaf084
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dde-launcher module
  Deepin desktop environment 2015 - dde-launcher module.
