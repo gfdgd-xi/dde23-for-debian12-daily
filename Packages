@@ -1159,11 +1159,11 @@ Installed-Size: 803
 Depends: libdframeworkdbus2 (= 6.0.0)
 Conflicts: libdframeworkdbus
 Filename: ./l/libdframeworkdbus-dev/libdframeworkdbus-dev_6.0.0_arm64.deb
-Size: 63284
-MD5sum: 1d388b731ea5f075588ee69962603885
-SHA1: 8d1d6248c33069f99f41c94fc3ec88adf7733d2c
-SHA256: bf0998e099f287a0cd4c00059c816e08bf3b11ae162b5a0eb1918481e5ba8748
-SHA512: 523303be6dd15e83db0fd19520abbbdc90cb00bfd4deac7b4fc926e06d069151bc64a1aa4ce9e9633d7dbde8fa098299b8a6e96a6bfdc3d5f562e6b147f672fe
+Size: 63272
+MD5sum: 8e15d38f03a9c50902d67a16063a24f0
+SHA1: 0a89167859a3fcd8602e89109250e702131c0498
+SHA256: 6220f21c01344c98c9ae178d8363e12f651a2dce87124d9d1f6240540b321825
+SHA512: 8a1909f8f19c38dec4e8a9c661f08d166616ec89fb55d9392e0d93718aca14c1cbc9812562aa323d59d6834d940d712f2c559d5324ac1673c4090fba68b94b77
 Homepage: https://github.com/linuxdeepin/dde-qt-dbus-factory
 Description: Qt DBus interface library for Deepin software (development files)
  Libdframeworkdbus provides Qt DBus interface for various Deepin software.
@@ -2827,11 +2827,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3735
 Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.14.1), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
 Filename: ./l/libdframeworkdbus2/libdframeworkdbus2_6.0.0_arm64.deb
-Size: 647572
-MD5sum: 6c0bf9cbd18b649c425eb392bdd7b2ec
-SHA1: 9d6bfd3ec3e4b579cf3d4884c7bd03e32c19558a
-SHA256: ec3494e348be033c994b95d35de8ac974ac69fac14f4ef9096fcd0599903a8fd
-SHA512: 78f8f581c5198a68e6e2228c6a361948205cc5945b5a102354c88a2cbaee144867ab110c487c615c28cced5244fa01ad87a319b2b9f01fc6d4ac53fba8432b75
+Size: 648420
+MD5sum: 926852a6a484480ea906cfbe10703025
+SHA1: 257500fe787ec74332b6efb8993ad1d0d77007c9
+SHA256: 6b0a86539cfc530ca48bcb77441d58ea28383bf658eec56007d2ce4d6411c2a9
+SHA512: 94062f47f918bec1a7f5882d03fd3f4cc9870ed0a809d320406ac017edf00a3f768c5360b75bdf71e78353373dbb26863f10d8dee9a0118f199a1c2bf41da52e
 Homepage: https://github.com/linuxdeepin/dde-qt-dbus-factory
 Description: Qt DBus interface library for Deepin software (shared library)
  Libdframeworkdbus provides Qt DBus interface for various Deepin software.
@@ -4338,11 +4338,11 @@ Maintainer: liuminghang <liuminghang0821@gmail.com>
 Installed-Size: 7343
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.35.8), libmpv2 (>= 0.29), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 11), libx11-6, libxcb-ewmh2 (>= 0.4.1), libxcb1
 Filename: ./f/fantascene-dynamic-wallpaper/fantascene-dynamic-wallpaper_1.5.9-1_arm64.deb
-Size: 6624480
-MD5sum: f7d418eb678e8ca8f8a189adee4e54fb
-SHA1: c7c03b82012a36c48701c2ae6e942c79e9455e77
-SHA256: 25c227ab1608cc6efc3b302e7eef98129a6705eb104c2bbb92a23d137fe05890
-SHA512: 0f5798990ff5f62ada6f4a7617e5c0929a29be28a579364843650abbffcc1c81272da834652ab3a8e74708932013296ecb8f5846be4fe86e8a9c89747bfd9f2d
+Size: 6624628
+MD5sum: 0dd5cf922ff267dc62da48bc7a9e93ea
+SHA1: 1573c33d725fa75b837b258343a03c5e8fb3a417
+SHA256: 108cced723b8ffe6a9505a6e893f448c76355cd98fc487a650e01ac8ce9f2e6c
+SHA512: 4c4e4170b0cceb0eb8cbc722781c2390baddbc01cda4bb870f582f909defe384eaddcfea6395411864862b1d1a9fcff59166e4404a0447d357c717cde8cddba2
 Homepage: http://github.com/dependon/fantascene-dynamic-wallpaper
 Description: video wallpaper for fantascene.
 
