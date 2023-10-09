@@ -7704,11 +7704,11 @@ Maintainer: Deepin Sysdev <sysdev@deepin.com>
 Installed-Size: 767
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.25.0-kwayland.5.24.3), libgcc-s1 (>= 3.0), libgio-qt0 (>= 0.0.11), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5), dde-daemon (>= 5.12.0.31), startdde (>= 5.6.0.34), dde-api (>= 2.92.1), dde-session (>= 1.1.5)
 Filename: ./d/dde-clipboard/dde-clipboard_6.0.7_arm64.deb
-Size: 162168
-MD5sum: 463a6d9ef746421885e1bd236c3437e6
-SHA1: a579ce2db9314c9cfea79c0f3affd52dba68a3aa
-SHA256: 5cfa0e3c2c83c42743444b2754086c1c20d138ea436a340ffa74933b491a8620
-SHA512: 53ce135720db6615c863e0f44e7ed2f11de297623c12263029b170dfa8131feca7d929b3b0e75515a89399d63b0f1f0eb690256a93e6b420d35ae774f766d39b
+Size: 162132
+MD5sum: 23afa42d96e67b778e6a352c3cc1d094
+SHA1: e8a36aa4c2bb0d11a78e9b71851021f998fb2a32
+SHA256: e421e60170ce7a57884e1aa9e7fa128e188ac75fce138d5601da54d6f1d962a3
+SHA512: e2aa80655a8771b1bf4a45699e4eb811fb615e252d396e257b72297df38171e029d11caf466f71dc47427e3dc0d8fe4b715471a6efdd20241d7223595eb4c918
 Homepage: https://github.com/linuxdeepin/dde-clipboard
 Description: deepin desktop-environment - clipboard module
  Clipboard module of deepin desktop-environment
