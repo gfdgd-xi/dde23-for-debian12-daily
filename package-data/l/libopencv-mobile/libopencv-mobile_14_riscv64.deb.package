@@ -8,11 +8,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 5370
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.4), libgomp1 (>= 6), libstdc++6 (>= 12)
 Filename: ./l/libopencv-mobile/libopencv-mobile_14_riscv64.deb
-Size: 2091132
-MD5sum: caeca83b5b892406b2daa76c4c6963be
-SHA1: 6adb68945d4d9aa4061e9c50519199d9913630b1
-SHA256: b0230440869910d92b9a69db470c85a618c00a861481d9b5d3c54ae1555fac2d
-SHA512: 7048531a0d59e8ee30101561845e81bc9a400010351566160e09cbeee031c5f154b99f9b69930f63b49e09a94f8272cb74ed549e0c9fcb552c18f83b93a21ac7
+Size: 2091424
+MD5sum: 948afc246159ed386987f215ab481314
+SHA1: 468463ae1de39bff3ef3a72745968571a4975d1d
+SHA256: 72829bd7ffc24606e7e41be6049c7999cb1070de64bffcfefdfdf870daa9903a
+SHA512: ffda7145e4c83b5033ae88fe6a478cfc1573efe0be25271e85d225847557a29c5c36f7cbc475b3ed8fad567fb9b25dc4184b6d70b7fb7a4692679e8928e16f22
 Homepage: http://www.deepin.org
 Description: The minimal build of opencv library for the Android, IOS, and ARM Linux platforms.
 
