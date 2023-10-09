@@ -4,7 +4,7 @@ Version: 6.0.11
 Priority: optional
 Section: devel
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
-Installed-Size: 6629
+Installed-Size: 6565
 Provides: lightdm-greeter
 Depends: libc6 (>= 2.34), libdeepin-pw-check, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), liblightdm-qt5-3-0 (>= 1.18.3), libpam0g (>= 0.99.7.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.2.99.901), libxcb1, libxcursor1 (>> 1.1.2), libxfixes3, libxi6 (>= 2:1.2.99.4), libxrandr2 (>= 2:1.2.99.2), libxtst6, dconf-gsettings-backend | gsettings-backend, deepin-desktop-schemas (>= 5.9.14), dde-daemon (>= 5.13.12), startdde (>= 5.8.9), x11-xserver-utils, deepin-authenticate (>= 1.2.27), libssl3, libxcb-util0 | libxcb-util1, xsettingsd
 Recommends: onboard, dss-network-plugin, dde-network-dialog
@@ -12,11 +12,11 @@ Conflicts: dde-preload, dde-session-ui (<< 5.0.0), dde-workspace, deepin-notific
 Breaks: dde-workspace
 Replaces: deepin-notifications
 Filename: ./d/dde-session-shell/dde-session-shell_6.0.11_arm64.deb
-Size: 1017412
-MD5sum: a49e84a9dd29703e92a67f0fc52f10c7
-SHA1: 5ee4b50b5901a186f3527179fad410b6881edf6b
-SHA256: 3948e7fc2055d60037d7b647e8e3dced42177c0977ce249616cdbb999c99f208
-SHA512: f256f025ec9d7d5dca2a21281293d390937ac3c597a4e724cd0c27f945e2a590e47229e0dfe5e6096952d21b0a6338250a9485ef7e01a5be781525739d73b2af
+Size: 1014216
+MD5sum: a2751e45fc0044f254d771eeb7cf1749
+SHA1: 9503adb11aeaaf12481866b01eff49c2f3485881
+SHA256: c4ce5d7bdb7e31c31c228f9936614060048baf3c3557987a7a0cad4b149db392
+SHA512: 0624c62b090f3e454b51e4cc3bbcc8c5786d15e04c5485cbfc587fd3f97b34059929279dbff04aa980c6e69c178690f51062e2dd3b324f3374503f9f74ab096a
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dde-session-shell module
  Deepin desktop environment 2015 - dde-session-shell module.
