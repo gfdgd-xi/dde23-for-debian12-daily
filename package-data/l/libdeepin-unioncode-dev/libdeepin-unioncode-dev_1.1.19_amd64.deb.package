@@ -7,11 +7,11 @@ Source: deepin-unioncode
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
 Installed-Size: 79
 Filename: ./l/libdeepin-unioncode-dev/libdeepin-unioncode-dev_1.1.19_amd64.deb
-Size: 12492
-MD5sum: 68f983045faac3787faf06ba375421ac
-SHA1: 1dc3d46cd4718939f014b17180fd6a2232edcfa2
-SHA256: 0e30411cd97f331880f53b56e0b3e5cda2e9f3070a3484376b9682d0987430b0
-SHA512: bcc60ad63c636a6a0650cc3cab232c1f49e70663d2c3abaf458d6eb2f7b6cba26b2578a4c43ea6e17d0dbef7acc26e58619694b9430b5aa5c5d1fe715096a649
+Size: 12488
+MD5sum: 1a382d9ddd8e6c223ff42055e2064870
+SHA1: 844f0977212ba4bfc73d3e3c3f6ad7b46712dcc4
+SHA256: 1c73844912c56950f651b82bea1d49e055f28c0be4b8c2b5ecb0bb484d4798ef
+SHA512: 58dabc3224bf076fcade3b9edbb42659c23141b6cf15712710cc1840447573d132ae248a14deffee099d85ab61c2d02523dde4b9cc83b6933654b1ab2b9b2ef5
 Homepage: http://www.deepin.org
 Description: IDE 'Union Code' devel library
  IDE 'Union Code' development can be carried out through this library
