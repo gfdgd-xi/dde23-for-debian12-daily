@@ -9,10 +9,10 @@ Installed-Size: 78
 Depends: dkms (>= 2.1.0.0)
 Filename: ./d/deepin-anything-dkms/deepin-anything-dkms_6.1.4_all.deb
 Size: 14452
-MD5sum: f24c910a81b18ccf49f6b3692a177755
-SHA1: a03a99f7bfee4de0c85e154b446fee2ff3ac62ca
-SHA256: 11156d138740fdb953337826424ae828f05e3e393c710eaeeb97d83fe7ee0897
-SHA512: 37a929eb7f91883128b5459d62a6f8fca76364ad281abcd4cec4bab10e5d4c418b4fc9a996ac6648469d6445c38f12d502da2415bc562ecf409e11a59b766ebe
+MD5sum: ea220a68572a1670b43c16a5e6c60285
+SHA1: 5866d024c190de5a7bd9dd3500f9fe4c448d0ad4
+SHA256: f883860a67c65b47910821b9bcd95e6e3fc22cd00217cd8b646ebdbe8fc7d8a1
+SHA512: 96fec26cb6525652fce23740780bf75e2cf8781247c4e5c0a4b086de802265ed0012132635e86c4b174c6d067ab672d69c2cf00ef9c7fc174d6982fee8e57e3d
 Homepage: http://github.com/linuxdeepin/deepin-anything
 Description: anything module
  anything kernel module package

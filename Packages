@@ -7120,11 +7120,11 @@ Maintainer: LinuxDeepin <linuxdeepin@deepin.org>
 Installed-Size: 6397
 Depends: deepin-upgrade-manager, libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.70.0), libgtk-3-0 (>= 3.0.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 13.1), plymouth-label, fuseiso, dpkg-repack, squashfs-tools
 Filename: ./d/deepin-system-upgrade/deepin-system-upgrade_6.0.9_riscv64.deb
-Size: 2192152
-MD5sum: c9cadf08588531b8c76942a103bf6ec2
-SHA1: 44580e6dfc9bd5056b089b5d50e60ceaa743b35a
-SHA256: 751dcb9bbbdb0352fccae141a52bb7b06eb814aa82fc29957ba4e52166b57790
-SHA512: e23b241c3e2e6d20c925c04e52f9a6cc64485d4b830f12a2cc9c43a9c1218cba2662c9c72ab21d715723b668db6cbf074d364268575d9a594b288660b9e2791f
+Size: 2192040
+MD5sum: 10687ec801a3f1a352f90c22e3cd9de7
+SHA1: 76ee67fd137adb39e83608315d50cb0e731468ea
+SHA256: 2c6978f9a3d53fb5c90cbe33eea04f0f6d26b24762210af363959537ff32aa87
+SHA512: 7e27e2243a0893e1d18f950975d3ea340b6d22a9b675ea38ee56953fa5dd0cbd556484c7ea8b8817a15208bb6f4c815f82d241bba198f0aa685bce75eccf21d9
 Homepage: http://www.deepin.org
 Description: system upgrade tool
  deepin system upgrade tool in Linux
@@ -8422,11 +8422,11 @@ Installed-Size: 12639
 Depends: python3:any
 Recommends: plasma-framework, qml-module-qtmultimedia, qml-module-qtquick-controls, qml-module-qtquick-layouts, qml-module-qtquick-virtualkeyboard, qml-module-qtquick-window2, qml-module-qtquick2
 Filename: ./d/deepin-kwin-data/deepin-kwin-data_5.25.11-kwin.5.24.3_all.deb
-Size: 4011948
-MD5sum: f373b78c9e1d5c82a9191ac9a98d38a2
-SHA1: 499dbc2028dc58f7fc72acade464cfc739cb594e
-SHA256: 1ba671cb2a66589633176ad107b02205d5ae64c9df880013f4c65ab7c1c400f7
-SHA512: 11353a0a3e568e43db94040e7a0ca2d28ca44a48e61a7dadc6f39748039aba2acfe5f674c5397d3dbb0498d33955a1d18c2c02c2153e183658ba58bc32cfb712
+Size: 4012160
+MD5sum: 55c9f5a679134c1a7e46b0fb32afb155
+SHA1: 8814242890d4cb3b06a9596111a7975de788fe1e
+SHA256: bde13621bac642c1380d6703082753d98a1462f3f1d29456d85248e903bc0759
+SHA512: d4b7b2e0ed6b8abca1541fe23c78fd7a393aa266663fa4c086adc171ae5f282b2032ffb3186cec80e244e7b71fc5409ed00ff492077848225105787f3a74c851
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Description: KDE window manager data files
  KWin (pronounced as one syllable "deepin-kwin") is the window
@@ -9604,10 +9604,10 @@ Installed-Size: 78
 Depends: dkms (>= 2.1.0.0)
 Filename: ./d/deepin-anything-dkms/deepin-anything-dkms_6.1.4_all.deb
 Size: 14452
-MD5sum: f24c910a81b18ccf49f6b3692a177755
-SHA1: a03a99f7bfee4de0c85e154b446fee2ff3ac62ca
-SHA256: 11156d138740fdb953337826424ae828f05e3e393c710eaeeb97d83fe7ee0897
-SHA512: 37a929eb7f91883128b5459d62a6f8fca76364ad281abcd4cec4bab10e5d4c418b4fc9a996ac6648469d6445c38f12d502da2415bc562ecf409e11a59b766ebe
+MD5sum: ea220a68572a1670b43c16a5e6c60285
+SHA1: 5866d024c190de5a7bd9dd3500f9fe4c448d0ad4
+SHA256: f883860a67c65b47910821b9bcd95e6e3fc22cd00217cd8b646ebdbe8fc7d8a1
+SHA512: 96fec26cb6525652fce23740780bf75e2cf8781247c4e5c0a4b086de802265ed0012132635e86c4b174c6d067ab672d69c2cf00ef9c7fc174d6982fee8e57e3d
 Homepage: http://github.com/linuxdeepin/deepin-anything
 Description: anything module
  anything kernel module package
@@ -9834,14 +9834,14 @@ Version: 6.0.7
 Priority: optional
 Section: devel
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 65225
+Installed-Size: 65241
 Depends: adduser, alsa-utils, bc, blur-effect, coreutils (>= 8.30), fontconfig, fonts-noto-cjk, libcanberra-pulse, locales, rfkill, fonts-unifont, libasound2 (>= 1.0.16), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libfreetype6 (>= 2.2.1), libgdk-pixbuf-2.0-0 (>= 2.25.2), libgdk-pixbuf-xlib-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.75.3), libgtk-3-0 (>= 3.11.5), libpoppler-glib8 (>= 0.18.0), libpulse0 (>= 0.99.1), librsvg2-2 (>= 2.14.4), libx11-6, libxcursor1 (>> 1.1.2), libxfixes3
 Filename: ./d/dde-api/dde-api_6.0.7_riscv64.deb
-Size: 12596732
-MD5sum: 73ee06cd9caf489a5b8317bc7aadfc1c
-SHA1: e31f5e023ec80879787018e6e412d38047d32114
-SHA256: 72e1a6b912837d555b42453443eff6d7a69e1ea87fb6defc5ac6626ac6fc263f
-SHA512: 2d75bb81e9d0843e763eb9412adfb9aea6b2269cbd714cbe1eb3ff3a48870130c6ee5c51dde90410a2694789ac5ac27c07e7da2175cb0066bbb8102e5da10198
+Size: 12603412
+MD5sum: aadac5ae70d49db8c96e4787172b177d
+SHA1: 48f8c0772430ec1e3105f28c7468011d2688ea3e
+SHA256: 0478bdf6d8b64ef0987508d7f87002a68fa3fd51dac1cc5344befd8007b5cf6a
+SHA512: 9c92f4d085b7eff60e2e257211e8d24d2246e8293e282168a5906283f2523433b7f17c0bd13f7b0640b06f50848747d7e0aa9821f0c130c7f8c0b295fa87bb9b
 Homepage: http://www.deepin.org
 Description: Go-lang bingdings for dde-daemon
  DDE API provides some dbus interfaces that is used for screen zone
