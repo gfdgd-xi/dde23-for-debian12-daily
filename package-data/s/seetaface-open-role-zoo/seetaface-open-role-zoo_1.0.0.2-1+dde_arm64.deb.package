@@ -7,11 +7,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2075
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_arm64.deb
-Size: 291592
-MD5sum: 34a9cdf8cc8fe027f57d14c7d6777911
-SHA1: 344d479241739da6d2e803f5919672be82960736
-SHA256: 053972b3778bc82739aefd99373777fab4a9a73aafceeaa126d4be2f18588e32
-SHA512: 40be678d498de361a21216cb87135f00804cd3c75f86e9b32c6f3e893f6c9444970548c6eca8758cb009dc9447226566d4bbfa5c8feabaac0275079d1662b96d
+Size: 291900
+MD5sum: f97673e7757575a32586823cad37ff87
+SHA1: ebbb1a8f4a122c2d701994fde7ad59076b740314
+SHA256: f5d5b692f505c8c6acc798f41196cf76dbc2c36c2fb4c681b191acf978b59bfa
+SHA512: ec7b28015ed68fb23497df8ebf30f0f19bee31985ddb7ec15cd1f62c4637bda31d14721a5bdb1aa4afcb016ba78b6fd3b85c5a1748d3143887996ff18056dd2e
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
