@@ -1,0 +1,19 @@
+Package: dss-network-plugin
+Architecture: arm64
+Version: 2.0.16
+Priority: optional
+Section: lib
+Source: dde-network-core
+Maintainer: donghualin <donghualin@uniontech.com>
+Installed-Size: 1164
+Depends: libc6 (>= 2.32), libdde-network-core (= 2.0.16), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.90.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5)
+Filename: ./d/dss-network-plugin/dss-network-plugin_2.0.16_arm64.deb
+Size: 236208
+MD5sum: f309a6128d675765d6d13047f2ed1f84
+SHA1: ee2061d531794de4d2fcfc20309d3ca2294a7c69
+SHA256: c04b09d0aee62d0753a1792467851e4ed316aac155a8045326384f548df96b56
+SHA512: 096de14dc3dc9cd199112ca9d24c30340f4308ab85c7fb0535cebff835e4e77abafea494b5e817acbdf9fd486802982128767aad249159549ef7226bc2d0b6c4
+Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
+Description: the plugin of network for dde-lock
+ dss-network-plugin module
+

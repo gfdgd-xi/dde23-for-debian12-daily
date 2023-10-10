@@ -1772,6 +1772,25 @@ Description: the interface of networkcode,used for developers
  libdde-network-core-dev module
 
 Package: libdde-network-core-dev
+Architecture: arm64
+Version: 2.0.16
+Priority: optional
+Section: lib
+Source: dde-network-core
+Maintainer: donghualin <donghualin@uniontech.com>
+Installed-Size: 62
+Depends: libdde-network-core (= 2.0.16)
+Filename: ./l/libdde-network-core-dev/libdde-network-core-dev_2.0.16_arm64.deb
+Size: 14248
+MD5sum: f330b576d83b41bac4d8a99013ecc006
+SHA1: 6f4e3d80b1e48e127a007fac25a0a6e69245ccd6
+SHA256: a7eddb69aeec8e66b1cace9e89aad9e4862654a7dbdecfc4ec9cba84e38a9889
+SHA512: e95a8c85aa111ebc0b6bf8e404f96750af5f01ab81caaef5d9c8184ba9a81606fb514799c77f6f42271cfee5e346cbe936b1ce1445c8ab421129ec569f46a7c0
+Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
+Description: the interface of networkcode,used for developers
+ libdde-network-core-dev module
+
+Package: libdde-network-core-dev
 Architecture: amd64
 Version: 2.0.15
 Priority: optional
@@ -2413,6 +2432,25 @@ MD5sum: d5bd5f895d4ce0de462d8e84cc5f5da4
 SHA1: 1400cff56db415e4a8ce94ff7ce1641b6d96883e
 SHA256: 5824c41a5cdc32fffb3cbac421d1897c1283028be4bb181d82ba2284eb1d5dc8
 SHA512: 9789f00b3e38c890b8a244d13dab519c642a2b3c384fca3335765afa72637545ebce485e3d7a5b804ef80ca26531611d057169b22be764e2095b7ad8d57b5293
+Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
+Description: the library of network
+ libdde-network-core module
+
+Package: libdde-network-core
+Architecture: arm64
+Version: 2.0.16
+Priority: optional
+Section: lib
+Source: dde-network-core
+Maintainer: donghualin <donghualin@uniontech.com>
+Installed-Size: 734
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libkf5networkmanagerqt6 (>= 5.90.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5network5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Filename: ./l/libdde-network-core/libdde-network-core_2.0.16_arm64.deb
+Size: 164928
+MD5sum: dfd09b9815e670676b505e3d70ac4502
+SHA1: 3a3909d7291597c1293f00ee9a836ae19105a8a3
+SHA256: 7b6879ccc8c562860b87426013ca6b4e7996e9d6656d24b47c9b279cc1d8d49c
+SHA512: e81b70c4ad71296f2aa5cb1720d34478aeb9ee2d0aaf2f4a33c3b16ee553be29e4c6b3fe116481e25c6fc00543847dc7778e0080d3197188083b1ec5801c2cb4
 Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
 Description: the library of network
  libdde-network-core module
@@ -4202,10 +4240,10 @@ Installed-Size: 6223
 Conflicts: debian-dde-icon-theme (<< 15.12.65)
 Filename: ./s/sea-icon-theme/sea-icon-theme_2023.09.25_all.deb
 Size: 2012564
-MD5sum: 158d7cf9ce9685efb4ee7205292d8267
-SHA1: eac980f579853eeaffd4fd1e6a5223423e88f2fd
-SHA256: 70eb07214794e7e69cf949ea0ab32763d04ce5784eaadb464a718adb36e8d8d2
-SHA512: 78cbf6dae498ab7a81a289e2f8b0605be4e0bb6d70d74bf46c9ad796084552ed6c82d78a49700f7d0a340edff5a09ce8d7c544b27d0e090be9deabd3168954e0
+MD5sum: 08e45b5038c641b5acfabae589a62c71
+SHA1: b71e189799e3a11457b86d5a8356d1eae9034bce
+SHA256: 6af52c7653f16d7a54b19773fbf2898dcde5125b57bc757d852ccfa03460b42d
+SHA512: 908288628d8b5defb9b1478101578ac812a82d2faefd04cc96d4f45e3a09f31c0415dd4fffdc14dcd50a20acf272b13f67a27b03c0664d8e32f725f5805462be
 Homepage: https://github.com/gfdgd-xi/debian-dde-icon-theme
 Description: Deepin Sea Icons
  This package is DeepinIconTheme Sea
@@ -7976,17 +8014,17 @@ Version: 1.8.0
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 51191
+Installed-Size: 51042
 Provides: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Pre-Depends: debian-dde-wallpapers (>= 1.7.14)
 Conflicts: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Breaks: deepin-community-wallpapers, deepin-desktop-base (<< 2017.11.2), deepin-wallpapers-nonfree
 Filename: ./d/debian-dde-wallpapers-nonfree/debian-dde-wallpapers-nonfree_1.8.0_all.deb
-Size: 48945596
-MD5sum: 37f8e0d93a801bd1c0e8ce8aa4c66683
-SHA1: 7e1dfbdba78acc9ced18c3cf3e5baf2c489154d3
-SHA256: 72c7e9026824b2af074b9d7135c66b01f5e7fedfbd4a949dde53aa5813255ab1
-SHA512: 9db4b32654d05b7741f4280e1d0d72dba857b6d66b409b2b7044a65d3b1528c29ef88dcd25b0d1273b2b5952f056a7a83dd73063dce450b22b844f78fc453242
+Size: 48789240
+MD5sum: c34ce3f5799b615ad870d39e4a0c9b70
+SHA1: 3e003e733bca4f137d02e744a570f5d68865bcdf
+SHA256: 5c968ed5cd21c423e693558e1e8c27ab47000e40a61c867320a1878bbaf85ca4
+SHA512: 5e86b205aec478b75e7836d06ee5dc8623c53326b865d35d04580e20574fe7c4cfcfefe7eedd29ecae246e615cb5b1d9b8dc47ea99a3b1e688456c1d68fb9f05
 Homepage: https://www.deepin.org/
 Description: When users are ready to set their own desktop background,
  Deepin Wallpaper provides many beautiful background pictures for users to choose.
@@ -8245,17 +8283,17 @@ Version: 1.7.17
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 27197
+Installed-Size: 27089
 Provides: deepin-wallpapers
 Conflicts: deepin-wallpapers
 Breaks: deepin-desktop-base (<< 2017.11.2)
 Replaces: deepin-wallpapers
 Filename: ./d/debian-dde-wallpapers/debian-dde-wallpapers_1.7.17_all.deb
-Size: 25480068
-MD5sum: 66ba4b5e7f074fb00fe3c44c5e2d89a7
-SHA1: 5126ded20bea609ed3bde446ae6504313bdc2a11
-SHA256: 194142e8cd685dc331edea86ae16133ec4dc9424701d3810dec6e655584ccdcc
-SHA512: 6f257a107917152f8aa7c2f056e100012d3ebeb8e99b1cc896bdb8d9ffc487e671387a07243dfced65a66340fbd2ef98d63d030928b43f5238cd3ea45cc19beb
+Size: 25351244
+MD5sum: 4febd8567fb3c90704da791b891d31c5
+SHA1: 5430680c08d0f5ee8c5e3660b473f2445877dacd
+SHA256: 7cf6ab7aa5ecfa134905364c81bf3081f76497bc6d4db30f2a51d32460140a03
+SHA512: 7731b1955ecaa04b2f5b69968c528ed51376c164a2b7c8be0c0918dcb5ac05f29c57255d5c09665fcfd2047216c1676de98e6a32b833063f8ff9c23636607d82
 Homepage: https://www.deepin.org/
 Description: dde wallpapers
  Default wallpapers for debian-dde
@@ -8458,6 +8496,25 @@ MD5sum: b15db700330f968cca6520a5442d1213
 SHA1: c9ca7abd7e7f5122c870e7756a8f757a61c268c4
 SHA256: b9545ff163c2f6dbb61cd88220f1c9c09a17c7d2278cc22ef463726d8eac09a7
 SHA512: 059be3ff2c32423c4982adb26a03232471ec80ae0d584b98858adff844787d8ce19242405858c3e9df9b2ad4d79b16cb25855d742f48d8fbb65e004e2a667b2f
+Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
+Description: the plugin of network for dde-lock
+ dss-network-plugin module
+
+Package: dss-network-plugin
+Architecture: arm64
+Version: 2.0.16
+Priority: optional
+Section: lib
+Source: dde-network-core
+Maintainer: donghualin <donghualin@uniontech.com>
+Installed-Size: 1164
+Depends: libc6 (>= 2.32), libdde-network-core (= 2.0.16), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.90.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5)
+Filename: ./d/dss-network-plugin/dss-network-plugin_2.0.16_arm64.deb
+Size: 236208
+MD5sum: f309a6128d675765d6d13047f2ed1f84
+SHA1: ee2061d531794de4d2fcfc20309d3ca2294a7c69
+SHA256: c04b09d0aee62d0753a1792467851e4ed316aac155a8045326384f548df96b56
+SHA512: 096de14dc3dc9cd199112ca9d24c30340f4308ab85c7fb0535cebff835e4e77abafea494b5e817acbdf9fd486802982128767aad249159549ef7226bc2d0b6c4
 Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
 Description: the plugin of network for dde-lock
  dss-network-plugin module
@@ -8964,6 +9021,25 @@ Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
 Description: the plugin of network for dde control center
  dcc-network-plugin module
 
+Package: dcc-network-plugin
+Architecture: arm64
+Version: 2.0.16
+Priority: optional
+Section: lib
+Source: dde-network-core
+Maintainer: donghualin <donghualin@uniontech.com>
+Installed-Size: 5328
+Depends: dde-control-center (>= 6.0.29), libc6 (>= 2.17), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libkf5networkmanagerqt6 (>= 5.99.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.5.0), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5.2), network-manager-integration-plugins, libdde-network-core (= 2.0.16)
+Filename: ./d/dcc-network-plugin/dcc-network-plugin_2.0.16_arm64.deb
+Size: 990668
+MD5sum: b9052d91cd5c3055108099634f99ab41
+SHA1: e94f18e5d023ed446a1dbcd7a2bff4044c48375b
+SHA256: a85d70dd5b7686d38d1255e7a6b1486a8e6a407cc618ad8264edf2102496eb88
+SHA512: a35e0d6128c0098f595bb0eacc85e80dc874e2e7431cd80e87cf61a3ed447444804977f9d05a9a456116cf1b16576064b16fd21a0653d093d65e465123ca2415
+Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
+Description: the plugin of network for dde control center
+ dcc-network-plugin module
+
 Package: dde-api-proxy
 Architecture: riscv64
 Version: 1.0.8
@@ -9243,6 +9319,25 @@ SHA512: edac953095d437c653b85242736e6688b15b474c489e281aad1e40fe426f729f657b7a89
 Homepage: http://www.deepin.org
 Description: Draw for UOS
  Draw is a lightweight drawing tool for users to freely draw and simply edit images.
+
+Package: dock-network-plugin
+Architecture: arm64
+Version: 2.0.16
+Priority: optional
+Section: lib
+Source: dde-network-core
+Maintainer: donghualin <donghualin@uniontech.com>
+Installed-Size: 976
+Depends: libc6 (>= 2.17), libdde-network-core (= 2.0.16), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5networkmanagerqt6 (>= 5.90.0), libqt5core5a (>= 5.8.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5)
+Filename: ./d/dock-network-plugin/dock-network-plugin_2.0.16_arm64.deb
+Size: 184104
+MD5sum: 6b8459339c4e24ced577c089af7d474c
+SHA1: 0ca8b4c897b715b78104148f01c4b374b33f491d
+SHA256: 0126a77e7861b1db481d41ab3131b556f92327256cf9d94957968703d5b93a63
+SHA512: e44f164bcf9fcc7ac1f92ac65ea5d576ae174c39afd8ae96a8c09e46060ee5c6cfecaada7e61500656a99fe1b9374644d6852c5c423efb2917b2c7b5288c42f9
+Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
+Description: the plugin of network for dde-dock
+ dock-plugin module
 
 Package: dock-network-plugin
 Architecture: arm64
