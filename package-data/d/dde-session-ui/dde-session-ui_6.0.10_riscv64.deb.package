@@ -12,11 +12,11 @@ Conflicts: dde-control-center (<< 6.0.0.1), dde-workspace, deepin-notifications,
 Breaks: dde-control-center (<< 6.0.0.1), dde-workspace, startdde (<< 2.91.1)
 Replaces: deepin-notifications
 Filename: ./d/dde-session-ui/dde-session-ui_6.0.10_riscv64.deb
-Size: 1461060
-MD5sum: 5c473e4617b3e753f0c639d81a275f3d
-SHA1: 6bb5f7eb36fe8591ff775e7e55e719063d68b5f5
-SHA256: 1089812e4bee09e4610cf627613ad595b52e5634d44ec38285c671469cf9d00a
-SHA512: d2442312fc499646df0ed554199d5ce898cda427ac29798c17988be9d03ef7dfe6cf4b921ddd11ff9ccbfad82fbfa6cdba891857b926a2ce2ced84dc1970c98b
+Size: 1461864
+MD5sum: 58313b84fa3fdb01b14de7c647cfdeeb
+SHA1: 8c6adf85fcb0aaf97afb497aa5586b51800708f6
+SHA256: f4a836f6d7b04eff8e5648afdd6a53e617fc5f055f4f1f45257b9fe08263134f
+SHA512: eaca52c564f854dafe049db0a4fb930cbc35f1d079825eb2402ad129686764aae15a6667fb501ad300288b2f361aaeb744734c44e1e868da110df875f3af8568
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dde-session-ui module
  Deepin desktop environment 2015 - dde-session-ui module.
