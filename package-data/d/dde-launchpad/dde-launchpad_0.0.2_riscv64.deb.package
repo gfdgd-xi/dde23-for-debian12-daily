@@ -9,11 +9,11 @@ Depends: libappstreamqt2 (>= 0.16.3), libc6 (>= 2.34), libdtkcore5 (>= 5.6), lib
 Conflicts: dde-launcher
 Replaces: dde-launcher
 Filename: ./d/dde-launchpad/dde-launchpad_0.0.2_riscv64.deb
-Size: 273960
-MD5sum: ff42008c3f45616d6046a33b3801bba2
-SHA1: e71b64306c4fe3f71c51a5463745a1ef885d508b
-SHA256: 1a92972145f07edf41d7fbe7b5305f1c415d3797666e5c6135b46e8f4128b5b3
-SHA512: ab46593b77b8c3d72426c03031930ada5528f46737b2ea285e9dfbe3d6a1e0757db1069ca30e3a55ba7a1ea9c6752b1ee08380a4ea50a70fcd385ff30d6e98b3
+Size: 274692
+MD5sum: 7ca022c04dab811056c53f6c0d3a59fb
+SHA1: 8961c1edb425d519956d05c9039084f42cde6796
+SHA256: 1bc73104dc3405e67aa1bd2fa428469f7f263d5198a0a5c9fca484c9aec5fb7e
+SHA512: af5b9dae835a9c66baaeaf9b037e2e6073b0f3ae1e19fcc5d9b1761fd5526dca955034b4e5b400418808f4d0fb816f5d0c1f66118fa2e6a85b992de4c076e5e6
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
