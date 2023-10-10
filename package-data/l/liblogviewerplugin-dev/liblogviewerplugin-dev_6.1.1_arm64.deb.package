@@ -11,11 +11,11 @@ Recommends: libqt5libqgtk2
 Conflicts: liblog-viewer-plugin-dev
 Replaces: liblog-viewer-plugin-dev
 Filename: ./l/liblogviewerplugin-dev/liblogviewerplugin-dev_6.1.1_arm64.deb
-Size: 15416
-MD5sum: 6bd31bc16b5dbf700ef08d644d1159c2
-SHA1: cf286ff733cb83cdadd22529e634155732eafe69
-SHA256: df09a85c77a805fe1a6843e13d9b5c2e66eff2f07ecae4f92bbfdcde6e6857db
-SHA512: d6c92137262ce376a3d5de744e3d6284819334af3efae6570fda9be7226a740dead08cc081573d159412efe8c02f9dc9ac3a06b570cde4eba07e7f78a1606ef7
+Size: 15576
+MD5sum: d9448a291ffe0151c73fceca8881d329
+SHA1: cfa9849bbc4012bbb321c8fa60c6c5d139ba5b17
+SHA256: 468d07229f0fa03bb83c89832c9e050ad493403b6c8981ac253f07facd4132db
+SHA512: f8d3d86b583f2b0e48e4b32fad30d4d82e3ece7d42575288441336f7c139abdf53e5bd509cbf8675c8f8b344dd2a89dc7dbd5af083eb495c8760fc43fbd2703c
 Description: Log Viewer Plugin library development headers.
  Deepin Log Viewer Plugin library development headers.
 
