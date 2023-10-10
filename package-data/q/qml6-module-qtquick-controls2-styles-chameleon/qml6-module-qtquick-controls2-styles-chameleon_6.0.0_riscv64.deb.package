@@ -1,0 +1,19 @@
+Package: qml6-module-qtquick-controls2-styles-chameleon
+Architecture: riscv64
+Version: 6.0.0
+Priority: optional
+Section: libs
+Source: dtk6declarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 119
+Depends: libc6 (>= 2.27), libgcc-s1 (>= 3.4), libqt6core6 (>= 6.4.0), libqt6qml6 (>= 6.2.0), libqt6quickcontrols2-6 (>= 6.2.0), libstdc++6 (>= 5), qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-shapes, qml6-module-qt5compat-graphicaleffects, libdtk6declarative (= 6.0.0)
+Filename: ./q/qml6-module-qtquick-controls2-styles-chameleon/qml6-module-qtquick-controls2-styles-chameleon_6.0.0_riscv64.deb
+Size: 20744
+MD5sum: e07c1962842981af8d6c8078cefcb139
+SHA1: 04a9585ea7fb5aa2de9237720c4a24dccb15d2fe
+SHA256: 345e6cd49ba738dd87777dad06d62cf62209210353a65966e9c8fb5f9871914a
+SHA512: 20945d18adb2bb44c4401c1b2b4fb4ec470c395a653b3dc90e86b0ea3706208731f013269608f998e3b55a38df9584c0041dabeb53c2d5035d23d58789ad1f2b
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit Qt Quick Controls 2 QML module
+ Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+
