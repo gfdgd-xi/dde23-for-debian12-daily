@@ -7,11 +7,11 @@ Maintainer: liuminghang <liuminghang0821@gmail.com>
 Installed-Size: 7302
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.35.8), libmpv2 (>= 0.29), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 11), libx11-6, libxcb-ewmh2 (>= 0.4.1), libxcb1
 Filename: ./f/fantascene-dynamic-wallpaper/fantascene-dynamic-wallpaper_1.5.9-1_amd64.deb
-Size: 6638316
-MD5sum: f495539270bc2ca86e09867897c33ac4
-SHA1: aded7234cf45b83faa94163b5392aa7151fd294b
-SHA256: 2ae0a828f120c9044ce7df04cc1e8adfddf73994f4ba9e1e9b45ed9d87426f0e
-SHA512: 4bd112ec9c9662b086e7a6062cdc7a171c81c3a04ae050b51d2f8cddcbbfafe8e06bcf246dfc0f03ab4c51765c08fce3916b3fa528e2d3e3290390c8f1c79816
+Size: 6638196
+MD5sum: ccea69d63ad3a2f6d1ef2a338854f8e2
+SHA1: 113fc43ba618dfb425c909222bb557ad5146c42d
+SHA256: a522b82e4487466a593145d95e0be94c85bc30915dc5ef8dae8eddc184cbb9f7
+SHA512: 7a88d34a977ccb4cc875890186ecda8c49dc53a38292fe6cbf7814918a288faa0cb0d025894999da6199eb55be9c15011c452fb6dd953423c3e664a5ee767c0e
 Homepage: http://github.com/dependon/fantascene-dynamic-wallpaper
 Description: video wallpaper for fantascene.
 
