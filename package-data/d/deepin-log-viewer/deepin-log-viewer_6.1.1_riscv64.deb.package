@@ -8,11 +8,11 @@ Installed-Size: 7675
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 13.1), libsystemd0, libxerces-c3.2, zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-log-viewer/deepin-log-viewer_6.1.1_riscv64.deb
-Size: 5133532
-MD5sum: 66a34242a56967e7c3b0d15d9d20d082
-SHA1: 52fbb41a668ec4f715469c6cf5ecc3d72fe336bd
-SHA256: 265d793566aef5668d973146a08d064f261c0681b1489bc2317466a62029214b
-SHA512: 3fe959d5dcbf28076d71d3deae589e02bb9e22954b50020d4d96e58c0d55b88cbc91484665f7d7ddfcf7c0be1b38633ba91c582bc70187dadb480bab67c88b21
+Size: 5134564
+MD5sum: 591de5f93af788affc6a6f595c6779c4
+SHA1: 9a8ba70ba696708b3a501e650c17bfa86afba939
+SHA256: 569f49067bacd522397e068933fbd86ea06ffc95070d8c256b3e530e5c33f654
+SHA512: 416fc8cdf56256082fe96a7705f89d4a316e29807b0180f5767daf3f8f71a14ea7a9e7744da3fb1dc1d8747ee4877a0a0999886e163d4ebb1b3183ef3231535b
 Description: Log Viewer is a useful tool for viewing system logs.
  Log viewer is a tool that collects logs generated when an application
  is running, for example, logs generated when operating system and
