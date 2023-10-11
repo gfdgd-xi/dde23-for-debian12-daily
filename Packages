@@ -526,11 +526,11 @@ Source: dwayland
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 770
 Filename: ./l/libdwayland-doc/libdwayland-doc_5.25.0-kwayland.5.24.3_all.deb
-Size: 519224
-MD5sum: c1a2e1f6298723c663310203eb940998
-SHA1: f7260820d1e0bd526503c9971c3d902ac07ad915
-SHA256: d9cc355c151f245c6578d9b3774b67efe4ad9b930c94fca3555512ee80b78775
-SHA512: 9156f213b9db3a18cbd2f7c1d8ef0a85435c65b6537fe4ff18867411c4158789852ac5bfc9273f6d40cf1477dc4892790abceb38dca20514d9e003539d921eda
+Size: 516840
+MD5sum: e34c2af31a5aae11f8480cc3486b34ab
+SHA1: ca2fafc044ed9664acbf6cfd2729ced394f5fcff
+SHA256: 311ac66910bbf964895988d03069a8d481781561220d69168eae4fb9e4612beb
+SHA512: 991b8f8997a67b8c418d36d96ff69a98315393623db26da9798d8dcea12b0d509b33025e7de2ab50039ca34fba7ee9de481b39f2213bab93b05ca2b3adbb6e9e
 Homepage: https://invent.kde.org/plasma/kwayland-server
 Description: Qt library wrapper for Wayland libraries (documentation)
  DWayland provides a Qt-style Client and Server library wrapper for
@@ -3730,15 +3730,15 @@ Priority: optional
 Section: admin
 Source: linglong
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 2075
+Installed-Size: 2972
 Depends: erofs-utils, linglong-bin, linglong-box, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.35.8), libostree-1-1 (>= 2016.4), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5network5 (>= 5.14.1), libqt5sql5 (>= 5.0.2), libstdc++6 (>= 5.2), libsystemd0, libyaml-cpp0.7 (>= 0.7.0)
 Recommends: linglong-loader
 Filename: ./l/linglong-builder/linglong-builder_1.4.0-1_arm64.deb
-Size: 425248
-MD5sum: 891a89d1ec1264b72a75a1156371d655
-SHA1: 3bf207e5e40ded4175bffd3bb071d789985e95d6
-SHA256: 52e7bc5a6c0ebdd09c14e18030de6dc61be46133ba7bfbe91ceff3bc2b22cc0d
-SHA512: 2671a9542d47ba04d44f806f30569debf3704307aeeea0e34732003b90f8920b426327925d1b50b89f492bb3663bd3ee62cb4ca657aec69bb2bbaf241c25cf26
+Size: 587552
+MD5sum: 2f3f19367e5169047e0eb3ce6e20124c
+SHA1: 3d68441b59675f1647a64b6778588b1b25cb5cf3
+SHA256: e6c9f58546a0d30745c8ec4f7f6ea426f798fbb39adf69711accc3ab21147c07
+SHA512: e11a6014d121a346486d59cee4c649b956989acdd1fb5675594f83158601cfac2c72be3ab5aca65ef17961ba906858f719974fadcda1d81f97731abf9dbcf700
 Homepage: http://www.deepin.org
 Description: Linglong application building tools.
  ll-builder is a tool that makes it easy to build applications and dependencies.
@@ -3770,15 +3770,15 @@ Priority: optional
 Section: admin
 Source: linglong
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 5471
-Depends: desktop-file-utils, fuse-overlayfs, libglib2.0-bin, libqt5sql5-sqlite (>= 5.11.3), linglong-box, ostree, shared-mime-info, init-system-helpers (>= 1.52), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.35.8), libostree-1-1 (>= 2016.4), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5network5 (>= 5.8.0), libqt5sql5 (>= 5.0.2), libstdc++6 (>= 5.2), libsystemd0, libyaml-cpp0.7 (>= 0.7.0)
+Installed-Size: 11815
+Depends: desktop-file-utils, fuse-overlayfs, libglib2.0-bin, libqt5sql5-sqlite (>= 5.11.3), linglong-box, ostree, shared-mime-info, init-system-helpers (>= 1.52), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.35.8), libostree-1-1 (>= 2016.4), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5network5 (>= 5.14.1), libqt5sql5 (>= 5.0.2), libstdc++6 (>= 5.2), libsystemd0, libyaml-cpp0.7 (>= 0.7.0)
 Recommends: linglong-dbus-proxy
 Filename: ./l/linglong-bin/linglong-bin_1.4.0-1_arm64.deb
-Size: 826080
-MD5sum: fbc066c57c66221f7b2764ff6283b8dd
-SHA1: 46952e067d0107bc6255e12df7778a175002678e
-SHA256: 7219771924d93455dc8db61d8e650bb9393b59bf026381a3a79e01c938d8b894
-SHA512: 8db13cfe859e30a9fd46cd9c3d669704afdc9eaa70733b29997bea81ce4d2427775e4e02fad71efadd41198d3c09ec219b4917cd9696eb7ba154cdd8dfc2c084
+Size: 1550180
+MD5sum: 548abba791cb3a1983dacb2fa01899c5
+SHA1: 7ab51dacdc748af78a8685388efa01262825ec6c
+SHA256: 389100660af6598db6f4d2f22086115b3bb9bbdde12c4c115dc6627dbbd7132e
+SHA512: 677a6a958de332f1dcebdc35c72112b2ebfeffa5f63f45cd804a899a7c7f8afdf5bd5e7cb628cac6e228f632f6662af5f1d30d881007a84666df2768f8b12afd
 Homepage: http://www.deepin.org
 Description: Linglong package manager.
  Linglong package management command line tool.
