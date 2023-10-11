@@ -4,17 +4,17 @@ Version: 1.8.0
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 51010
+Installed-Size: 51245
 Provides: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Pre-Depends: debian-dde-wallpapers (>= 1.7.14)
 Conflicts: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Breaks: deepin-community-wallpapers, deepin-desktop-base (<< 2017.11.2), deepin-wallpapers-nonfree
 Filename: ./d/debian-dde-wallpapers-nonfree/debian-dde-wallpapers-nonfree_1.8.0_all.deb
-Size: 48746580
-MD5sum: aaaf65c2c989dee60ec8cb9be0516916
-SHA1: 22246b637dfa6e5ed875af4409b681448bc14c36
-SHA256: 3418e7c07cded7764fc721a5afafcedf2cba9c22cdc911306775f9197f80d904
-SHA512: 8ea30dc788f700972245ba831a3564194311e21667de2a79dafbf5c565477ee16b62a594d8902025dea08cbfb0a857c185e8f4d110869cd9efca204cebdd8b70
+Size: 49004588
+MD5sum: 589766cb2a3a70810fc5cf76b9b1e7b1
+SHA1: 3380dcddee4949a0de33c1bf2fecf419dae74b86
+SHA256: b84237bff1811cec1b08b494263fc3d41675ba9584a5593c3e609746976b3227
+SHA512: b4dca6cdbb7381eded5c7cccadf699811f9d070e88d622adcd83b07bd52d2edd2fb7a7a964634fcf1498ee55307eefeff490c49f83a6d92fbe5574d9428bbf19
 Homepage: https://www.deepin.org/
 Description: When users are ready to set their own desktop background,
  Deepin Wallpaper provides many beautiful background pictures for users to choose.
