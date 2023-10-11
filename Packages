@@ -4138,11 +4138,11 @@ Recommends: dde-qt5integration
 Conflicts: deepin-session, deepin-wm-switcher
 Breaks: deepin-desktop-schemas (<= 5.8.44)
 Filename: ./s/startdde/startdde_6.0.10_riscv64.deb
-Size: 2363668
-MD5sum: 8a58d68bc8d6129791a6b9ea75692c5c
-SHA1: 0d34333006544317588a0f67ab752f1bec915dbf
-SHA256: 0f4219605ba04bab566e3fc5571e43f710f673f00a11efcee862a46e486d5aea
-SHA512: 802605a14050a8d4fea235c92755b416abcedb88048fc572d73f25c637982de20bb329ad55f934dfc1541c362711f8a5ec9c1a7352f2d0984529ed97a491275e
+Size: 2365784
+MD5sum: eea16d679bfff4b2708bbef929800800
+SHA1: 76bec58b4efa7427d00e2431984398229006d55f
+SHA256: 13bb391295bc7c29d9a693a9fa57bae054d0d8e926e295905a9501033fe84cf3
+SHA512: cd7e54b7184dae5b82a370c3c6c48c90e694b878b4eed786f74b0eda72df7e2c6ac3182da153347162c0f60e1391a81676cb0a72ff2a2c397aa23241ad00a457
 Homepage: http://github.com/linuxdeepin/startdde
 Description: start deepin desktop environment
  starter of deepin desktop environment.
@@ -4748,16 +4748,16 @@ Version: 0.0.2
 Priority: optional
 Section: unknown
 Maintainer: Gary Wang <wangzichong@deepin.org>
-Installed-Size: 795
+Installed-Size: 799
 Depends: libappstreamqt2 (>= 0.16.3), libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.4), libglib2.0-0 (>= 2.40.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5qml5 (>= 5.14.1), libqt5quick5 (>= 5.6.0~beta) | libqt5quick5-gles (>= 5.6.0~beta), libqt5quickcontrols2-5 (>= 5.7.1), libstdc++6 (>= 5.2), qml-module-qtquick-layouts, qml-module-qtquick-window2, qml-module-qtquick-controls2, qml-module-qtquick-controls2-styles-chameleon, qml-module-qtgraphicaleffects, qml-module-org-kde-kitemmodels
 Conflicts: dde-launcher
 Replaces: dde-launcher
 Filename: ./d/dde-launchpad/dde-launchpad_0.0.2_riscv64.deb
-Size: 274692
-MD5sum: 7ca022c04dab811056c53f6c0d3a59fb
-SHA1: 8961c1edb425d519956d05c9039084f42cde6796
-SHA256: 1bc73104dc3405e67aa1bd2fa428469f7f263d5198a0a5c9fca484c9aec5fb7e
-SHA512: af5b9dae835a9c66baaeaf9b037e2e6073b0f3ae1e19fcc5d9b1761fd5526dca955034b4e5b400418808f4d0fb816f5d0c1f66118fa2e6a85b992de4c076e5e6
+Size: 275320
+MD5sum: be5e90d6d68d1180fbb9040ee03d64a3
+SHA1: ce6456c2fe4f56838801839505a5202379c93754
+SHA256: b368d0c1702e59f39cec4cdf13ff4ca9eeeb0fc9b32694d61adb90c17d38fcfa
+SHA512: 3e339a12b9d6c19c790f2018878c4463b2f26e349d606ed6b2eb0d5f5fb72a4ba528ab34406c0c5710be06833678cde8d9d3f6142cb4894535c443a69e1038dc
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
@@ -6653,10 +6653,10 @@ Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
 Installed-Size: 175
 Filename: ./d/dde-dconfig-doc/dde-dconfig-doc_1.0.23_riscv64.deb
 Size: 104600
-MD5sum: f71c2f24de6665515436c8dd84a107e7
-SHA1: 8e053bfacc5ed780978ca699313916fd17e382d8
-SHA256: 835fcd69da8e2d697ffd02e9a8044f336b177a0bcbb7d49d4983b1ee9d43973f
-SHA512: 638b80c5b687a835b746572ee7edbf2ea42fd32fb3ee607ec867c07c2e7a34dd63b4d1a5dd3c7fdb42af492694be56c94f3f68fde96bad30bf4666bc87487328
+MD5sum: 253e96dc40e2f210b962b3017973c83b
+SHA1: de68a82983ae70ae3e34c4a97040f0e4ba352d14
+SHA256: 271c0ea852336617ba44f6f888bd2c19bad35fadc0eb36d4dd67a997d3128b44
+SHA512: 95d1808dba4031d2238bfe9dd354ce9f87f99d70f65b582c1c60df67d2c2b67a0f4abd16c09030ff12b5dc91b719dc54e18ae759756bc81c6b77a9de30a89ec9
 Description: Deepin Tool Kit DConfig (document)
  This package contains the doc files of DConfig
 
@@ -8080,11 +8080,11 @@ Maintainer: Deepin Sysdev <sysdev@deepin.com>
 Installed-Size: 731
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.25.0-kwayland.5.24.3), libgcc-s1 (>= 3.4), libgio-qt0 (>= 0.0.12), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5), dde-daemon (>= 5.12.0.31), startdde (>= 5.6.0.34), dde-api (>= 2.92.1), dde-session (>= 1.1.5)
 Filename: ./d/dde-clipboard/dde-clipboard_6.0.7_riscv64.deb
-Size: 195140
-MD5sum: c910208d928f906f480e01d212ccb25c
-SHA1: ea6b9175d8e48747abe734288bff51ebe36a30cc
-SHA256: 19d16141248eec1397fab383f03ac353c6f2ab45c0dda86b600af5ac638a6acb
-SHA512: 8134d467122252ad45b381d3d4ee61e544ef10433c54e8c5f0af859108357d501b48955b3edb59ab9b8cd5ba4bebcfcacec57954e53c64d464af557cf8258792
+Size: 195020
+MD5sum: 794dc61d863ffe378f59636972c606d5
+SHA1: bf77afa143cc7126fa9e2e6baa1518e6183176d8
+SHA256: 7d11b3ceae61d368d99e9143bb512e6f597bc6576b4ffa382d47c9b80579e5ee
+SHA512: 8e2435445e49ec51efd495f2671552dddeac7a73d42c73b5faa6dae56630436b1cc1505da89167e86302c33a547b530d7d1e59ee50729ad7a951d6b33e3faab4
 Homepage: https://github.com/linuxdeepin/dde-clipboard
 Description: deepin desktop-environment - clipboard module
  Clipboard module of deepin desktop-environment
@@ -8356,10 +8356,10 @@ Maintainer: Deepin Sysdev <sysdev@deepin.com>
 Installed-Size: 729
 Filename: ./d/dde-control-center-doc/dde-control-center-doc_6.0.29_riscv64.deb
 Size: 519464
-MD5sum: 989b505d7d5360ca7bb053fed9bc08d1
-SHA1: bf20d60253c8152e4a2453a4ebf878810f1397d8
-SHA256: 8b71c2cb0161f59a9e6a2384b290311e98f5267fcab4a1df4c75101227dd1848
-SHA512: d42eb6e5db096680afeaac7430297683f1d3daa6d50fdc3d627c2d0b4c76e259c12c0dddeeb8378305cd1295f01c79ab12b03558a8927324e0c3caee57fdb4c5
+MD5sum: 524797e21327ccce8e3e032be1d75e2a
+SHA1: 02361180f91214f92faa0c59101983f269c3c20c
+SHA256: 5406f2949e038688be124514b2abdabf707b98e94e9328a8aae65c758d363ab0
+SHA512: 91ab6dda767f4b43d9273873c5095b43a26389d4ad4a5dd03a6b9dd8e9cf4f420c189cf180a579e58b079415ab8f76f6eb921ee5cf068ce435b71c34ac4de43d
 Homepage: https://github.com/linuxdeepin/dde-control-center
 Description: dde-control-center (document)
  This package contains the doc files of dde-control-center
@@ -9439,11 +9439,11 @@ Section: admin
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
 Installed-Size: 15256
 Filename: ./d/dde-control-center/dde-control-center_6.0.29_riscv64.deb
-Size: 4204240
-MD5sum: 1f63186f03cacdb04d9dd3d1749d0790
-SHA1: b0bd1c5eac2a4fa17d13f8ef50ec1467b659301f
-SHA256: d67c7a9c2bf42115926769f385499c0cc9b609de4a86fd33bcb0a501f97e99aa
-SHA512: be1a5c87b7559dac27d717722fa891c481db8c94731bc769caa304d7bb06aec061c20635349290f23ec0378534e66281d695e37bec278a8031addfb27af92e01
+Size: 4202872
+MD5sum: a5749f47e0ef076b7bd921747f0c3955
+SHA1: 7f58f86782ebd512b7ec91f4482f9f68a9f18d33
+SHA256: 4fa5bbca56fffbb8c2cf8f27c3b4a58dfa7184383c72f2376a36ed0813ff6a22
+SHA512: 034a5fb28e9b8171fd9987c3cae49e8be16fc37fb66852baf6b5cdeb962f46d10fb8992600413cf281012fcaaa8534bf6a34a37e09a5f763f24b4322ce46a02c
 Homepage: https://github.com/linuxdeepin/dde-control-center
 Description: New control center for Deepin Desktop Environment,
  Integrated control center with rich functions,Besides providing rich

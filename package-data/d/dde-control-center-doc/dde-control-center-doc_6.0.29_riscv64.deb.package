@@ -8,10 +8,10 @@ Maintainer: Deepin Sysdev <sysdev@deepin.com>
 Installed-Size: 729
 Filename: ./d/dde-control-center-doc/dde-control-center-doc_6.0.29_riscv64.deb
 Size: 519464
-MD5sum: 989b505d7d5360ca7bb053fed9bc08d1
-SHA1: bf20d60253c8152e4a2453a4ebf878810f1397d8
-SHA256: 8b71c2cb0161f59a9e6a2384b290311e98f5267fcab4a1df4c75101227dd1848
-SHA512: d42eb6e5db096680afeaac7430297683f1d3daa6d50fdc3d627c2d0b4c76e259c12c0dddeeb8378305cd1295f01c79ab12b03558a8927324e0c3caee57fdb4c5
+MD5sum: 524797e21327ccce8e3e032be1d75e2a
+SHA1: 02361180f91214f92faa0c59101983f269c3c20c
+SHA256: 5406f2949e038688be124514b2abdabf707b98e94e9328a8aae65c758d363ab0
+SHA512: 91ab6dda767f4b43d9273873c5095b43a26389d4ad4a5dd03a6b9dd8e9cf4f420c189cf180a579e58b079415ab8f76f6eb921ee5cf068ce435b71c34ac4de43d
 Homepage: https://github.com/linuxdeepin/dde-control-center
 Description: dde-control-center (document)
  This package contains the doc files of dde-control-center

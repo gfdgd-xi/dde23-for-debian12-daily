@@ -8,10 +8,10 @@ Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
 Installed-Size: 175
 Filename: ./d/dde-dconfig-doc/dde-dconfig-doc_1.0.23_riscv64.deb
 Size: 104600
-MD5sum: f71c2f24de6665515436c8dd84a107e7
-SHA1: 8e053bfacc5ed780978ca699313916fd17e382d8
-SHA256: 835fcd69da8e2d697ffd02e9a8044f336b177a0bcbb7d49d4983b1ee9d43973f
-SHA512: 638b80c5b687a835b746572ee7edbf2ea42fd32fb3ee607ec867c07c2e7a34dd63b4d1a5dd3c7fdb42af492694be56c94f3f68fde96bad30bf4666bc87487328
+MD5sum: 253e96dc40e2f210b962b3017973c83b
+SHA1: de68a82983ae70ae3e34c4a97040f0e4ba352d14
+SHA256: 271c0ea852336617ba44f6f888bd2c19bad35fadc0eb36d4dd67a997d3128b44
+SHA512: 95d1808dba4031d2238bfe9dd354ce9f87f99d70f65b582c1c60df67d2c2b67a0f4abd16c09030ff12b5dc91b719dc54e18ae759756bc81c6b77a9de30a89ec9
 Description: Deepin Tool Kit DConfig (document)
  This package contains the doc files of DConfig
 

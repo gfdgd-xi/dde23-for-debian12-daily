@@ -6,11 +6,11 @@ Section: admin
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
 Installed-Size: 15256
 Filename: ./d/dde-control-center/dde-control-center_6.0.29_riscv64.deb
-Size: 4204240
-MD5sum: 1f63186f03cacdb04d9dd3d1749d0790
-SHA1: b0bd1c5eac2a4fa17d13f8ef50ec1467b659301f
-SHA256: d67c7a9c2bf42115926769f385499c0cc9b609de4a86fd33bcb0a501f97e99aa
-SHA512: be1a5c87b7559dac27d717722fa891c481db8c94731bc769caa304d7bb06aec061c20635349290f23ec0378534e66281d695e37bec278a8031addfb27af92e01
+Size: 4202872
+MD5sum: a5749f47e0ef076b7bd921747f0c3955
+SHA1: 7f58f86782ebd512b7ec91f4482f9f68a9f18d33
+SHA256: 4fa5bbca56fffbb8c2cf8f27c3b4a58dfa7184383c72f2376a36ed0813ff6a22
+SHA512: 034a5fb28e9b8171fd9987c3cae49e8be16fc37fb66852baf6b5cdeb962f46d10fb8992600413cf281012fcaaa8534bf6a34a37e09a5f763f24b4322ce46a02c
 Homepage: https://github.com/linuxdeepin/dde-control-center
 Description: New control center for Deepin Desktop Environment,
  Integrated control center with rich functions,Besides providing rich
