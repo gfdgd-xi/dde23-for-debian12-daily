@@ -8,10 +8,10 @@ Maintainer: Deepin Packages Builder <packages@deepin.org>
 Installed-Size: 2739
 Filename: ./l/libdtk6gui-doc/libdtk6gui-doc_6.0.0_riscv64.deb
 Size: 1933724
-MD5sum: 453cd4b398c71bbd44cf520110066583
-SHA1: 046bc0d351638f3f6dff89fd0bfd6869e135005d
-SHA256: 911bd42dec0556754036a2d1ecc69c56a1406f71f6d49643d84505e1d2d2bb87
-SHA512: c02cdef4464943a2504fc5c0ccddc9f337481466c232a9798af88c44f9bba8eecc579fecb7786de7d0ee11be3503b4e56791fb8a09208052398d8fd4f6fc1fef
+MD5sum: d2fc4ea730c46062d4ab5c29f124d71c
+SHA1: ba92c03a2d7caef63ee59feeea0b389a6c89211a
+SHA256: 1ce1510aa38ad3f4128109378e0d0b8ea4de869651287cdc1beddabe993a3a1a
+SHA512: 9bc826b3fe9cec75507c9ee643328b319220adda90dfa52a01a6f305ffc239014a1793a3cad0757efe5a7ad97295aed2d61550e60e08bd1b0037d50ed7c63516
 Description: Deepin Tool Kit Gui (Document)
  DtkGui is base devel library of Deepin Qt/C++ applications.
  .

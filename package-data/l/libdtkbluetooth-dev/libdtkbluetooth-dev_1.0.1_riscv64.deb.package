@@ -9,10 +9,10 @@ Installed-Size: 1036
 Depends: libdtktemplate (= 1.0.1)
 Filename: ./l/libdtkbluetooth-dev/libdtkbluetooth-dev_1.0.1_riscv64.deb
 Size: 742124
-MD5sum: e9adf5fd4f32a0f2f05953ff59b3f82f
-SHA1: 3a838c196d60f41c1b2183f9c23948d3bc33fe3b
-SHA256: 99afde04a2a396d66135036e0821a758b459a2aef6a9726330993644b0a483cf
-SHA512: b255a4b2968e19297e135c77badd3d74773f6498c3cc046837ca3cf6f4877a4d450337a38e3001e427b7415a139f29370135241590a73a6f85cf2a80a664a3d5
+MD5sum: 80627ff63716887dee54c08cbf539bdb
+SHA1: 533137063bcb3ab08d8e99d04d6961909c5ae7df
+SHA256: 094806eede2531cf57ae40e26b6ce1eeb20a10fcd2bfd88f1e10d4f38ec4ee13
+SHA512: d927273dfc57bae5b3a07b2eebf8fec51d9cfe2ac583db379dccfbff76ad59ae4414fbf6d8fe68d96e34f13335357f522464e8fb1cb14c6e14cb3b53c2aa33b0
 Description: Deepin Tool Kit: bluetooth devel library
  libdtkbluetooth-dev is base devel library of Deepin Qt/C++ applications.
  .

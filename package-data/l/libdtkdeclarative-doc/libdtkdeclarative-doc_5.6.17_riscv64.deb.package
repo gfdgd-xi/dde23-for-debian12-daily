@@ -8,10 +8,10 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 6133
 Filename: ./l/libdtkdeclarative-doc/libdtkdeclarative-doc_5.6.17_riscv64.deb
 Size: 4890784
-MD5sum: ae62ec20caa739d8b80381c7e20943c7
-SHA1: ae349cc7bd3f8692bcd70c647a87b0735c39b891
-SHA256: 61f598e8855e584ade1a0747d424b889711c0c7f107be7be1d91f04d36b09596
-SHA512: 77659c7857d7b3e99248d1182e6314e619660d2a243bdaac52c9877c6b8779af9e8d5cea41b65bc8e2bc1a26abaadac9937ca285f772293edc64c8602d713aa4
+MD5sum: b1020849e98870152f0c1e73ac02bae1
+SHA1: 1c3a8742885570d4d556cfca7e285d497d32527f
+SHA256: 4ac8c291b2d1aa7a7d03ce91d492577519c422ef85fa3ed7f2c9df31f9159a78
+SHA512: 45b0677203f452e70abe0c9031e7e2134875238fc629a1fb813fd5f67259a51b3f6883903d23e06df419befe68c66acb5158f33c73a7a7e0b6b0808bc16c8f17
 Homepage: http://www.deepin.org
 Description: Deepin Tool Kit Gui Devel library (Document)
  Dtkdeclarative is base library of Deepin Qt/QtQuick applications.

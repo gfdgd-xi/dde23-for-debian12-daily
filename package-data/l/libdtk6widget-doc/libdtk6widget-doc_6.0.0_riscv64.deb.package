@@ -8,10 +8,10 @@ Maintainer: Deepin Packages Builder <packages@deepin.org>
 Installed-Size: 18852
 Filename: ./l/libdtk6widget-doc/libdtk6widget-doc_6.0.0_riscv64.deb
 Size: 15345020
-MD5sum: c0a904237af61973b93b9b217c60de8e
-SHA1: 61c897d9875f6d97ab6816f9b1d9ecf873817b04
-SHA256: f183bb86675bfc61019bc1a2582f4b6ecdb8f628afb982dc214390be1741c5f0
-SHA512: 5a78219d637cfd339f9e287f2b313d00e04815f3da29010ac76accfa5ac6ee3c5356b77d3985d168c4c747f3521386be09b659e1052c55ac10b8c7d5026132b4
+MD5sum: fc0cb37d305af0d5b8bc2d0cccaca069
+SHA1: f261749dfb03e9b09fd96e6837a4d0afe453d62e
+SHA256: 8692c232435901750cac0e0be4b898440b66b3da64eddce2113c409414aa694c
+SHA512: 31ac7091ff92e03cb347046c1b84f87a00a3ff230a2f4b1cf4a8bc8aed39242b2cc9ca4e18152fbe28a0558e02eb1ce25d23d62cadd3a10487daf6ab8b826c48
 Description: deepin graphical user interface library (Document)
  DtkWidget is deepin graphical user interface for deepin desktop development.
  .
