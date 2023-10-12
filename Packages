@@ -1951,11 +1951,11 @@ Source: deepin-unioncode
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
 Installed-Size: 79
 Filename: ./l/libdeepin-unioncode-dev/libdeepin-unioncode-dev_1.1.19_arm64.deb
-Size: 12488
-MD5sum: cedba7139ce828e299105826dc7768e3
-SHA1: a45c429ef5bb5c12320223f4dc48e83c5c5bab69
-SHA256: c8300d1dc00361383a9f318fb6a00dd6dc64a6902af1f59584b056a1b375c2a7
-SHA512: 85b00bdabb88354e88c722b89e8074191648b52ac1c53ac6b3a06e0e7ef6139af6906e7c05380b1bf21e56e3d8c999555922c60920d2e18ba9000caba38b3625
+Size: 12484
+MD5sum: 128eaaadffd7881db79dfee337743e68
+SHA1: f4048284ad710e5aeaba469c5bf2fbd44e4562d8
+SHA256: dd22ce4998aca95dfe8b3cccb4f9b523c268442700dfb6735cdc441ffa968744
+SHA512: 7ccb8c0c4b32bc00a6817d7c09884559a287d25843962906b27fddacfbd3d2b67f33704349cda2e082a60575c47490b5e3f414c96e724e2bbf4e4e761a9feee8
 Homepage: http://www.deepin.org
 Description: IDE 'Union Code' devel library
  IDE 'Union Code' development can be carried out through this library
@@ -7425,15 +7425,15 @@ Version: 1.1.19
 Priority: optional
 Section: libdevel
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
-Installed-Size: 106182
+Installed-Size: 106822
 Depends: libc6 (>= 2.34), libclang1-14 (>= 1:5.0~+rc1~), libdbus-1-3 (>= 1.9.14), libdwarf++0 (>= 0.2), libelf++0 (>= 0.2), libgcc-s1 (>= 3.0), libjson-c5 (>= 0.15), libjsoncpp25 (>= 1.9.5), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5script5 (>= 5.6.0~beta), libqt5scripttools5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 12), libzstd1 (>= 1.5.2)
 Recommends: cmake, make, gdb, g++, gcc, git, npm
 Filename: ./d/deepin-unioncode/deepin-unioncode_1.1.19_arm64.deb
-Size: 71126088
-MD5sum: 686c68b40b52a121b52be4163be8504a
-SHA1: 6fd658a76ee156fb6e4423604a02cb56ebceca66
-SHA256: bc283539328b085516d2d6338582f89de8f6a36dd592bbca55524884316b8113
-SHA512: 146ec2f0490735cb890102f529a538ba8ebe24cb51d8929ce330484a9bf566b5f8a0f5c99db0e72a4f83ac2e1b87c4d0b0d5ffa7a1ca6d9ffb4869a9f0e6c7eb
+Size: 71189780
+MD5sum: 904ed90b103a4ec40d0d281fec8d40d8
+SHA1: e61145fa0fdc718997fb953a3713234e47696d7f
+SHA256: 7ea79ae53a7e6b3c1dd5f3bdeee74a9167a5bb01e39d76f616f70af9dd1a5bb1
+SHA512: 6ec17c82b4408071b4ce18065704e45d1131f4e52967d81d10594f830b66e6a6d1ecf425a62b0f00fe19538f5d6c09ecab2201daa61a8cc26047e75530752ace
 Homepage: http://www.deepin.org
 Description: IDE 'Deepin Union Code'
  Lightweight cross-platform integrated development environment
