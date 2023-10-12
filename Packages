@@ -1248,11 +1248,11 @@ Installed-Size: 803
 Depends: libdframeworkdbus2 (= 6.0.0)
 Conflicts: libdframeworkdbus
 Filename: ./l/libdframeworkdbus-dev/libdframeworkdbus-dev_6.0.0_riscv64.deb
-Size: 63288
-MD5sum: 8fd476c01e192c20893b7a5803832760
-SHA1: 0d9dbc29099e1540de4f281f0cce5e98b27239d2
-SHA256: 319dd30186da70090d9ef7065e41dcbedf4950b85bd2f3d078f0277afffb2840
-SHA512: 48b2e81188f5155985cd0ace694944ffaab04ad5c82dafcb6ce886dd72d5b9ca772e781fd85470ea13a45b560aeb238456f49555237ffb46c3cbd6a96112fa49
+Size: 63284
+MD5sum: d1838e5a7b45bc83a1b23ebbe8f884a4
+SHA1: 92aa9694eb7a636be774a0792c1331db97011972
+SHA256: db8d245494b14d47fdc9061cfc8af8da8ab17ed082ea840aa1303cf2495cf76e
+SHA512: 9d691ba2b9d91fff6c34f96be35a16151a64f466bdb9de5aea84e15e17bf509ccae79a2e7dfd5b09228179a5da60651478993f0f16f3acea1cc80090b1a0d33d
 Homepage: https://github.com/linuxdeepin/dde-qt-dbus-factory
 Description: Qt DBus interface library for Deepin software (development files)
  Libdframeworkdbus provides Qt DBus interface for various Deepin software.
@@ -3122,11 +3122,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3356
 Depends: libc6 (>= 2.27), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.14.1), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
 Filename: ./l/libdframeworkdbus2/libdframeworkdbus2_6.0.0_riscv64.deb
-Size: 733424
-MD5sum: aa4cee70477de3376f15a726938893c7
-SHA1: 9be41d18c9016f81d275dfab0e109cb25473a9cc
-SHA256: f74ab733c882eaf95c72b330e6fe290b7fd757788873b5e70231c10113e904d4
-SHA512: 8eaa6a3b847a2ba73133aa3dd362542c98aa6bf96b5a9552ad7ce8a8da646e436c8876e723af85ffe09e59d6123ac7687d2f6f0f3ceb50d63855c06630beb16f
+Size: 732872
+MD5sum: 1d50ebc29f081cb54d728695612a58dd
+SHA1: 1c09676c2871c6a54cad0ee211fbce017cc56d7c
+SHA256: aaac752581436ca67883cc077fee702165305db0526d8abcb85f7f90735f3296
+SHA512: 8d6ed43718e469d61934cbd8be906b380c064c2cc85f7c1d06b1af389085134eb9abe74bcc6462616f1bcd3cc67f24b164d83ae115dced451c010832b8958ec2
 Homepage: https://github.com/linuxdeepin/dde-qt-dbus-factory
 Description: Qt DBus interface library for Deepin software (shared library)
  Libdframeworkdbus provides Qt DBus interface for various Deepin software.
