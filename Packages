@@ -4772,11 +4772,11 @@ Depends: libappstreamqt2 (>= 0.16.1), libc6 (>= 2.34), libdtkcore5 (>= 5.6), lib
 Conflicts: dde-launcher
 Replaces: dde-launcher
 Filename: ./d/dde-launchpad/dde-launchpad_0.0.2_arm64.deb
-Size: 256800
-MD5sum: 7530b4c808b8dde0a443c8ef3aed16a1
-SHA1: 702b6a374569a29f423d704a2815d52c3d3baf62
-SHA256: 0af412662a150e92abba3257f8956a0dfbcee6734b2e0ad094a76e0fafa99990
-SHA512: cd570ad7bf2b8d9b3b52b71f71c4bf795ccbca31be059e8f9d8264cf65d4de6b12b1db464de8756c18f8b06a8b84495231e7819a87ee43d5510bbbb3776312b7
+Size: 256364
+MD5sum: 7fbb2f332182334570f813a5a7e79dad
+SHA1: d0a8d799fc220bf0c9367943df69fbfa7be7995c
+SHA256: 40b787010f719f04e70807474c4a9f36f05374241ced97e9664edbed31d76519
+SHA512: 47a7416cd4fb92b33d2eadd1daeb5bdd13d7b12855d2f425244b55425b7a405120d3c59885df564a25193c9f9f42f45aff61d1d9566dd9271811f5d970bd8bd4
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
@@ -8062,11 +8062,11 @@ Maintainer: Deepin Sysdev <sysdev@deepin.com>
 Installed-Size: 767
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.25.0-kwayland.5.24.3), libgcc-s1 (>= 3.0), libgio-qt0 (>= 0.0.11), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5), dde-daemon (>= 5.12.0.31), startdde (>= 5.6.0.34), dde-api (>= 2.92.1), dde-session (>= 1.1.5)
 Filename: ./d/dde-clipboard/dde-clipboard_6.0.7_arm64.deb
-Size: 162268
-MD5sum: 6e39fa5d43190adf9a5adbed373c15ea
-SHA1: 09a26087d929454c8c3e41d1740351345d82159e
-SHA256: ba30e762882dc983abdac93e95e7808867862f99ff14dbaf78c8c9194bec7ff3
-SHA512: aff4de6c6f9e608fe7894fb72ef60879f23ac94cd1392fdbb9fbf886896702af4f6507405e2d5151e0599b9ec879ab6611bbde7d3470fca930ac4dd2441ae2f7
+Size: 162244
+MD5sum: 23d6bfa035483b23d4be94317d283c7c
+SHA1: fad0901e53e30722b543921a1a9b16be677fdf42
+SHA256: b95a6cd4fb2bb9a557d200a8dab674c3725ebc9d947b6b2d35e2c467917ed0c4
+SHA512: af3cf79653466a8b23e583a9fe7353c3a58d8047d8bdccc8e5961a5f44bad36915582d5a59dcd5b37138837295d0cd3504e6196b11ce7c92744742b7bda1b105
 Homepage: https://github.com/linuxdeepin/dde-clipboard
 Description: deepin desktop-environment - clipboard module
  Clipboard module of deepin desktop-environment

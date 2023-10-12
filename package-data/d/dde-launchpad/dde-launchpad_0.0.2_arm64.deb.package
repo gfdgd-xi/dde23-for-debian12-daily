@@ -9,11 +9,11 @@ Depends: libappstreamqt2 (>= 0.16.1), libc6 (>= 2.34), libdtkcore5 (>= 5.6), lib
 Conflicts: dde-launcher
 Replaces: dde-launcher
 Filename: ./d/dde-launchpad/dde-launchpad_0.0.2_arm64.deb
-Size: 256800
-MD5sum: 7530b4c808b8dde0a443c8ef3aed16a1
-SHA1: 702b6a374569a29f423d704a2815d52c3d3baf62
-SHA256: 0af412662a150e92abba3257f8956a0dfbcee6734b2e0ad094a76e0fafa99990
-SHA512: cd570ad7bf2b8d9b3b52b71f71c4bf795ccbca31be059e8f9d8264cf65d4de6b12b1db464de8756c18f8b06a8b84495231e7819a87ee43d5510bbbb3776312b7
+Size: 256364
+MD5sum: 7fbb2f332182334570f813a5a7e79dad
+SHA1: d0a8d799fc220bf0c9367943df69fbfa7be7995c
+SHA256: 40b787010f719f04e70807474c4a9f36f05374241ced97e9664edbed31d76519
+SHA512: 47a7416cd4fb92b33d2eadd1daeb5bdd13d7b12855d2f425244b55425b7a405120d3c59885df564a25193c9f9f42f45aff61d1d9566dd9271811f5d970bd8bd4
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
