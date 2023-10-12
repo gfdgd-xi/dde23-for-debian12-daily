@@ -2381,17 +2381,17 @@ Priority: optional
 Section: utils
 Source: deepin-log-viewer
 Maintainer: Deepin Packages Builder <packages@deepin.org>
-Installed-Size: 906
+Installed-Size: 910
 Depends: libc6 (>= 2.27), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), libsystemd0
 Recommends: libqt5libqgtk2
 Conflicts: liblog-viewer-plugin
 Replaces: liblog-viewer-plugin
 Filename: ./l/liblogviewerplugin/liblogviewerplugin_6.1.1_riscv64.deb
-Size: 305192
-MD5sum: fb6cb713e732d1871bc35e1b61772a3d
-SHA1: 8c2ba05a6f7f91b6c7647ad4e27a5584a89e2f6f
-SHA256: 072322c1888fb120449f665088e0bf9647fa574f136b535b12367a260d01a353
-SHA512: 290ae43148803a4ede1fb8077ddab405e01430a27b0118c99ae940d39ad420f467ca1f2094ad9476303b48fb010f4e655d3148366b4056112346b66db441e317
+Size: 306836
+MD5sum: 3956c407c6b661d4f4a0d5ae6bf4780e
+SHA1: 27246e2b0b39fc7e7f971f1e6c23e05e95281a51
+SHA256: 16e21c6f726c9da77c5f921492ab450c337b0dd5bb70676e70bc54640596a7dd
+SHA512: d55cac1ccd4dca6b8f27297f08c51e7423938a7a7dc40fc300531b8d4d9f52b26d5b185cdbbc9dfeabcddd12bb8d869fdeec9c2378b1cb01b64fe7b44151f87f
 Description: Log Viewer Plugin library.
  Deepin Log Viewer Plugin library.
 
@@ -8496,15 +8496,15 @@ Version: 6.1.1
 Priority: optional
 Section: utils
 Maintainer: Deepin Packages Builder <packages@deepin.org>
-Installed-Size: 7675
+Installed-Size: 7683
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 13.1), libsystemd0, libxerces-c3.2, zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-log-viewer/deepin-log-viewer_6.1.1_riscv64.deb
-Size: 5134564
-MD5sum: 591de5f93af788affc6a6f595c6779c4
-SHA1: 9a8ba70ba696708b3a501e650c17bfa86afba939
-SHA256: 569f49067bacd522397e068933fbd86ea06ffc95070d8c256b3e530e5c33f654
-SHA512: 416fc8cdf56256082fe96a7705f89d4a316e29807b0180f5767daf3f8f71a14ea7a9e7744da3fb1dc1d8747ee4877a0a0999886e163d4ebb1b3183ef3231535b
+Size: 5136632
+MD5sum: 65b1a8bfd0cd74679108fd7a4478805f
+SHA1: e896485888278ecb3d9f0c8bf2b00cb3ebcf6ed9
+SHA256: 386cf7503ce7908585f9702e902099071870858a57cdfc18238d2af5aa97d514
+SHA512: 74cc534abf04d2304274c240028d704bc9c7a825cd87d26c70a2485dd7952e762458dc40f6102462c72a2a6427284cde35459f4a825882010827b95d0300a065
 Description: Log Viewer is a useful tool for viewing system logs.
  Log viewer is a tool that collects logs generated when an application
  is running, for example, logs generated when operating system and
