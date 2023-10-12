@@ -526,11 +526,11 @@ Source: dwayland
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 770
 Filename: ./l/libdwayland-doc/libdwayland-doc_5.25.0-kwayland.5.24.3_all.deb
-Size: 516796
-MD5sum: 443e74c371cb3fd233ae5c2a09990714
-SHA1: 52452cb5aae09a42df624eea6700d8b61894fae1
-SHA256: 0e69b8a6028e953850d68b34eacd5a81704dbe90a4e1a42080242e8749a3ec67
-SHA512: 53fb52a4bdd5ff832144d95b6bbcdcf19d7ecfeee8de030cac178dba903b9c82157abe9340b75e28fcf399e564b950241ae4d56a06f6648ec89c6bde583dd6dc
+Size: 519224
+MD5sum: c1a2e1f6298723c663310203eb940998
+SHA1: f7260820d1e0bd526503c9971c3d902ac07ad915
+SHA256: d9cc355c151f245c6578d9b3774b67efe4ad9b930c94fca3555512ee80b78775
+SHA512: 9156f213b9db3a18cbd2f7c1d8ef0a85435c65b6537fe4ff18867411c4158789852ac5bfc9273f6d40cf1477dc4892790abceb38dca20514d9e003539d921eda
 Homepage: https://invent.kde.org/plasma/kwayland-server
 Description: Qt library wrapper for Wayland libraries (documentation)
  DWayland provides a Qt-style Client and Server library wrapper for
@@ -5594,11 +5594,11 @@ Maintainer: LinuxDeepin <linuxdeepin@deepin.org>
 Installed-Size: 7916
 Depends: libc6 (>= 2.34), ostree, deepin-boot-kit
 Filename: ./d/deepin-upgrade-manager/deepin-upgrade-manager_1.0.22_riscv64.deb
-Size: 1720508
-MD5sum: 51f7c1261d0e042076bb8eb780cb77b4
-SHA1: 1d1fcba85643b71f1209c732758d1b36b68214a8
-SHA256: c30253057d1ea4e19636728c2d90c86892784ab7e04969d1f38abb13a4927c4c
-SHA512: 75da83b0ef2897104353f6eb49242dc43ced4d2bf71bd000c31ac1988304ecf109464f3f62f3ef3855de2ee3206483ba03544a9a1d0f37a9d831fbe5896da862
+Size: 1720888
+MD5sum: f41b4749a194c4577c813d5126f681c2
+SHA1: 9ecdc0b048f953445db7d01ff7ca340fa84e1bd8
+SHA256: 4612ab066dee4c089bc6da9482185921827952658708e13331a9b52637a01db6
+SHA512: 7314d8125690aaf7ada5c4c4d82f61e6ffebe445d9e5b02c7a052dd196df9e6fb7f33bc4aeab1b469058d765ccaf10cd5c2e87152f01146a260d23611df12379
 Homepage: https://www.deepin.org
 Description: uos backup and restore tool
  uos system backup and restore tool in Linux.
@@ -7221,11 +7221,11 @@ Maintainer: LinuxDeepin <linuxdeepin@deepin.org>
 Installed-Size: 3211
 Depends: libc6 (>= 2.34)
 Filename: ./d/deepin-boot-kit/deepin-boot-kit_1.0.22_riscv64.deb
-Size: 956696
-MD5sum: fd97d90616a21ede7fca42bc98a65ab0
-SHA1: df0032ff4af2d0c8189f82607849cc1a9b969294
-SHA256: 0a68f849f71274b28e9b439f836d086c8ae6a196b9b675b2a0de12060d2d5429
-SHA512: 0e76eec1cf8c10535fa87d4b611489732dd6736e63ed59e85781e2f687522d3b5994912c3d1f2b6b03557390959563f0c0c62c28c53ff853a7f9058e2ee0d146
+Size: 956452
+MD5sum: 614241687e9a81fa055e6e27d47db6d5
+SHA1: 7a40fffdfa40272636d082ae92587d4b828c77da
+SHA256: a057368f71ee90cddf6a26ad975f67d31157e2df2822c8c4cab468d5d9130449
+SHA512: d151e5ff6521ad0233c623dc6888fb5417dcbfed72373cbcb19e60432aed4fcb8f3f834c8fa4a6169958b75f47628fa737947e9c9b92cff5933790efddaed19c
 Homepage: https://www.deepin.org
 Description: uos rollback the grub management tool
  uos system manage rollback grub in Linux.
