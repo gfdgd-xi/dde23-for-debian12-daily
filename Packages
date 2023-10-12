@@ -2686,11 +2686,11 @@ Maintainer: donghualin <donghualin@uniontech.com>
 Installed-Size: 734
 Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libkf5networkmanagerqt6 (>= 5.90.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5network5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
 Filename: ./l/libdde-network-core/libdde-network-core_2.0.16_arm64.deb
-Size: 164928
-MD5sum: dfd09b9815e670676b505e3d70ac4502
-SHA1: 3a3909d7291597c1293f00ee9a836ae19105a8a3
-SHA256: 7b6879ccc8c562860b87426013ca6b4e7996e9d6656d24b47c9b279cc1d8d49c
-SHA512: e81b70c4ad71296f2aa5cb1720d34478aeb9ee2d0aaf2f4a33c3b16ee553be29e4c6b3fe116481e25c6fc00543847dc7778e0080d3197188083b1ec5801c2cb4
+Size: 164944
+MD5sum: ede2eacb8f90f34406e21ee2671c6c18
+SHA1: be3651380fdbdd18ce19b2bf1e686e0314e2b2d4
+SHA256: 2dca6210c81a50766cc411a9f1b4eb0bca755ff9f938179866466601ebce2238
+SHA512: cadceebb5edcbb97f4b93820db9422259fca2c820c78b3317dc7d6251a5881ea880e24fa06c8488a85670f8602cf62a43a7ea8a5f5221e1bece9164bef648a62
 Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
 Description: the library of network
  libdde-network-core module
@@ -4480,10 +4480,10 @@ Installed-Size: 6223
 Conflicts: debian-dde-icon-theme (<< 15.12.65)
 Filename: ./s/sea-icon-theme/sea-icon-theme_2023.09.25_all.deb
 Size: 2012564
-MD5sum: 158d7cf9ce9685efb4ee7205292d8267
-SHA1: eac980f579853eeaffd4fd1e6a5223423e88f2fd
-SHA256: 70eb07214794e7e69cf949ea0ab32763d04ce5784eaadb464a718adb36e8d8d2
-SHA512: 78cbf6dae498ab7a81a289e2f8b0605be4e0bb6d70d74bf46c9ad796084552ed6c82d78a49700f7d0a340edff5a09ce8d7c544b27d0e090be9deabd3168954e0
+MD5sum: 08e45b5038c641b5acfabae589a62c71
+SHA1: b71e189799e3a11457b86d5a8356d1eae9034bce
+SHA256: 6af52c7653f16d7a54b19773fbf2898dcde5125b57bc757d852ccfa03460b42d
+SHA512: 908288628d8b5defb9b1478101578ac812a82d2faefd04cc96d4f45e3a09f31c0415dd4fffdc14dcd50a20acf272b13f67a27b03c0664d8e32f725f5805462be
 Homepage: https://github.com/gfdgd-xi/debian-dde-icon-theme
 Description: Deepin Sea Icons
  This package is DeepinIconTheme Sea
@@ -8292,17 +8292,17 @@ Version: 1.8.0
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 51237
+Installed-Size: 51059
 Provides: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Pre-Depends: debian-dde-wallpapers (>= 1.7.14)
 Conflicts: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Breaks: deepin-community-wallpapers, deepin-desktop-base (<< 2017.11.2), deepin-wallpapers-nonfree
 Filename: ./d/debian-dde-wallpapers-nonfree/debian-dde-wallpapers-nonfree_1.8.0_all.deb
-Size: 48992276
-MD5sum: 6cc6cf31d1893d152593dcb27d2e4db2
-SHA1: 0499122f65b398d43b814b9d72c41a4153d737bf
-SHA256: a47987493bfc0d66216d1dde514c87e1a6b0a00e19467b6f0ceecc7faf2f4c99
-SHA512: 262c422a06950c657039c6658ad233cde57cc34e3c9afee14908421aae20d8ea328d96649edbb3d277583b0631d8804793d2a451d00ed51b460abc0fbd5a2209
+Size: 48802992
+MD5sum: 944c3bd09cdc949f0d678cfc08c80038
+SHA1: 33949f06a2d3deb14ae6322282f40a7988f6cb61
+SHA256: 286f80c8ce6dcbb0ca5bfeedd6e5d6e4edbb4a815344defe3d18969356ce7372
+SHA512: 0e16d3ecac2c9152d2865e261556570cced82b19f3a0b5aefe30302e438eba3de3313a3c6257cc835906d3df9d930ae9c52aa57bd651c7dfe6856ea55986fe7b
 Homepage: https://www.deepin.org/
 Description: When users are ready to set their own desktop background,
  Deepin Wallpaper provides many beautiful background pictures for users to choose.
@@ -8582,17 +8582,17 @@ Version: 1.7.17
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 27197
+Installed-Size: 27114
 Provides: deepin-wallpapers
 Conflicts: deepin-wallpapers
 Breaks: deepin-desktop-base (<< 2017.11.2)
 Replaces: deepin-wallpapers
 Filename: ./d/debian-dde-wallpapers/debian-dde-wallpapers_1.7.17_all.deb
-Size: 25480068
-MD5sum: 66ba4b5e7f074fb00fe3c44c5e2d89a7
-SHA1: 5126ded20bea609ed3bde446ae6504313bdc2a11
-SHA256: 194142e8cd685dc331edea86ae16133ec4dc9424701d3810dec6e655584ccdcc
-SHA512: 6f257a107917152f8aa7c2f056e100012d3ebeb8e99b1cc896bdb8d9ffc487e671387a07243dfced65a66340fbd2ef98d63d030928b43f5238cd3ea45cc19beb
+Size: 25385096
+MD5sum: e65ad04b8de10f1b6e4a1dc9635b43e3
+SHA1: a0e0bfe3ccd265a5d2901f17edb411888468292c
+SHA256: 4f99ab211e084621848c5a1f7580d1382a7fce98b08d631fa9203865bff8e9f7
+SHA512: 80621b1a04871918dbd170b164e769215ab97ad3b81c4c39cc64868234ed6a24391fd85823fd56a72ea3fd1645331e40a100079704037fe72773d8e48a63bf55
 Homepage: https://www.deepin.org/
 Description: dde wallpapers
  Default wallpapers for debian-dde
@@ -9368,11 +9368,11 @@ Maintainer: donghualin <donghualin@uniontech.com>
 Installed-Size: 5328
 Depends: dde-control-center (>= 6.0.29), libc6 (>= 2.17), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libkf5networkmanagerqt6 (>= 5.99.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.5.0), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5.2), network-manager-integration-plugins, libdde-network-core (= 2.0.16)
 Filename: ./d/dcc-network-plugin/dcc-network-plugin_2.0.16_arm64.deb
-Size: 990668
-MD5sum: b9052d91cd5c3055108099634f99ab41
-SHA1: e94f18e5d023ed446a1dbcd7a2bff4044c48375b
-SHA256: a85d70dd5b7686d38d1255e7a6b1486a8e6a407cc618ad8264edf2102496eb88
-SHA512: a35e0d6128c0098f595bb0eacc85e80dc874e2e7431cd80e87cf61a3ed447444804977f9d05a9a456116cf1b16576064b16fd21a0653d093d65e465123ca2415
+Size: 989656
+MD5sum: 2b990661a25dc52c9da6977dc240e327
+SHA1: d461b62fc8595bfed4ee5779baec4bf11bfe51ae
+SHA256: 7b84dec652f17af93e71d2f0b0f87e07d1b6f6ab255221ead8652732f6456289
+SHA512: cdcaeda2d8e89b14b351c549efbf43abe8db498ddedc72656d2e0637fd94ec47c5ea053e8492587d79229de6c4af95ab5f6b8565001b20cdde078bb0bc03d7d0
 Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
 Description: the plugin of network for dde control center
  dcc-network-plugin module

@@ -8,11 +8,11 @@ Maintainer: donghualin <donghualin@uniontech.com>
 Installed-Size: 734
 Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libkf5networkmanagerqt6 (>= 5.90.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5network5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
 Filename: ./l/libdde-network-core/libdde-network-core_2.0.16_arm64.deb
-Size: 164928
-MD5sum: dfd09b9815e670676b505e3d70ac4502
-SHA1: 3a3909d7291597c1293f00ee9a836ae19105a8a3
-SHA256: 7b6879ccc8c562860b87426013ca6b4e7996e9d6656d24b47c9b279cc1d8d49c
-SHA512: e81b70c4ad71296f2aa5cb1720d34478aeb9ee2d0aaf2f4a33c3b16ee553be29e4c6b3fe116481e25c6fc00543847dc7778e0080d3197188083b1ec5801c2cb4
+Size: 164944
+MD5sum: ede2eacb8f90f34406e21ee2671c6c18
+SHA1: be3651380fdbdd18ce19b2bf1e686e0314e2b2d4
+SHA256: 2dca6210c81a50766cc411a9f1b4eb0bca755ff9f938179866466601ebce2238
+SHA512: cadceebb5edcbb97f4b93820db9422259fca2c820c78b3317dc7d6251a5881ea880e24fa06c8488a85670f8602cf62a43a7ea8a5f5221e1bece9164bef648a62
 Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
 Description: the library of network
  libdde-network-core module
