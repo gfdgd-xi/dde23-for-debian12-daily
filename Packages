@@ -7540,11 +7540,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 2468
 Depends: dde-daemon (>= 6.0.7), dde-permission-manager (>= 1.0.5), lastore-daemon (>= 6.0.2), dde-dock (>= 6.0.5.1), dde-launcher (>= 6.0.5.2) | dde-launchpad (>= 0.0.1), dde-control-center (>= 6.0.5), dde-session-shell (>= 6.0.4), dde-session-ui (>= 6.0.5), deepin-pw-check (>= 6.0.1), libc6 (>= 2.34), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 5.2)
 Filename: ./d/dde-api-dbus-proxy-v1/dde-api-dbus-proxy-v1_1.0.8_arm64.deb
-Size: 424124
-MD5sum: 9f66c71b3cd0864249c045bb021e6163
-SHA1: a6bb28f18529c2fb734670c6cc8ebcd43c7c1f3d
-SHA256: 4c3a2c5e987b99dbd56aed2e3b43735acc2fe22efa291f87f90411a08e74bfa6
-SHA512: 432ff0e2d150c1359c321ae9fa120f25410b3679245c05a609e99ea27be88987637dae8ef6ae55c32433942ce2879dd70cbb667661d1d7e3a7a730789075e0e8
+Size: 423472
+MD5sum: 89d67243d9357156616856d3d249c086
+SHA1: 4d33039daebf76209b37c90ebec38672b77af58e
+SHA256: 079be85ec3ef2a5c05a2896e011ba1f29f37608a2d34c55905cec3b4a7444e9e
+SHA512: 9bee549fb13e61568141c7a1ada3b3e9f45befe6dd1cf3816184f92808ffd78c3864406b3f2fe28a3b317ee01aa99e71a93148c7f60bea430c27d0089d8d67ec
 Homepage: https://www.deepin.org
 Description: dde api dbus proxy module
   dde-api-dbus-proxy is used for compatibility with old dbus APIs for DDE.
@@ -8657,11 +8657,11 @@ Conflicts: dde-control-center (<< 6.0.0.1), dde-workspace, deepin-notifications,
 Breaks: dde-control-center (<< 6.0.0.1), dde-workspace, startdde (<< 2.91.1)
 Replaces: deepin-notifications
 Filename: ./d/dde-session-ui/dde-session-ui_6.0.10_arm64.deb
-Size: 1200996
-MD5sum: 054692391e6de30a8e2ee7ee8d309be6
-SHA1: 989ff407e4b990f75d02d09d96af451b9bbf6cc7
-SHA256: b14906bb7fc1ce2541c7b3af4ffbc159e9d30776e70388b46bb2d99d406b8151
-SHA512: 8463b70b6ea89e0b1dd200150c65fb0caa8318d8a7b45459b4b4bca35370576bdc49914ab267cf924706b1c1021276ca28e04837102145dff384ed18272ac290
+Size: 1203916
+MD5sum: 7520551fb3f12e8cef4fcff860a8b189
+SHA1: 34aadcf05f1814786359d91e2dec763d3e6bd6fd
+SHA256: 272d6875c6e47c1357c85a9e8c5564a84df0fec31e2d7ad26ccd60784edd559c
+SHA512: 6976dfc13db37cc72264a1abc7fd89fade388bc4723a336fa490f5f36f107cfb2ef6b960657a08b59b32fabc54c98aec42205f46c18834b3b733c4d27cf099cc
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dde-session-ui module
  Deepin desktop environment 2015 - dde-session-ui module.
