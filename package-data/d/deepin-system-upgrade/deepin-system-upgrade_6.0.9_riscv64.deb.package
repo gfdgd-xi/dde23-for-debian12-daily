@@ -7,11 +7,11 @@ Maintainer: LinuxDeepin <linuxdeepin@deepin.org>
 Installed-Size: 6397
 Depends: deepin-upgrade-manager, libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.70.0), libgtk-3-0 (>= 3.0.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 13.1), plymouth-label, fuseiso, dpkg-repack, squashfs-tools
 Filename: ./d/deepin-system-upgrade/deepin-system-upgrade_6.0.9_riscv64.deb
-Size: 2191648
-MD5sum: e54d039f38f3994999f19d29034701b8
-SHA1: 7d73d089738d269761fab93149a22d392d93e376
-SHA256: 7b078faac210c2ecae468231d359c4532163a9ddb670944abda08e4c6315eb0e
-SHA512: a96346f51ba8cf4d628d8fd2f3e61d7034257f6106e77037ebdf6c79edf74581012d915ac07447f59e84c1f143ade47d8075a98f06219f1d1529f7fee47bca9f
+Size: 2191396
+MD5sum: f8525638f1070e328a5114d7929f66c9
+SHA1: 3235c578ec8184fbe0e78dcc47f3877ce29078c8
+SHA256: 896d8a2f54930d483224cdb43ac65f07524afa4af86571c8db798803853ec14a
+SHA512: d4687f547cdf2279696332706ccf80e0b500ba0a2366e89725f24ced7228b11a40e08b5c52bffeaff138d46a1da48b62184491e42d5772960e01ce521654bd7c
 Homepage: http://www.deepin.org
 Description: system upgrade tool
  deepin system upgrade tool in Linux
