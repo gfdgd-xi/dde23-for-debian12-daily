@@ -11,11 +11,11 @@ Recommends: libqt5libqgtk2
 Conflicts: liblog-viewer-plugin
 Replaces: liblog-viewer-plugin
 Filename: ./l/liblogviewerplugin/liblogviewerplugin_6.1.1_arm64.deb
-Size: 274196
-MD5sum: db7a8975ea87ac3b4788d97d0f2831a1
-SHA1: 3a803f188a4aa9bf284aa69fed1a4c62455db4d4
-SHA256: 19d823dd468ad61aec495b43788a85c42b9f35dc289f6d16ea311ce215a5f06d
-SHA512: 0aef07906a3c37eca2e5db73fd060e22abb350a21eb5fbdd0810699d05d07bb26d04f6395d436bb75160b7908568d2c0a497cc60784ea9110bba300ff261f00b
+Size: 274836
+MD5sum: 0ed69bb0b33a5540197c956cccb2b26d
+SHA1: 4bf3d890a5f7ef88267403182f8ddab34ba9d704
+SHA256: 0df618793c7f3c501721235df4e70ed74276f2bc43d137ced11eb8a1cadd5700
+SHA512: 5dd6920f41cedd9251135aa8d9554dfe8f3b2d6353c5a1440aa9721399ca0f54cd4f5c89927b3e5244fc625fe93fe1083a8c2bee345c577c2360f5cdcec4d70a
 Description: Log Viewer Plugin library.
  Deepin Log Viewer Plugin library.
 
