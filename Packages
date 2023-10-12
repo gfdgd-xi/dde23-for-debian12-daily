@@ -4461,10 +4461,10 @@ Installed-Size: 6223
 Conflicts: deepin-icon-theme (<< 15.12.65)
 Filename: ./s/sea-icon-theme/sea-icon-theme_2023.04.03_all.deb
 Size: 2012424
-MD5sum: b5d6d3863978a546b5047fae26b34635
-SHA1: 24a29a82ad1c3cdb065e643509e246646fb37062
-SHA256: 0cf3de844f47fc9964cc6ce436204b82f016b703264cb9f39d15ce6c5403e71a
-SHA512: 048ff4d66827e27994df1fbafb1c8d6453700aced06caee8f527fdce145390709531b78641a16f6920f42aa1f8b508cf9938459a41744335e7efdb79f37fcdcb
+MD5sum: aae988b31586488a29e0c93362c6e6b8
+SHA1: 3731faed9cb4dff3b72b7ffbdfb71731b9ec53f0
+SHA256: 9592c478f5880a8da8aa7dd83854a2473b4c20eb81bca9c6857664189dd48cd6
+SHA512: b6f93fe4e5c09b7c051e99bb8c7c7613723c4a53d4c68b671ceff6d786d53ed315e0d06cb2bc341fe885118d8eb5b6a81429caf12ac3bf8111b26ad79a53a025
 Homepage: https://github.com/linuxdeepin/deepin-icon-theme
 Description: Deepin Sea Icons
  This package is DeepinIconTheme Sea
@@ -5666,11 +5666,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 9140
 Depends: adduser, libc6 (>= 2.34), libglib2.0-0 (>= 2.70.0), libgtk-3-0 (>= 3.0.0)
 Filename: ./d/deepin-proxy/deepin-proxy_2.0.2_riscv64.deb
-Size: 2450560
-MD5sum: 1fb1ac79da1d3785b2718a4c3d003931
-SHA1: e0d98810de44abb8f3ab7496b8e192e0a2e20017
-SHA256: 059ba07170826790929b78eeefd1a66fd819ea9350b53d1c7f4159bfef86655a
-SHA512: b559d833a3b70edba5e860fbe8863cc9d24d6b4c165270b03e3c7b0c1903a04bac7051822f2f655f3a4fd50787826a0a907e2f002a40c67fc932cb64f2b78d7e
+Size: 2452904
+MD5sum: bca8261cdf4b57722e3aa79ee9060299
+SHA1: 39499e552dd7652f9c5062699eef0d053fd781ea
+SHA256: 4edc4adef4bc1c8cea4462b33455e8047005acfa9b146985af5ccf35f83a6538
+SHA512: 85f2416444500ac29974e1ab8b54dc48cdf2153b4b5c085a55e3a44906d91a8ca8a877c8e3e43a6c73d72067908d259326d665ec46faba0b19fcf4957adc40d1
 Homepage: http://www.deepin.org
 Description: service for global or app proxy
  deepin-proxy is used for proxy
@@ -6402,10 +6402,10 @@ Depends: papirus-icon-theme
 Conflicts: deepin-cursor-theme
 Filename: ./d/deepin-icon-theme/deepin-icon-theme_2023.04.03_all.deb
 Size: 28861320
-MD5sum: ecd5d676b6c9a74c2cf57d6f7e26e404
-SHA1: fe1556afa2d10088f59af68d73edb517df0dc437
-SHA256: d5fa4f2602cbb32e1c5103831d0e6948adaaae3741509f800ecf423c4476a664
-SHA512: 036f75dafc303b094bbbd7fd358235123c6b691ab8c9b469ce58d6c944ef8e3ff6ab693a201641ac091a7773647c627aef4a04ca29d8b455def9bcf35fe443e3
+MD5sum: d79267abf47d460c3714993d5393ed8f
+SHA1: 9e2a0baeefa75b48c5c66e449e01582affde86d0
+SHA256: f4ece32f803013fd30175b21cc3ba7aacc653473f2c93dd596a33062a975212e
+SHA512: 784c85b9e079025d4945df380d2b5f5d69b56af1bda730e01560e5618f660046ffc468262b4a0ea162b6f7e885212c80ded7b5349f6c30fcbf907b3442e543f8
 Homepage: https://github.com/linuxdeepin/deepin-icon-theme
 Description: Deepin Icons
  This package is DeepinIconTheme
