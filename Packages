@@ -4762,6 +4762,25 @@ Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
 Package: dde-launchpad
+Architecture: arm64
+Version: 0.1.0
+Priority: optional
+Section: unknown
+Maintainer: Gary Wang <wangzichong@deepin.org>
+Installed-Size: 836
+Depends: libappstreamqt2 (>= 0.16.1), libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.39.4), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5qml5 (>= 5.14.1), libqt5quick5 (>= 5.6.0~beta) | libqt5quick5-gles (>= 5.6.0~beta), libqt5quickcontrols2-5 (>= 5.7.1), libstdc++6 (>= 5.2), qml-module-qtquick-layouts, qml-module-qtquick-window2, qml-module-qtquick-controls2, qml-module-qtquick-controls2-styles-chameleon, qml-module-qtgraphicaleffects, qml-module-org-kde-kitemmodels
+Conflicts: dde-launcher
+Replaces: dde-launcher
+Filename: ./d/dde-launchpad/dde-launchpad_0.1.0_arm64.deb
+Size: 256416
+MD5sum: dfe747d9885c6dd1eaaa0799e80aa2b3
+SHA1: 6f911405f4513e20e7d4afde051e8f825b9d1bde
+SHA256: 057e0a0bc709403f09784dbae7059d9aa332f5dfd19d113b4bafc74fab549f4b
+SHA512: 45a1a1bd3076b9b65671c9703f975ae86f77d7e9fc372374a112c9aaa61e40461caaaead75438b366c1e9a5fd262173c17305a5460610feba5ae35c2b33af9bd
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: dde-launchpad
 Architecture: amd64
 Version: 0.1.0
 Priority: optional
@@ -8100,11 +8119,11 @@ Maintainer: Deepin Sysdev <sysdev@deepin.com>
 Installed-Size: 767
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.25.0-kwayland.5.24.3), libgcc-s1 (>= 3.0), libgio-qt0 (>= 0.0.11), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5), dde-daemon (>= 5.12.0.31), startdde (>= 5.6.0.34), dde-api (>= 2.92.1), dde-session (>= 1.1.5)
 Filename: ./d/dde-clipboard/dde-clipboard_6.0.7_arm64.deb
-Size: 162244
-MD5sum: 23d6bfa035483b23d4be94317d283c7c
-SHA1: fad0901e53e30722b543921a1a9b16be677fdf42
-SHA256: b95a6cd4fb2bb9a557d200a8dab674c3725ebc9d947b6b2d35e2c467917ed0c4
-SHA512: af3cf79653466a8b23e583a9fe7353c3a58d8047d8bdccc8e5961a5f44bad36915582d5a59dcd5b37138837295d0cd3504e6196b11ce7c92744742b7bda1b105
+Size: 162224
+MD5sum: 4daf88995c343f08d63c20240c50dcca
+SHA1: 8aa2d350e30bf96d57dd2853fb183bf474140b5c
+SHA256: 4a92c8b1cff6358039c2814a6d1eb1674d7640dbd292fada738042aa81d23f95
+SHA512: c87c1fea8812cffcb6543e05cdfb28e2e8efbac0c666fa16a1138a185f83430270682bb864354a74b299d2925b5f8e9a5e8314f00d3ae4b14036bef731f1ef05
 Homepage: https://github.com/linuxdeepin/dde-clipboard
 Description: deepin desktop-environment - clipboard module
  Clipboard module of deepin desktop-environment
@@ -9525,13 +9544,13 @@ Version: 6.0.29
 Priority: optional
 Section: admin
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
-Installed-Size: 17043
+Installed-Size: 17107
 Filename: ./d/dde-control-center/dde-control-center_6.0.29_arm64.deb
-Size: 4086368
-MD5sum: 81d75db0e1639f2224421e8a5c7c479b
-SHA1: a143be76fbffb10404b39c04503adebe5c3861cb
-SHA256: 1c17c024b9c87b86ff65332ba045fda0aa79c7bbebe3c11c10a99aba4b149a41
-SHA512: a1a4e7e4e8346a7bc03ee1544ddc347da456d8dea2d7b85bd1f4a979c7332f58bce36ecad1ce19cdc3b568652ecc41290b5372dd6f8e4c4d0c1147a205813b4b
+Size: 4091284
+MD5sum: dd7f1d94e9b8f95f9985e23fe6ffdc40
+SHA1: a18093e323b6a65e101e625b4472853bb4694fa2
+SHA256: 2ae494acad3aabca81960d5f91a0cb8db19e8282233cf447cd6bbdef9a2aeca0
+SHA512: 4cdeb7257b9fa663e8097f2fd99e7fd09d48c90c4a7eac8db19ec983ad000d18213b7c76a7058ad2af03ad54a90ab984fc210801ec754bd5a03a15aa3816d902
 Homepage: https://github.com/linuxdeepin/dde-control-center
 Description: New control center for Deepin Desktop Environment,
  Integrated control center with rich functions,Besides providing rich
