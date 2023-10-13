@@ -4480,10 +4480,10 @@ Installed-Size: 6223
 Conflicts: debian-dde-icon-theme (<< 15.12.65)
 Filename: ./s/sea-icon-theme/sea-icon-theme_2023.09.25_all.deb
 Size: 2012564
-MD5sum: 158d7cf9ce9685efb4ee7205292d8267
-SHA1: eac980f579853eeaffd4fd1e6a5223423e88f2fd
-SHA256: 70eb07214794e7e69cf949ea0ab32763d04ce5784eaadb464a718adb36e8d8d2
-SHA512: 78cbf6dae498ab7a81a289e2f8b0605be4e0bb6d70d74bf46c9ad796084552ed6c82d78a49700f7d0a340edff5a09ce8d7c544b27d0e090be9deabd3168954e0
+MD5sum: 08e45b5038c641b5acfabae589a62c71
+SHA1: b71e189799e3a11457b86d5a8356d1eae9034bce
+SHA256: 6af52c7653f16d7a54b19773fbf2898dcde5125b57bc757d852ccfa03460b42d
+SHA512: 908288628d8b5defb9b1478101578ac812a82d2faefd04cc96d4f45e3a09f31c0415dd4fffdc14dcd50a20acf272b13f67a27b03c0664d8e32f725f5805462be
 Homepage: https://github.com/gfdgd-xi/debian-dde-icon-theme
 Description: Deepin Sea Icons
  This package is DeepinIconTheme Sea
@@ -8311,17 +8311,17 @@ Version: 1.8.0
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 51245
+Installed-Size: 51140
 Provides: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Pre-Depends: debian-dde-wallpapers (>= 1.7.14)
 Conflicts: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Breaks: deepin-community-wallpapers, deepin-desktop-base (<< 2017.11.2), deepin-wallpapers-nonfree
 Filename: ./d/debian-dde-wallpapers-nonfree/debian-dde-wallpapers-nonfree_1.8.0_all.deb
-Size: 49004588
-MD5sum: 589766cb2a3a70810fc5cf76b9b1e7b1
-SHA1: 3380dcddee4949a0de33c1bf2fecf419dae74b86
-SHA256: b84237bff1811cec1b08b494263fc3d41675ba9584a5593c3e609746976b3227
-SHA512: b4dca6cdbb7381eded5c7cccadf699811f9d070e88d622adcd83b07bd52d2edd2fb7a7a964634fcf1498ee55307eefeff490c49f83a6d92fbe5574d9428bbf19
+Size: 48892312
+MD5sum: a3c91de97e2e1e7bcae374044b99eba6
+SHA1: 47b5bd3aa4da22f0728c1e20e354d5d2ffd300cc
+SHA256: b4e9800aa510b335a57895f2e6828ff01c5e293ad18ef1135b6fbdcc80326c16
+SHA512: 2ac5305c24a33966c3cd4812805928f1371f1767767371234fdb933beb7c8ad6a1e6fb8b678c3bfd0f1d13763ac7e55ddf3e05b045ebf5ef28116d11a7ea771d
 Homepage: https://www.deepin.org/
 Description: When users are ready to set their own desktop background,
  Deepin Wallpaper provides many beautiful background pictures for users to choose.
