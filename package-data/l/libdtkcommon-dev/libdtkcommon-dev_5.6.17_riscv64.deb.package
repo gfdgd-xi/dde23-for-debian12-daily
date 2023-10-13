@@ -9,11 +9,11 @@ Installed-Size: 24
 Conflicts: libdtkcore-dev (<< 5.4.10)
 Replaces: libdtkcore-dev (<< 5.4.10)
 Filename: ./l/libdtkcommon-dev/libdtkcommon-dev_5.6.17_riscv64.deb
-Size: 4904
-MD5sum: 3370434d8ea2e4139769d8cc9abd56b1
-SHA1: 3e8ae01fad7c19844630ae593305a3b878fbd933
-SHA256: d71c128f1fbf501bf07a288ecb8ac74c54dc2cbc37225a3e2481c12d28d05ccc
-SHA512: 9f669cae34b066a3af16a1da2d652ac9169853e6257d7723c1211b71083bbbc9531cf69c045488b4610474f5cbd49db71bce034b99cad675d7e29e1a81d82848
+Size: 4900
+MD5sum: 15f345e39a6540bbb2d5e3701e0f6e3c
+SHA1: eef9a0cf140ac29801a0efae6d979e17fb95d7cd
+SHA256: df97a361b8c566e822ea5864cb0145b09e92a9d6a9c02013bf086b50c710c33b
+SHA512: f006ccb7da7104238e79a19cae31d39732a98b5ecff2cea6579d680c3b42069cc86917488536f8198a179c3d519ef558402486406b6429cd24c3a576db5effbb
 Homepage: http://www.deepin.org/
 Description: dtk common files
  Used to store public build files
