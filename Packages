@@ -2366,11 +2366,11 @@ Recommends: libqt5libqgtk2
 Conflicts: liblog-viewer-plugin
 Replaces: liblog-viewer-plugin
 Filename: ./l/liblogviewerplugin/liblogviewerplugin_6.1.1_arm64.deb
-Size: 274836
-MD5sum: 0ed69bb0b33a5540197c956cccb2b26d
-SHA1: 4bf3d890a5f7ef88267403182f8ddab34ba9d704
-SHA256: 0df618793c7f3c501721235df4e70ed74276f2bc43d137ced11eb8a1cadd5700
-SHA512: 5dd6920f41cedd9251135aa8d9554dfe8f3b2d6353c5a1440aa9721399ca0f54cd4f5c89927b3e5244fc625fe93fe1083a8c2bee345c577c2360f5cdcec4d70a
+Size: 275084
+MD5sum: 0bcaca62194cf4822dd1432496dbfbd2
+SHA1: 57a34251cb23f639db2c34bfcb02fccf44c07017
+SHA256: dc23337ca8d8f8475a531f4c7780f4eab1cd296d8b368c20c68927f728d37a85
+SHA512: 9d5cf5267050799d00d2fbe453d9244c175a28c9f90b9b1f613de997aec4ca4e9cb179adaa647022c26c86c2df8e85dc5672d05db9cb35c88689a987f1bd9eba
 Description: Log Viewer Plugin library.
  Deepin Log Viewer Plugin library.
 
@@ -8536,11 +8536,11 @@ Installed-Size: 8305
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), libsystemd0, libxerces-c3.2, zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-log-viewer/deepin-log-viewer_6.1.1_arm64.deb
-Size: 4999352
-MD5sum: 31cd60fb290f4c3c9a0655b6b6de4191
-SHA1: f364537eae0feffe43a126ff94a74724f4ca2f58
-SHA256: d459a4886cc260b02d0c8d7dfad32078aa10da19ff6491474cd9dec2b1684626
-SHA512: 9255357938f85c548f8a63e9ec5d574ea19596096e135a1c64aa2e5aee62b80110269741b4ffde247e53e0b2759900d72d5a2dfd50369357c884cba65978c8e1
+Size: 4999388
+MD5sum: d1f26e222d48722135e042ef66eea855
+SHA1: 4864ede7a03d1f1db4d42369b58d7884f0e798fa
+SHA256: 22e1572732f94e357f340b983e1eca799204b66e8d2e71040f51c8067f26bc2a
+SHA512: 1e951b4a456c36d06c40874b491ad3ff288e160a1ec89da14ff59d583481281951a00e2922a99cf0a58f37112700b24c192447b2825e771f9081fe68eb626d85
 Description: Log Viewer is a useful tool for viewing system logs.
  Log viewer is a tool that collects logs generated when an application
  is running, for example, logs generated when operating system and
