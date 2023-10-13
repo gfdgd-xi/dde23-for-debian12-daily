@@ -1,0 +1,19 @@
+Package: dde-launchpad
+Architecture: riscv64
+Version: 0.1.0
+Priority: optional
+Section: unknown
+Maintainer: Gary Wang <wangzichong@deepin.org>
+Installed-Size: 799
+Depends: libappstreamqt2 (>= 0.16.3), libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.4), libglib2.0-0 (>= 2.40.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5qml5 (>= 5.14.1), libqt5quick5 (>= 5.6.0~beta) | libqt5quick5-gles (>= 5.6.0~beta), libqt5quickcontrols2-5 (>= 5.7.1), libstdc++6 (>= 5.2), qml-module-qtquick-layouts, qml-module-qtquick-window2, qml-module-qtquick-controls2, qml-module-qtquick-controls2-styles-chameleon, qml-module-qtgraphicaleffects, qml-module-org-kde-kitemmodels
+Conflicts: dde-launcher
+Replaces: dde-launcher
+Filename: ./d/dde-launchpad/dde-launchpad_0.1.0_riscv64.deb
+Size: 275756
+MD5sum: 9ba54ab4a6f007cb28319f7a85bec0b2
+SHA1: 8697ad075c6981e9ee02c32a6e3066ab91d8c308
+SHA256: 7e817f2681da3703b791a6504be241eb850f8f2eda0aea4ded472b8d2427fb8e
+SHA512: 7fd5169f89e2760cb29511312adcc6bfde60e9dcec9f3e196b9b55a9b8275a7d6194194df8d7874478f436752e074252f24d038b9450cf1ee2e8b22585cffd58
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+

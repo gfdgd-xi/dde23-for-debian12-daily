@@ -11,11 +11,11 @@ Recommends: dde-qt5integration
 Conflicts: deepin-session, deepin-wm-switcher
 Breaks: deepin-desktop-schemas (<= 5.8.44)
 Filename: ./s/startdde/startdde_6.0.10_riscv64.deb
-Size: 2364256
-MD5sum: 20edfa1ecc96f5172ce70f5118221b96
-SHA1: 1e11628a234cb65a25d7ba5e9d1f0722fc2d1e62
-SHA256: cd8c447e6fc56397adace34f6e03f9390e861d278d854a45c2df28a56cadecdd
-SHA512: edba37cc085e42ec5ac41e8f1735e6f8e3c025d61e77d776bea8aa432a5fcabf0d28fcc92cc0f696d0af0df54127fab9bc8551d4717f754245a4d445f3f731b1
+Size: 2364412
+MD5sum: 5dd3bfc19a8641dd9d71835cb4539c94
+SHA1: 123e8588d23d4385366f4524bd7881cca08fac62
+SHA256: bf9e381ca468ca4a45e590e531b50699b0b16f0fe532189fff0e61afcdb10d1b
+SHA512: 52112489dd520eb792c8c00930e0159e53620d1d91c6dc7724ec0a9fb9c1d32772d568663b5a03803286f42bb2eabb16fa23299da973ec9269b7110fc511995d
 Homepage: http://github.com/linuxdeepin/startdde
 Description: start deepin desktop environment
  starter of deepin desktop environment.
