@@ -9,11 +9,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3952
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.4.0), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstartup-notification0 (>= 0.10), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.2.99.901), libxcb-util1 (>= 0.4.0), libxcb1, libxext6, libxi6 (>= 2:1.2.99.4), qtbase-abi-5-15-8, libdtkdata
 Filename: ./l/libdtkwidget5/libdtkwidget5_5.6.17_amd64.deb
-Size: 930532
-MD5sum: d36f366fbf63d1c240b2fe670e4df331
-SHA1: 3b2f5d797c7dad875e51c44d3b42296ce5579ff7
-SHA256: e8e2b383335d9dc7a20c1f2a91c4658d677bab788f907d944776cd910ad00be4
-SHA512: c4dfe5f4597d64f0a21a759e49dd2c8ba8ce5f7e7fddca19f15f5d33540710ef29ae9081fa197b542443e05dc03f6239da871941761c478ec475887e65c28642
+Size: 928396
+MD5sum: d8e52a279ecd8cc07c17478046eb54d6
+SHA1: bc1ebdfaeeb5adb0a03de4253332512a861149fa
+SHA256: 53eaaedc7cd2ebf4520b5239554cad0766b4cb33e2f90225fc3f10561f1069fd
+SHA512: a2eda9b715f45e79ca63baa0f0ac47bed66dddfb10a0063db91beeb09b6e45e90d98deda32518b2a07b794e99a6fc71a01fd456f8f1a0279210ef0d95734b4d5
 Description: Deepin graphical user interface library
  DtkWidget is Deepin graphical user interface for deepin desktop development.
  .
